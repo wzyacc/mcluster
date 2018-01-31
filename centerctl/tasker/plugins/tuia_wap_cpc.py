@@ -1,4 +1,5 @@
 #!/bin/python
+#coding:utf8
 '''
 推啊wap端cpc广告任务,总体任务调度不在这处理，只要考虑本任务即可
 task原始任务格式
@@ -23,9 +24,10 @@ import json
 sys.path.append(os.path.join(os.path.dirname(os.path.realpath(__file__)),"../"))
 from tasker_base import TaskerBase
 
-sys.path.append(os.path.join(os.path.dirname(os.path.realpath(__file__)),"../../util/"))
-import task_report
-import task_status
+sys.path.append(os.path.join(os.path.dirname(os.path.realpath(__file__)),'../../../config'))
+from cfg_db import *
+
+sys.path.append(os.path.join(os.path.dirname(os.path.realpath(__file__)),"../../../util/"))
 import device_attrs
 
 class TuiaWapCPC(TaskerBase):
@@ -36,8 +38,8 @@ class TuiaWapCPC(TaskerBase):
         if self._task["status"] != 100:
             return False
         
-        gname = self._task["group"]
-        devs = json.loads(self._rd.hget(cfg_rd_rdg,gname))
+        gid = self._task["gid"]
+        devs = json.loads(self._rd.hget(cfg_rd_rdg,gid))
         if len(devs) == 0:
             print '分组内没有设备...'
             self._task["status"] = -400
@@ -45,7 +47,7 @@ class TuiaWapCPC(TaskerBase):
             return False
         
         #如果组内设备有忙的，先等待
-        if task_status.dev_has_busy(devs):
+        if self.dev_has_busy(devs):
             print "Some devices busy!Wait..."
             return False
 
@@ -54,10 +56,10 @@ class TuiaWapCPC(TaskerBase):
             dev = dev_info["ip"]
             task_act_dev = '{"tid":"{0}","action":"{1}","params":"{2}","p_tid":"{3}"}'
             tid = self._task["tid"]+"-"+dev
-            task_act_dev = task_act_dev.format(tid,self._task["act_dev"],json.dumps(device_attrs.random()),self._task["tid"])
+            task_act_dev = task_act_dev.format(tid,self._task["act_dev"],json.dumps(device_attrs.random_dev()),self._task["tid"])
             self._rd.hset(cfg_rd_actdev,tid,task_act_dev)
         
-        task_status.dev_set_busy(devs)
+        self.dev_set_busy(devs)
         self._task["status"] = 111
         self._rd.hset(cfg_rd_task,self._task["tid"],self._task)
         return True

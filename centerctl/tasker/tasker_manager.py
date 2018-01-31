@@ -1,13 +1,17 @@
 #!/bin/python
+#coding:utf8
 '''
 任务管理类，实现管理功能模块
 '''
 
 import os
 import sys
+import pdb
 import redis
+import json
+import time
 
-sys.path.append(sys.path.join(sys.path.dirname(sys.path.realpath(__file__)),'.../.../config'))
+sys.path.append(os.path.join(os.path.dirname(os.path.realpath(__file__)),'../../config'))
 from cfg_db import *
 from cfg_task import task_modules
 
@@ -23,6 +27,7 @@ class TaskerManager:
             task = self._rd.hget(k)
             if not task: #task任务有可能被监控程序置空，如已经完成
                 continue
+            task = json.loads(task)
             status = task["status"]
             if status / 10 == 11: #状态为11x
                 return task
@@ -35,6 +40,7 @@ class TaskerManager:
             task = self._rd.hget(k)
             if not task: #task任务有可能被监控程序置空，如已经完成
                 continue
+            task = json.loads(task)
             status = task["status"]
             if status == 100: #状态为100,任务准备好，需要执行
                 return task
