@@ -1,0 +1,5 @@
+群控系统后台控制程序
+1.需要运行任务程序
+    tasker_manager.py
+2.需要运行监控程序
+    tasker_monitor.py
