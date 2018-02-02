@@ -39,8 +39,8 @@ class TuiaWapCPC(TaskerBase):
             return False
         
         gid = self._task["gid"]
-        devs = json.loads(self._rd.hget(cfg_rd_rdg,gid))
-        if len(devs) == 0:
+        devs = self._rd.hget(cfg_rd_rdg,gid)
+        if not devs or len(devs) == 0:
             print '分组内没有设备...'
             self._task["status"] = -400
             self._rd.hset(cfg_rd_task,self._task["tid"],self._task)
