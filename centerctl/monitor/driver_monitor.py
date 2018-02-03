@@ -32,6 +32,7 @@ def check_driver(ip,dport):
 
 def start_driver(ip,dport):
     print "start driver for ip:{0}, port:{1}".format(ip,dport)
+    os.system("adb connect {0}:5555".format(ip))
     os.system("nohup appium -p {0} --udid {1} 2>&1 &".format(ip,dport))
 
 

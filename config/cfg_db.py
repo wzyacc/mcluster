@@ -14,7 +14,7 @@ cfg_mysql = {
 
 cfg_redis = {
             "host":"127.0.0.1",
-            "port":6379
+            "port":6679
         }
 
 cfg_rd_task = 'task'

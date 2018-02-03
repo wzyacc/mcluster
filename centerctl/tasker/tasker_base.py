@@ -3,6 +3,15 @@
 '''
 各种任务控制基类,需要协调设备、网络和动作的工作。暂不考虑优先级问题。
 '''
+import os
+import sys
+import pdb
+import datetime
+
+
+sys.path.append(os.path.join(os.path.dirname(os.path.realpath(__file__)),"../../config/"))
+from cfg_db import *
+
 
 class TaskerBase:
     def __init__(self,rd,task):
@@ -27,6 +36,10 @@ class TaskerBase:
         for dev in devs:
             ip = dev["ip"]
             _dev = self._rd.hget(cfg_rd_device,ip)
+            if not _dev:
+                print "TaskManager->Device maybe offline for ip:"+ip
+                continue
+            _dev = eval(_dev)
             _dev["busy"]=1
             self._rd.hset(cfg_rd_device,ip,_dev)
 

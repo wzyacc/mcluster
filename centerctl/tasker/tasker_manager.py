@@ -67,7 +67,7 @@ if __name__ == "__main__":
         task = mgr.findProcessingTask() 
         if task is not None:
             #有进行中的任务，此处线简单处理，单任务推进策略
-            print "Find processing task tid:{0}".format(task["tid"])
+            print "TaskManager->Find processing task tid:{0}".format(task["tid"])
             mgr.executeTask(task)
             time.sleep(5)
             continue
