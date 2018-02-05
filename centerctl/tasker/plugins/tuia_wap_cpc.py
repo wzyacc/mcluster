@@ -152,6 +152,7 @@ class TuiaWapCPC(TaskerBase):
         for dev in devs:
             ip = dev["ip"]
             self._rd.hdel(cfg_rd_act_do,ip) #清除设备状态
+            self._rd.hdel(cfg_rd_act_do,self._task["tid"])
         
         self._task["status"] = 200
         self._rd.hset(cfg_rd_task,self._task["tid"],self._task)
