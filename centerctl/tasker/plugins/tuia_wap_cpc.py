@@ -149,6 +149,7 @@ class TuiaWapCPC(TaskerBase):
                 print "Task->TuiaWapPCP:appium task not finished,ip:{0}".format(ip)
                 return False
         #TODO:对do任务结果进行处理
+        
         for dev in devs:
             ip = dev["ip"]
             self._rd.hdel(cfg_rd_act_do,ip) #清除设备状态
