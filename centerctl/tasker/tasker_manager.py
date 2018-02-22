@@ -11,10 +11,13 @@ import redis
 import json
 import time
 import datetime
+import logging
 
 sys.path.append(os.path.join(os.path.dirname(os.path.realpath(__file__)),'../../config'))
 from cfg_db import *
-from cfg_task import task_modules
+from cfg_task import task_modules,task_conf
+
+LOG = logging.getLogger(__name__)
 
 class TaskerManager:
 
@@ -59,6 +62,46 @@ class TaskerManager:
         ins.tansfer_do()
         ins.transfer_done()
 
+def setup_logging(conf):
+    """
+    配置输出log格式等
+    :param conf:全局变量，json格式全局配置
+    :return:
+    """
+    root_logger = logging.getLogger()
+    formatter = logging.Formatter(conf['logging']['format'])
+
+    log_levels = [
+        logging.ERROR,
+        logging.WARNING,
+        logging.INFO,
+        logging.DEBUG
+    ]
+    loglevel = log_levels[conf['logging']['level']]
+    root_logger.setLevel(loglevel)
+
+    if not os.path.exists(os.path.dirname(conf['logging']['filename'])):
+        os.makedirs(os.path.dirname(conf['logging']['filename']))
+    
+    if conf['logging']['type'] == 'file':
+        log_out = logging.handlers.TimedRotatingFileHandler(
+            conf['logging']['filename'],
+            when=conf['logging']['rotationWhen'],
+            interval=conf['logging']['rotationInterval'],
+            backupCount=conf['logging']['rotationBackups']
+        )
+        print("Logging to %s." % conf['logging']['filename'])
+    elif conf['logging']['type'] == 'stream':
+        log_out = logging.StreamHandler()
+    else:
+        print("Logging type must be one of 'stream', or 'file', not "
+              "'%s'." % conf['logging']['type'])
+        sys.exit(1)
+
+    log_out.setLevel(loglevel)
+    log_out.setFormatter(formatter)
+    root_logger.addHandler(log_out)
+    return root_logger
 
 if __name__ == "__main__":
     print 'ok'

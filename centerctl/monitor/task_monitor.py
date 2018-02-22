@@ -12,6 +12,7 @@ import MySQLdb
 from MySQLdb import cursors
 import json
 import datetime
+import base64
 
 sys.path.append(os.path.join(os.path.dirname(os.path.realpath(__file__)),"../../config"))
 
@@ -101,6 +102,10 @@ class TaskMonitor:
                 continue
             if status < 0: #遇到错误了，跳过,由expt_handle处理
                 continue
+            
+            #任务完成备份数据，如果有 
+            self._backup_data()
+
             sql = "UPDATE m_task_list SET status={0} WHERE tid='{1}'".format(status,tid)
             cursor.execute(sql)
             print "Task recycle tid:{0},status:{1}".format(tid,status)
@@ -117,6 +122,45 @@ class TaskMonitor:
             #更新当前轮次和状态
             sql = "UPDATE m_task_list SET cur_step={0},status={1} WHERE tid='{2}'".format(task["cur_step"],status,tid)
             cursor.execute(sql)
+
+    def _backup_data(self):
+        #备份数据，目前是刷app激活能用到，暂时先写在这
+        cursor = self._mysql.cursor()
+        backup_keys = self._rd.hkeys(cfg_rd_act_net_oarea)
+        for k in backup_keys:
+            cip = k #备份主键为手机ip
+            data = self._rd.hget(k)
+            if not data:
+                continue
+            js = eval(data)
+            if not js:
+                print "TaskMonitor->backup data is not json:"+data
+                continue
+            s_m_attrs = self._rd.hget(cip)
+            while not s_m_attrs:
+                print "TaskMonitor->cip({0}) attrs is not found,waiting...".format(cip)
+                time.sleep(1)
+            m_attrs = eval(s_m_attrs)
+            fake_attrs = m_attrs["fake_attrs"]
+            #此处约定的格式行如：[{"imei":"111"},{"mac":"fjsldfl"}]，修改接口文档需改正
+            imei = None
+            while not imei:
+                for k in fake_attrs:
+                    if not k.get("imei",None):
+                        imei = k["imei"]
+                        break
+                print "TaskMonitor->Prase imei for cip:"+cip
+                time.sleep(1)
+            oarea = self._rd.hget(cfg_rd_act_net_oarea,cip)
+            while not oarea:
+                oarea = self._rd.hget(cfg_rd_act_net_oarea,cip)
+                print "TaskMonitor->oarea not found for cip:"+cip
+                time.sleep(1)
+            act = m_attrs["act"]
+            b64_attrs = base64.b64encode(s_m_attrs)
+            sql = "INSERT INTO `m_appbackup`(imei,act,oarea,data) VALUES('{0}','{1}','{2}','{3}')".format(imei,act,oarea,b64_attrs)
+            cursor.execute(sql)
+            self._rd.hdel(cfg_rd_act_net_oarea,cip) #删除redis中临时备份信息
 
 
     def expt_handle(self):

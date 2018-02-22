@@ -1,7 +1,7 @@
 #!/bin/python
 #coding:utf8
 '''
-推啊wap端cpc广告任务,总体任务调度不在这处理，只要考虑本任务即可
+qq浏览器app激活广告任务,总体任务调度不在这处理，只要考虑本任务即可
 task原始任务格式
 {
     'tid':"12344-1",
@@ -11,10 +11,11 @@ task原始任务格式
     'ctime':1516949388, #任务创建时间
     'name' : '推啊wap广告点击',#任务模块名称
     'remark':'刷10w次点击',#任务备注
-    'act':'tuia-wap-click', #任务模块别名
+    'act':'app-active-qqbrowser', #任务模块别名
     'act_dev':'modifyAttr', #手机本地任务模块别名
-    'act_net':'nat-random', #网络任务模块别名,该任务只是随机ip，比如绑定ip许在任务迁移的时候处理
-    'act_do':'tuia-wap-click',#动作任务模块别名，暂定appium执行动作
+    'act_net':'nat-random', #网络任务模块别名,该任务只是随机ip，比如绑定ip在任务迁移的时候处理
+    'act_do':'app-active-qqbrowser',#动作任务模块别名，暂定appium执行动作
+    'act_appbackup':'act_appbackup',#app数据备份
 }
 '''
 import os
@@ -36,9 +37,9 @@ import device_attrs
 
 LOG = logging.getLogger(__name__)
 
-class TuiaWapCPC(TaskerBase):
+class AppActiveQQBrowser(TaskerBase):
     
-    act = 'tuia-wap-click'
+    act = 'app-active-qqbrowser'
         
     def transfer_device(self):
         if self._task["status"] != 100:
@@ -54,7 +55,7 @@ class TuiaWapCPC(TaskerBase):
         devs = eval(devs) 
         #如果组内设备有忙的，先等待
         if self.dev_has_busy(devs):
-            print "Some devices busy!Wait..."
+            print "AppActiveQQBrowser->Some devices busy!Wait..."
             return False
 
         #对所有设备，添加修改手机属性的本地任务
@@ -86,10 +87,10 @@ class TuiaWapCPC(TaskerBase):
             tid = self._task["tid"]+"-"+ip
             tast_act_dev = self._rd.hget(cfg_rd_act_dev,ip)
             if not tast_act_dev:
-                print "Task->TuiaWapPCP:device task not finished,tid:{0}".format(tid)
+                print "Task->AppActiveQQBrowser:device task not finished,tid:{0}".format(tid)
                 return False
             if tast_act_dev and tast_act_dev != '0': #有任务没有完成
-                print "Task->TuiaWapPCP:device task not finished,tid:{0}".format(tid)
+                print "Task->AppActiveQQBrowser:device task not finished,tid:{0}".format(tid)
                 return False
         
         for dev_info in devs:
@@ -124,7 +125,7 @@ class TuiaWapCPC(TaskerBase):
                 print "TaskManager->Missing net task for ip:{0}".format(ip)
                 return False
             if tast_act_dev and tast_act_dev != '0': #有任务没有完成,注意，这里统一认为vpn总是成功的!
-                print "Task->TuiaWapPCP:net task not finished,ip:{0}".format(ip)
+                print "Task->AppActiveQQBrowser:net task not finished,ip:{0}".format(ip)
                 return False
         #TODO:对net任务结果进行处理
         devices = []
@@ -154,7 +155,7 @@ class TuiaWapCPC(TaskerBase):
             ip = dev["ip"]
             do_status = self._rd.hget(cfg_rd_act_do,ip)
             if do_status == None:
-                print "Task->TuiaWapPCP:appium task not finished,ip:{0}".format(ip)
+                print "Task->AppActiveQQBrowser:appium task not finished,ip:{0}".format(ip)
                 return False
         #TODO:对do任务结果进行处理
         for dev in devs:
@@ -172,4 +173,4 @@ class TuiaWapCPC(TaskerBase):
         return True
 
     def report_task(self,tag,info):
-        LOG.info("Tuia-cpc-click->action:report_task,tag:{0},info:{1}".format(tag,info))
+        LOG.info("AppAcitveQQBrowser->action:report_task,tag:{0},info:{1}".format(tag,info))
