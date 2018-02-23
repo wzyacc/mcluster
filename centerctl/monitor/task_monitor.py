@@ -126,17 +126,17 @@ class TaskMonitor:
     def _backup_data(self):
         #备份数据，目前是刷app激活能用到，暂时先写在这
         cursor = self._mysql.cursor()
-        backup_keys = self._rd.hkeys(cfg_rd_act_net_oarea)
+        backup_keys = self._rd.hkeys(cfg_rd_act_appbackup)
         for k in backup_keys:
             cip = k #备份主键为手机ip
-            data = self._rd.hget(k)
+            data = self._rd.hget(cfg_rd_act_appbackup,k)
             if not data:
                 continue
             js = eval(data)
             if not js:
                 print "TaskMonitor->backup data is not json:"+data
                 continue
-            s_m_attrs = self._rd.hget(cip)
+            s_m_attrs = self._rd.hget(cfg_rd_device,cip)
             while not s_m_attrs:
                 print "TaskMonitor->cip({0}) attrs is not found,waiting...".format(cip)
                 time.sleep(1)
@@ -146,18 +146,27 @@ class TaskMonitor:
             imei = None
             while not imei:
                 for k in fake_attrs:
-                    if not k.get("imei",None):
+                    if k.get("imei",None) != None:
                         imei = k["imei"]
                         break
                 print "TaskMonitor->Prase imei for cip:"+cip
                 time.sleep(1)
             oarea = self._rd.hget(cfg_rd_act_net_oarea,cip)
+            #先允许oarea为空
+            if not oarea:
+                oarea = ''
+            '''
             while not oarea:
                 oarea = self._rd.hget(cfg_rd_act_net_oarea,cip)
                 print "TaskMonitor->oarea not found for cip:"+cip
                 time.sleep(1)
-            act = m_attrs["act"]
+            '''
+            tid = js["tid"]
+            task = eval(self._rd.hget(cfg_rd_task,tid))
+            
+            act = task["act"]
             b64_attrs = base64.b64encode(s_m_attrs)
+            
             sql = "INSERT INTO `m_appbackup`(imei,act,oarea,data) VALUES('{0}','{1}','{2}','{3}')".format(imei,act,oarea,b64_attrs)
             cursor.execute(sql)
             self._rd.hdel(cfg_rd_act_net_oarea,cip) #删除redis中临时备份信息
