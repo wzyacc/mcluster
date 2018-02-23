@@ -118,7 +118,6 @@ class AppActiveQQBrowser(TaskerBase):
             return False
         devs = eval(devs) 
         
-        '''
         #对所有设备，检查网络任务有没未完成的
         for dev_info in devs:
             ip = dev_info["ip"]
@@ -129,7 +128,6 @@ class AppActiveQQBrowser(TaskerBase):
             if tast_act_dev and tast_act_dev != '0': #有任务没有完成,注意，这里统一认为vpn总是成功的!
                 print "Task->AppActiveQQBrowser:net task not finished,ip:{0}".format(ip)
                 return False
-        '''
         
         #TODO:对net任务结果进行处理
         devices = []
