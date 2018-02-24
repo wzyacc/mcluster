@@ -176,15 +176,18 @@ class TaskMonitor:
                 print "TaskMonitor->oarea not found for cip:"+cip
                 time.sleep(1)
             '''
-            tid = js["tid"]
+            tid_info = js["tid"]
+            tid_lun = tid_info.split(":")
+            tid = tid_lun[0]
             task = eval(self._rd.hget(cfg_rd_task,tid))
             
             act = task["act"]
             b64_attrs = base64.b64encode(s_m_attrs)
             
-            sql = "INSERT INTO `m_appbackup`(imei,act,oarea,attrs,data) VALUES('{0}','{1}','{2}','{3}')".format(imei,act,oarea,b64_attrs,js["app_data"])
+            sql = "INSERT INTO `m_appbackup`(imei,act,oarea,attrs,data) VALUES('{0}','{1}','{2}','{3}','{4}')".format(imei,act,oarea,b64_attrs,js["app_data"])
             cursor.execute(sql)
-            self._rd.hdel(cfg_rd_act_net_oarea,cip) #删除redis中临时备份信息
+            self._rd.hdel(cfg_rd_act_appbackup,cip) #删除redis中临时备份信息
+            self._rd.hdel(cfg_rd_act_net_oarea,cip) #删除redis中临时区域信息
 
 
 
@@ -192,13 +195,21 @@ class TaskMonitor:
         #first:是否是初始化任务
         #为qq浏览器初始化数据，包括设备信息，出口ip
         #检测设备是否繁忙
-        for dev in task["devices"]:
+        
+        gid = task["gid"]
+        devs = self._rd.hget(cfg_rd_rdg,gid)
+        if not devs or len(devs) == 0:
+            print '分组内没有设备...'
+            return False
+        devs = eval(devs) 
+
+        for dev in devs:
             cip = dev["ip"]
             dev_info = self._rd.hget(cfg_rd_device,cip)
             if first and dev_info["busy"] != 0:
                 print "TaskMonitor->app_idle_qqbrowser device is busy of cip:"+cip
                 return False
-        devs = task["devices"]
+        
         n_dev = len(devs)
         cursor = self._mysql.coursor()
         sql = "SELECT count(DISTINCT(imei)) as n FROM `m_appbackup` WHERE act='app-active-qqbrowser'"
