@@ -13,6 +13,7 @@ from MySQLdb import cursors
 import json
 import datetime
 import base64
+import random
 
 sys.path.append(os.path.join(os.path.dirname(os.path.realpath(__file__)),"../../config"))
 
@@ -67,6 +68,13 @@ class TaskMonitor:
             if rd_task != None: #已经同步过了
                 continue
 
+            #新任务，qqbrowser需要数据准备
+            if task["act"] == "app-idle-qqbrowser":
+                status = self._prepare_app_idle_qqbrowser(task)
+                if not status: #如果初始化失败，中止，这里考虑到设备繁忙的情况，oarea可能正在占用
+                    continue
+
+
             #新任务，放入redis中
             task["status"] = 100
             self._rd.hset(cfg_rd_task,task["tid"],task)
@@ -116,6 +124,13 @@ class TaskMonitor:
                 cursor.execute(sql)
                 self._rd.hdel(cfg_rd_task,tid)
                 continue
+            #新一轮
+            if task["act"] == "app-idle-qqbrowser":
+                status = self._prepare_app_idle_qqbrowser(task,False)
+                if not status: #如果初始化失败，中止，这里考虑到设备繁忙的情况
+                    print "TaskMonitor->app_idle_qqbrowser prepare data error!"
+                    continue
+
             task["cur_step"] += 1
             task["status"] = 100
             self._rd.hset(cfg_rd_task,tid,task)
@@ -167,10 +182,60 @@ class TaskMonitor:
             act = task["act"]
             b64_attrs = base64.b64encode(s_m_attrs)
             
-            sql = "INSERT INTO `m_appbackup`(imei,act,oarea,data) VALUES('{0}','{1}','{2}','{3}')".format(imei,act,oarea,b64_attrs)
+            sql = "INSERT INTO `m_appbackup`(imei,act,oarea,attrs,data) VALUES('{0}','{1}','{2}','{3}')".format(imei,act,oarea,b64_attrs,js["app_data"])
             cursor.execute(sql)
             self._rd.hdel(cfg_rd_act_net_oarea,cip) #删除redis中临时备份信息
 
+
+
+    def _prepare_app_idle_qqbrowser(self,task,first=True):
+        #first:是否是初始化任务
+        #为qq浏览器初始化数据，包括设备信息，出口ip
+        #检测设备是否繁忙
+        for dev in task["devices"]:
+            cip = dev["ip"]
+            dev_info = self._rd.hget(cfg_rd_device,cip)
+            if first and dev_info["busy"] != 0:
+                print "TaskMonitor->app_idle_qqbrowser device is busy of cip:"+cip
+                return False
+        devs = task["devices"]
+        n_dev = len(devs)
+        cursor = self._mysql.coursor()
+        sql = "SELECT count(DISTINCT(imei)) as n FROM `m_appbackup` WHERE act='app-active-qqbrowser'"
+        cursor.execute(sql)
+        ret = cursor.fetchall()
+        n_imei = ret["n"]
+        if n_imei < n_dev:
+            print "TaskMonitor->app-idle-qqbrowser imeis less for devices!"
+            return False
+        sql = "SELECT DISTINCT imei,id FROM `m_appbackup` WHERE act='app-active-qqbrowser' GROUP BY imei"
+        cursor.execute(sql)
+        ret = cursor.fetchall()
+        ids = []
+        for r in ret:
+            ids.append(str(r["id"]))
+        hits = random.sample(ids,n_dev)
+        
+        sql = "SELECT id,imei,oarea,attrs FROM m_appbcakup WHERE id IN({0})".format(",".join(hits))
+        cursor.execute(sql)
+        rets = cursor.fetchall()
+        lst_fake = [] #虚拟信息
+        for r in rets:
+            attrs_str = base64.b64decode(r["attrs"])
+            if not attrs_str or attrs_str == "":
+                print "TaskMonitor->app-idle-qqbrowser attrs is None for id:"+str(r[id])
+                return False
+            attrs = eval(attrs_str)
+            fake = {}
+            fake["fake_attrs"] = attrs["fake_attrs"]
+            fake["oarea"] = r["oarea"]
+            lst_fake.append(fake)
+        for i in range(len(devs)):
+            cip = dev[i]["ip"]
+            self._rd.hset(cfg_rd_app_idle_oarea,cip,lst_fake[i]["oarea"])
+            self._rd.hset(cfg_rd_app_idle_dev,cip,lst_fake[i]["fake_attrs"])
+        return True
+            
 
     def expt_handle(self):
         pass
