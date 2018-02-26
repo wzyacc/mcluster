@@ -123,6 +123,8 @@ class TaskMonitor:
                 sql = "UPDATE m_task_list SET cur_step={0},status={1} WHERE tid='{2}'".format(round_n,status,tid)
                 cursor.execute(sql)
                 self._rd.hdel(cfg_rd_task,tid)
+                #设置设备繁忙状态
+                self._set_no_busy(task)
                 continue
             #新一轮
             if task["act"] == "app-idle-qqbrowser":
@@ -137,6 +139,20 @@ class TaskMonitor:
             #更新当前轮次和状态
             sql = "UPDATE m_task_list SET cur_step={0},status={1} WHERE tid='{2}'".format(task["cur_step"],status,tid)
             cursor.execute(sql)
+
+    def _set_no_busy(self,task):
+        #释放设备
+        devs = task["devices"]
+        for dev in devs:
+            cip = dev["ip"]
+            dev_attr_str = self._rd.hget(cfg_rd_device,cip)
+            if not dev_attr_str or dev_attr_str == "":
+                continue
+            dev_attr = eval(dev_attr_str)
+            if dev_attr.get("busy",None) != 1:
+                continue
+            dev_attr["busy"] = 0
+            self._rd.hset(cfg_rd_device,cip,json.dumps(dev_attr))
 
     def _backup_data(self):
         #备份数据，目前是刷app激活能用到，暂时先写在这
@@ -206,16 +222,22 @@ class TaskMonitor:
         for dev in devs:
             cip = dev["ip"]
             dev_info = self._rd.hget(cfg_rd_device,cip)
-            if first and dev_info["busy"] != 0:
+            if not dev_info or dev_info == "":
+                print "TaskMonitor->Can not find dev for cip:"+cip
+                return False
+
+            dev_info = eval(dev_info)
+            busy = dev_info.get("busy",None)
+            if first and busy and dev_info["busy"] != 0:
                 print "TaskMonitor->app_idle_qqbrowser device is busy of cip:"+cip
                 return False
         
         n_dev = len(devs)
-        cursor = self._mysql.coursor()
+        cursor = self._mysql.cursor()
         sql = "SELECT count(DISTINCT(imei)) as n FROM `m_appbackup` WHERE act='app-active-qqbrowser'"
         cursor.execute(sql)
         ret = cursor.fetchall()
-        n_imei = ret["n"]
+        n_imei = ret[0]["n"]
         if n_imei < n_dev:
             print "TaskMonitor->app-idle-qqbrowser imeis less for devices!"
             return False
@@ -227,7 +249,7 @@ class TaskMonitor:
             ids.append(str(r["id"]))
         hits = random.sample(ids,n_dev)
         
-        sql = "SELECT id,imei,oarea,attrs FROM m_appbcakup WHERE id IN({0})".format(",".join(hits))
+        sql = "SELECT id,imei,oarea,attrs FROM m_appbackup WHERE id IN({0})".format(",".join(hits))
         cursor.execute(sql)
         rets = cursor.fetchall()
         lst_fake = [] #虚拟信息
@@ -242,9 +264,9 @@ class TaskMonitor:
             fake["oarea"] = r["oarea"]
             lst_fake.append(fake)
         for i in range(len(devs)):
-            cip = dev[i]["ip"]
+            cip = devs[i]["ip"]
             self._rd.hset(cfg_rd_app_idle_oarea,cip,lst_fake[i]["oarea"])
-            self._rd.hset(cfg_rd_app_idle_dev,cip,lst_fake[i]["fake_attrs"])
+            self._rd.hset(cfg_rd_app_idle_dev,cip,json.dumps(lst_fake[i]["fake_attrs"]))
         return True
             
 

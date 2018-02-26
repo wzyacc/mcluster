@@ -73,8 +73,10 @@ class AppIdleQQBrowser(TaskerBase):
                 print "AppIdleQQBrowser->No fake device attribute for cip:"+ip
                 return False
             fake_attr = eval(fake_attr_str)
-            for k,v in fake_attr.items():
-                params.append({k:v})
+            
+            for fk in fake_attr:
+                for k,v in fk.items():
+                    params.append({k:v})
 
             task_act_dev["params"] = params
             self._rd.hset(cfg_rd_act_dev,ip,json.dumps(task_act_dev))
