@@ -36,6 +36,19 @@ class TaskerManager:
             if status / 10 == 11: #状态为11x
                 return task
         return None
+    
+    def findProcessingTasks(self):
+        #获取所有正在运行的任务
+        task_keys = self._rd.hkeys(cfg_rd_task)
+        for k in task_keys:
+            task = self._rd.hget(cfg_rd_task,k)
+            if not task: #task任务有可能被监控程序置空，如已经完成
+                continue
+            task = eval(task)
+            status = task["status"]
+            if status / 10 == 11: #状态为11x
+                yield task
+        raise StopIteration()
 
     def findSpareTask(self):
         #找到一个还未开始的任务
@@ -107,13 +120,13 @@ if __name__ == "__main__":
     print 'ok'
     mgr = TaskerManager()
     while True:
-        task = mgr.findProcessingTask() 
-        if task is not None:
-            #有进行中的任务，此处线简单处理，单任务推进策略
+        #task = mgr.findProcessingTask() 
+        for task in mgr.findProcessingTasks():
+            #有进行中的任务
             print "TaskManager->Find processing task tid:{0}".format(task["tid"])
             mgr.executeTask(task)
             time.sleep(5)
-            continue
+            #continue
         task = mgr.findSpareTask()
         if task is not None:
             print "Find spare task tid:{0}".format(task["tid"])
