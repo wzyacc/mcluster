@@ -1,0 +1,2156 @@
+{'model': 'SM-N916K', 'version': '5.1.1', 'build': 'LMY47X'}
+{'model': 'GIONEE GN5007', 'version': '7.1.1', 'build': 'NMF26F; wv'}
+{'model': 'Meitu V4s', 'version': '5.1', 'build': 'LMY47I'}
+{'model': 'JDN-AL00', 'version': '6.0.1', 'build': 'HuaweiMediaPad'}
+{'model': 'SM-A7000', 'version': '5.0.2', 'build': 'LRX22G; wv'}
+{'model': 'Mix', 'version': '6.0.1', 'build': 'MRA58K'}
+{'model': 'HM NOTE 1LTE', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'G0215D', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'D6653', 'version': '5.0.2', 'build': '23.2.A.1.62'}
+{'model': 'LEX720', 'version': '6.0.1', 'build': 'WAXCNFN5902607031S'}
+{'model': 'XT1650-05', 'version': '7.1.1', 'build': 'NCC26.118-31'}
+{'model': 'C107-9', 'version': '6.0.1', 'build': 'ZFXCNCT5902606201S'}
+{'model': 'Le X625', 'version': '6.0', 'build': 'HEXCNFN5902606111S'}
+{'model': 'DOOV V11', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'X800+', 'version': '5.0.2', 'build': 'BEXCNFN5501304131S'}
+{'model': 'H60-L01', 'version': '4.4.2', 'build': 'HDH60-L01'}
+{'model': 'Letv X500', 'version': '6.0', 'build': 'DAXCNCU5801810201S'}
+{'model': 'XT1581', 'version': '7.0', 'build': 'NCK25.118-10; wv'}
+{'model': 'MP1602', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'SM-G935S', 'version': '7.0', 'build': 'NRD90M; wv'}
+{'model': 'OPPO R9 Plustm A', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'vivo X6Plus D', 'version': '5.1', 'build': 'LMY47I'}
+{'model': 'Lenovo TAB 2 A10-70F', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'HTC 802w', 'version': '5.0.2', 'build': 'LRX22G'}
+{'model': 'SM-N9008', 'version': '5.0', 'build': 'LRX21V; wv'}
+{'model': 'A0001', 'version': '6.0.1', 'build': 'MOB30Z'}
+{'model': 'vivo Y627', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'OPPO A57t', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'OPPO R11', 'version': '7.1.2', 'build': 'OmniROMkanedate'}
+{'model': 'OPPO R9 Plusm A', 'version': '5.1.1', 'build': 'LMY47V; wv'}
+{'model': 'vivo X6A', 'version': '5.0.2', 'build': 'LRX22G'}
+{'model': 'SM-N9006', 'version': '5.0', 'build': 'LRX21V'}
+{'model': 'BOWAY X7', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'HUAWEI MLA-UL00', 'version': '6.0', 'build': 'HUAWEIMLA-UL00'}
+{'model': 'JMM-AL00', 'version': '7.0', 'build': 'HONORJMM-AL00; wv'}
+{'model': 'SS2-01', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'SM-J7108', 'version': '5.1.1', 'build': 'LMY47X'}
+{'model': 'HUAWEI MT7-TL00', 'version': '6.0', 'build': 'HuaweiMT7-TL00'}
+{'model': 'GIONEE GN5007L', 'version': '7.1.1', 'build': 'NMF26F'}
+{'model': '1509-A00', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'SM-N9200', 'version': '7.0', 'build': 'NRD90M; wv'}
+{'model': 'vivo X9', 'version': '7.1.1', 'build': 'NMF26F; wv'}
+{'model': 'NX511J', 'version': '5.1.1', 'build': 'LMY47V; wv'}
+{'model': 'SM-G9006W', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'XT1581', 'version': '5.1.1', 'build': 'LPKS23.229-1-5'}
+{'model': 'ZTE A2017', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'ZUK Z2131', 'version': '7.1.1', 'build': 'NMF26F; wv'}
+{'model': 'koobee M9 Plus', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'Le X520', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'PE-TL10', 'version': '6.0', 'build': 'HuaweiPE-TL10; wv'}
+{'model': 'OPSSON', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'NEM-UL10', 'version': '7.0', 'build': 'HONORNEM-UL10; wv'}
+{'model': 'vivo X6SPlus', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'EVA-TL00', 'version': '6.0', 'build': 'HUAWEIEVA-TL00'}
+{'model': 'Le X620', 'version': '6.0', 'build': 'HEXCNFN5601304221S; wv'}
+{'model': 'vivo X9', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'KOPO L6', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'MI NOTE Pro', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'MI 5', 'version': '7.1.2', 'build': 'NJH47F; wv'}
+{'model': 'A37f', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'Haipainoble S6', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'vivo Y613F', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'GN3001L', 'version': '5.1', 'build': 'LMY47I'}
+{'model': 'OPPO R9sk', 'version': '7.1.1', 'build': 'NMF26F'}
+{'model': 'lephone W7', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'vivo Y53n', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'HUAWEI CAZ-TL10', 'version': '7.0', 'build': 'HUAWEICAZ-TL10; wv'}
+{'model': 'PLK-UL00', 'version': '5.0.2', 'build': 'HONORPLK-UL00'}
+{'model': 'FRD-AL00', 'version': '7.0', 'build': 'HUAWEIFRD-AL00; wv'}
+{'model': 'MI PAD 3', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'Letv X500', 'version': '6.0', 'build': 'DBXCNOP5902605181S; wv'}
+{'model': 'SM-G9200', 'version': '6.0.1', 'build': 'MMB29K; wv'}
+{'model': 'HUAWEI Y610-U00', 'version': '4.3', 'build': 'HUAWEIY610-U00'}
+{'model': 'X900+', 'version': '6.0.1', 'build': 'CEXCNFN5902605111S'}
+{'model': 'NX503A', 'version': '4.4.2', 'build': 'KVT49L'}
+{'model': 'DOOV L9 mini', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'm3', 'version': '5.1', 'build': 'LMY47I'}
+{'model': 'vivo X9Plus', 'version': '7.1.1', 'build': 'NMF26F; wv'}
+{'model': 'SM-N900', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'OPPO A59m', 'version': '5.1', 'build': 'LMY47I; wv'}
+{'model': '1505-A01', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'VIE-AL10', 'version': '6.0', 'build': 'HUAWEIVIE-AL10'}
+{'model': 'HTC D820us', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'HTC A9w', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'Letv X500', 'version': '5.0.2', 'build': 'DAXCNCU5501001303S'}
+{'model': 'OPPO R11 Plus', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'R8107', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'HTC M8w', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'CHM-UL00', 'version': '4.4.2', 'build': 'HonorCHM-UL00'}
+{'model': 'Le X620', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'SM-J5108', 'version': '5.1.1', 'build': 'LMY47X'}
+{'model': 'E6883', 'version': '5.1.1', 'build': '32.0.A.6.209; wv'}
+{'model': 'VKY-TL00', 'version': '7.0', 'build': 'HUAWEIVKY-TL00'}
+{'model': 'ATH-AL00', 'version': '6.0.1', 'build': 'HONORATH-AL00; wv'}
+{'model': 'MI MAX 2', 'version': '7.1.1', 'build': 'NMF26F'}
+{'model': 'M5', 'version': '5.1', 'build': 'LMY47D; wv'}
+{'model': 'Letv X500', 'version': '5.0.2', 'build': 'DAXCNCU5500912251S'}
+{'model': 'NX529J', 'version': '5.1.1', 'build': 'LMY47V; wv'}
+{'model': 'NCE-AL10', 'version': '6.0', 'build': 'HUAWEINCE-AL10'}
+{'model': 'M5s', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'SM-G925F', 'version': '6.0.1', 'build': 'MMB29K'}
+{'model': 'X900', 'version': '5.0.2', 'build': 'CBXCNOP5500912251S'}
+{'model': 'EVA-DL00', 'version': '7.0', 'build': 'HUAWEIEVA-DL00; wv'}
+{'model': 'ATH-UL00', 'version': '5.1.1', 'build': 'HONORATH-UL00'}
+{'model': '1509-A00', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'S9', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'SM-G9006V', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'LG-D857', 'version': '5.0.1', 'build': 'LRX22G'}
+{'model': 'NX511J', 'version': '5.0.2', 'build': 'LRX22G; wv'}
+{'model': 'ONEPLUS A3010', 'version': '8.0', 'build': 'OPR6.170623.013; wv'}
+{'model': 'HTC D10w', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'Lenovo P1c58', 'version': '5.1.1', 'build': 'LMY47V; wv'}
+{'model': 'VKY-AL00', 'version': '7.0', 'build': 'HUAWEIVKY-AL00'}
+{'model': 'vivo X5Max L', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'L50t', 'version': '4.4.2', 'build': '17.1.E.2.67'}
+{'model': 'ASUS_Z00ADB', 'version': '5.0', 'build': 'LRX21V; wv'}
+{'model': 'vivo X9Plus L', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'HTC M9pw', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'Lenovo A889', 'version': '4.2.2', 'build': 'JDQ39'}
+{'model': 'XT1635-03', 'version': '7.0', 'build': 'NCN25.137-24-4'}
+{'model': '4G+', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'Mi-4c', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'ZTE C2016', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'XT1635-03', 'version': '7.1.1', 'build': 'NCN26.118-32'}
+{'model': 'CHM-UL00', 'version': '5.1.1', 'build': 'HonorCHM-UL00'}
+{'model': 'SAMSUNG-SM-N900A', 'version': '4.4.4', 'build': 'tt'}
+{'model': 'Coolpad 7722', 'version': '5.1', 'build': 'LMY47D; wv'}
+{'model': 'ZTE A2017', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'ZTE BA610T', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'vivo X6D', 'version': '5.1', 'build': 'LMY47I'}
+{'model': 'GT-I9500', 'version': '4.2.2', 'build': 'JDQ39'}
+{'model': 'OPPO R7sm', 'version': '5.1.1', 'build': 'LMY47V; wv'}
+{'model': 'vivo Y53', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'ZUK Z2151', 'version': '7.0', 'build': 'NRD90M; wv'}
+{'model': 'LG-F240S', 'version': '4.1.2', 'build': 'JZO54K'}
+{'model': 'M631', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'Le X620', 'version': '6.0', 'build': 'HEXCNFN5601405051S'}
+{'model': 'GT-I9508', 'version': '5.0.1', 'build': 'LRX22C'}
+{'model': 'Redmi Note 4X', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'SM-G5500', 'version': '5.1.1', 'build': 'LMY47X; wv'}
+{'model': 'vivo X9L', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'HUAWEI RIO-AL00', 'version': '6.0.1', 'build': 'HuaweiRIO-AL00; wv'}
+{'model': 'X800', 'version': '5.0.2', 'build': 'BBXCNOP5000307301S'}
+{'model': 'G8142', 'version': '7.1.1', 'build': '45.0.A.7.137'}
+{'model': 'PRA-TL10', 'version': '7.0', 'build': 'HONORPRA-TL10'}
+{'model': 'Mi Note 2', 'version': '6.0.1', 'build': 'MXB48T; wv'}
+{'model': 'SM-T719C', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'SM801', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'SUGAR Y7', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'KNT-AL10', 'version': '6.0', 'build': 'HUAWEIKNT-AL10'}
+{'model': 'Le X820', 'version': '6.0.1', 'build': 'FEXCNFN5902303111S'}
+{'model': 'E6883', 'version': '6.0.1', 'build': '32.2.A.0.305'}
+{'model': 'E7', 'version': '4.2.2', 'build': 'JDQ39'}
+{'model': 'vivo X5L', 'version': '4.4.2', 'build': 'KOT49H'}
+{'model': 'OPPO A57t', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'vivo Y923', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'BAC-TL00', 'version': '7.0', 'build': 'HUAWEIBAC-TL00'}
+{'model': 'Coolpad 5380CA', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'Coolpad Y891', 'version': '5.1.1', 'build': 'LMY47V; wv'}
+{'model': 'XT1710-08', 'version': '7.1.1', 'build': 'NZS26.71-97-41'}
+{'model': 'HUAMI HM6', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'HLJ6', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'Le X620', 'version': '6.0', 'build': 'HEXCNFN5801810101S'}
+{'model': 'LEX651', 'version': '6.0', 'build': 'KGXCNFN5902605181S'}
+{'model': 'LA-X7', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'SM-G9008W', 'version': '5.0', 'build': 'LRX21T'}
+{'model': 'LEX550', 'version': '6.0', 'build': 'KAXCNFN5848907263D'}
+{'model': 'MI 2A', 'version': '4.1.1', 'build': 'JRO03L'}
+{'model': 'Letv X500', 'version': '6.0', 'build': 'DAXCNCU5902303111S; wv'}
+{'model': 'LG-H961N', 'version': '7.0', 'build': 'NRD90U; wv'}
+{'model': 'Le X528', 'version': '6.0.1', 'build': 'IJXCNCM5902605131S'}
+{'model': 'LEX722', 'version': '6.0.1', 'build': 'WIXCNFN5902606211S'}
+{'model': 'HUAWEI NXT-CL00', 'version': '7.0', 'build': 'HUAWEINXT-CL00'}
+{'model': 'SM-G9200', 'version': '5.1.1', 'build': 'LMY47X'}
+{'model': 'Hol-U10', 'version': '4.2.2', 'build': 'HUAWEIHol-U10'}
+{'model': 'vivo X9i', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'OPPO R9s Plust', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'BAH-AL00', 'version': '7.0', 'build': 'HUAWEIBAH-AL00; wv'}
+{'model': 'Letv X501', 'version': '5.0.2', 'build': 'DAXCNCU5501304131S'}
+{'model': 'MIX', 'version': '6.0.1', 'build': 'MXB48T; wv'}
+{'model': 'YQ601', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'OPPO R11st', 'version': '7.1.1', 'build': 'NMF26X; wv'}
+{'model': 'PRO 7 Plus', 'version': '7.0', 'build': 'NRD90M; wv'}
+{'model': 'T1-701ua', 'version': '4.4.2', 'build': 'HuaweiMediaPad'}
+{'model': 'm2', 'version': '5.1', 'build': 'LMY47D; wv'}
+{'model': 'DOOV L7', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'GN8003', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'WAS-TL10', 'version': '7.0', 'build': 'HUAWEIWAS-TL10'}
+{'model': '1711-A01', 'version': '7.1.1', 'build': 'NMF26F'}
+{'model': 'V10 4G', 'version': '7.0', 'build': 'NRD90M; wv'}
+{'model': 'L39h', 'version': '4.4.4', 'build': '14.4.A.0.108'}
+{'model': 'SM919', 'version': '6.0.1', 'build': 'MXB48T'}
+{'model': 'OPPO R11t', 'version': '7.1.1', 'build': 'NMF26X; wv'}
+{'model': 'E5823', 'version': '7.1.1', 'build': '32.4.A.1.54'}
+{'model': 'CAM-AL00', 'version': '6.0', 'build': 'HONORCAM-AL00'}
+{'model': 'HUAWEI P6 S-U06', 'version': '4.2.2', 'build': 'HuaweiP6S-U06'}
+{'model': 'SUGAR C6', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'ONE E1001', 'version': '5.1.1', 'build': 'LMY47V; wv'}
+{'model': 'KING 7', 'version': '5.1', 'build': 'PP60002D_107I'}
+{'model': 'TA-1052', 'version': '7.1.1', 'build': 'NMF26F'}
+{'model': 'SM-A8000', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'EVA-AL00', 'version': '7.0', 'build': 'HUAWEIEVA-AL00'}
+{'model': 'OPPO R7t', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'SM-N9106W', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'HUAWEI MLA-UL00', 'version': '7.0', 'build': 'HUAWEIMLA-UL00; wv'}
+{'model': 'R7Plusm', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'Hisense F31', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'OPPO A33m', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'U3', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'M2 E', 'version': '6.0.1', 'build': 'MMB29U'}
+{'model': 'SM-G9280', 'version': '5.1.1', 'build': 'LMY47X; wv'}
+{'model': 'M A5', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'U20', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'SM-G950F', 'version': '7.0', 'build': 'NRD90M; wv'}
+{'model': '8681-A01', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'LEX626', 'version': '6.0', 'build': 'HEXCNFN5902606111S'}
+{'model': 'vivo Y51t L', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'vivo Y31A', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'K-Touch X9', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'ONEPLUS A3000', 'version': '7.1.1', 'build': 'NMF26F'}
+{'model': 'vivo Y67', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'JXD-T56', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'm3 note', 'version': '7.0', 'build': 'NRD90M'}
+{'model': '308', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'EVA-DL00', 'version': '7.0', 'build': 'HUAWEIEVA-DL00'}
+{'model': 'MI 6', 'version': '7.1.2', 'build': 'NJH47F'}
+{'model': '8848 M3', 'version': '6.0.1', 'build': '1.8.0.a6f40f.20170803.user'}
+{'model': 'Le X520', 'version': '6.0.1', 'build': 'IEXCNFN5801708172S'}
+{'model': 'SM-A9000', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'NX507J', 'version': '7.1.2', 'build': 'NJH47F'}
+{'model': 'E6683', 'version': '6.0.1', 'build': '32.2.A.0.305'}
+{'model': 'BLN-AL30', 'version': '7.0', 'build': 'HONORBLN-AL30; wv'}
+{'model': 'MIX', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'vivo Xplay6', 'version': '7.1.1', 'build': 'NMF26F'}
+{'model': 'YQ601', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'W900S', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'M821', 'version': '5.0.2', 'build': 'LRX22G'}
+{'model': 'HM NOTE 1LTEW', 'version': '4.4.2', 'build': 'KVT49L'}
+{'model': 'GIONEE GN5007', 'version': '7.1.1', 'build': 'NMF26F'}
+{'model': 'SM-G925P', 'version': '5.1.1', 'build': 'LMY47X'}
+{'model': 'C520Lw', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': '4G+', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'ASUS_Z010DA', 'version': '5.0.2', 'build': 'LRX22G'}
+{'model': 'D6603', 'version': '6.0.1', 'build': '23.5.A.1.291'}
+{'model': 'SM-G9006V', 'version': '4.4.2', 'build': 'KOT49H'}
+{'model': 'M351', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'NX531J', 'version': '7.1.1', 'build': 'NMF26F; wv'}
+{'model': 'GN3002', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'SM-C7000', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'SM-A9100', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'LEX720', 'version': '6.0.1', 'build': 'WAXCNFN5801709041S'}
+{'model': 'M2 E', 'version': '6.0.1', 'build': 'MMB29U; wv'}
+{'model': 'Letv X500', 'version': '5.0.2', 'build': 'DBXCNOP5501304131S'}
+{'model': 'HUAWEI NXT-AL10', 'version': '6.0', 'build': 'HUAWEINXT-AL10; wv'}
+{'model': 'BLN-AL10', 'version': '7.0', 'build': 'HONORBLN-AL10'}
+{'model': 'HUAWEI MLA-TL10', 'version': '6.0', 'build': 'HUAWEIMLA-TL10'}
+{'model': 'GEM-703L', 'version': '5.0', 'build': 'HUAWEIGEM-703L'}
+{'model': 'ONEPLUS A3000', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'X9070', 'version': '4.3', 'build': 'JLS36C'}
+{'model': 'ONEPLUS A3010', 'version': '7.0', 'build': 'NRD90M; wv'}
+{'model': 'vivo Y33', 'version': '5.0.2', 'build': 'LRX21M'}
+{'model': 'M682Q', 'version': '6.0.1', 'build': 'MMB29U'}
+{'model': 'HTC M8e', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'LEX722', 'version': '6.0.1', 'build': 'WIXCNFN5902606211S; wv'}
+{'model': 'LG-H818', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'OPPO R11s', 'version': '7.1.1', 'build': 'NMF26X'}
+{'model': 'HTC M10h', 'version': '7.0', 'build': 'NRD90M; wv'}
+{'model': 'HUAWEI GRA-UL00', 'version': '6.0', 'build': 'HUAWEIGRA-UL00; wv'}
+{'model': 'RNE-AL00', 'version': '7.0', 'build': 'HUAWEIRNE-AL00; wv'}
+{'model': 'NX569J', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'SM-N9200', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'InFocus M560', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'Le X621', 'version': '6.0', 'build': 'HEXCNFN5801708221S'}
+{'model': 'vivo X9s Plus L', 'version': '7.1.1', 'build': 'NMF26F'}
+{'model': 'GN9011', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'KNT-TL10', 'version': '7.0', 'build': 'HUAWEIKNT-TL10'}
+{'model': 'OPPO R9skt', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'HUAWEI MT7-UL00', 'version': '6.0', 'build': 'HuaweiMT7-UL00; wv'}
+{'model': 'J01', 'version': '6.0', 'build': 'MRA58L'}
+{'model': 'M2017', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'SM-G900H', 'version': '4.4.2', 'build': 'KOT49H'}
+{'model': 'SM-J5108', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'HUAWEI RIO-TL00', 'version': '6.0.1', 'build': 'HuaweiRIO-TL00'}
+{'model': 'OPPO R9t', 'version': '5.1', 'build': 'LMY47I; wv'}
+{'model': '2014811', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'SM-N935L', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'JMM-AL00', 'version': '7.0', 'build': 'HONORJMM-AL00'}
+{'model': 'K3DX-V5G', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'SM-N9006', 'version': '4.3', 'build': 'JSS15J'}
+{'model': 'Le X621', 'version': '6.0', 'build': 'HCXCNCT5902012151S; wv'}
+{'model': 'TRT-AL00', 'version': '7.0', 'build': 'HUAWEITRT-AL00'}
+{'model': 'GT-N7108', 'version': '4.3', 'build': 'JSS15J'}
+{'model': 'SC-02F', 'version': '4.4.2', 'build': 'KOT49H'}
+{'model': 'vivo Y35A', 'version': '5.0.2', 'build': 'LRX22G'}
+{'model': 'H60-L02', 'version': '5.1.1', 'build': 'HDH60-L02'}
+{'model': 'koobee S106', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'SM-G935K', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'vivo Y27', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'FRD-AL10', 'version': '7.0', 'build': 'HUAWEIFRD-AL10; wv'}
+{'model': 'PE-TL10', 'version': '4.4.2', 'build': 'HuaweiPE-TL10'}
+{'model': 'vivo X3F', 'version': '4.3', 'build': 'JLS36C'}
+{'model': 'LG-H870DS', 'version': '7.0', 'build': 'NRD90U; wv'}
+{'model': 'SM-N9002', 'version': '5.0', 'build': 'LRX21V'}
+{'model': 'MI 5s Plus', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'N958St', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'OPPO A30', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'A31', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'vivo Xplay3S', 'version': '4.4.2', 'build': 'KVT49L'}
+{'model': 'E6', 'version': '4.2.1', 'build': 'JOP40D'}
+{'model': 'ZTE A2017', 'version': '7.1.1', 'build': 'NMF26V'}
+{'model': 'PRO 7-S', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'DX6', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'NX511J', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'V5 PRO', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'SM-G935S', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'CUN-AL00', 'version': '5.1', 'build': 'HUAWEICUN-AL00; wv'}
+{'model': 'ZTE BV0720T', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'MI 5s', 'version': '7.0', 'build': 'NRD90M; wv'}
+{'model': 'vivo X5Max+', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'OPPO R11 Plus', 'version': '6.0', 'build': 'HEXCNFN5902606141S; wv'}
+{'model': 'T1-A23L', 'version': '4.4.4', 'build': 'HuaweiMediaPad'}
+{'model': 'SM919', 'version': '6.0.1', 'build': 'MXB48T; wv'}
+{'model': 'LG-F700L', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'NX563J', 'version': '7.1.1', 'build': 'NMF26X; wv'}
+{'model': 'KIW-TL00', 'version': '6.0.1', 'build': 'HONORKIW-TL00'}
+{'model': 'L36h', 'version': '4.4.4', 'build': '10.5.1.A.0.292'}
+{'model': 'GIONEE S10B', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'M5 Note', 'version': '7.0', 'build': 'NRD90M; wv'}
+{'model': 'GT-I9502', 'version': '4.2.2', 'build': 'JDQ39'}
+{'model': 'SM-N900S', 'version': '4.4.2', 'build': 'KOT49H'}
+{'model': 'Redmi Note 3', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'DOOV L5M', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'A680Q', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'Coolpad 8675-HD', 'version': '4.4.2', 'build': 'KOT49H'}
+{'model': 'HUAWEI TIT-AL00', 'version': '5.1', 'build': 'HUAWEITIT-AL00; wv'}
+{'model': 'SM-N9100', 'version': '5.0.1', 'build': 'LRX22C'}
+{'model': 'NX531J', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'NX551J', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'X800', 'version': '5.0.2', 'build': 'BBXCNOP5500912251S'}
+{'model': 'VIVO X20', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'MI PAD', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'GN9008', 'version': '5.1', 'build': 'LMY47I'}
+{'model': 'NX595J', 'version': '7.1.1', 'build': 'NMF26X; wv'}
+{'model': 'Coolpad c105', 'version': '6.0.1', 'build': 'Coolpad+c105'}
+{'model': 'OPPO R11s', 'version': '7.1.1', 'build': 'NMF26X; wv'}
+{'model': 'ZTE BV0730', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'X6', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'SM-G928T', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'LON-AL00', 'version': '7.0', 'build': 'HUAWEILON-AL00'}
+{'model': 'SUGAR F7 mini', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'M5s', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'Ramos M7', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'HUAWEI MLA-AL00', 'version': '6.0', 'build': 'HUAWEIMLA-AL00'}
+{'model': 'MI 5', 'version': '7.0', 'build': 'NRD90M; wv'}
+{'model': 'Lenovo P2c72', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'MI NOTE LTE', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'HUAWEI RIO-UL00', 'version': '6.0.1', 'build': 'HUAWEIRIO-UL00'}
+{'model': 'ZUK Z1', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'DOOV L9', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'SM-G5500', 'version': '5.1.1', 'build': 'LMY47X'}
+{'model': 'G8342', 'version': '8.0.0', 'build': '47.1.A.2.385'}
+{'model': 'Xshitou-NT18', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'GN9007', 'version': '5.1', 'build': 'LMY47D; wv'}
+{'model': 'LG-H848', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'Pixel', 'version': '8.0.0', 'build': 'OPR3.170623.008; wv'}
+{'model': 'SM-G615F', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'HUAWEI MT2-C00', 'version': '4.4.2', 'build': 'HuaweiMT2-C00'}
+{'model': '1701-M01', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'OPPO R7st', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'PRO 6 Plus', 'version': '7.0', 'build': 'NRD90M; wv'}
+{'model': 'OPPO R11 Pluskt', 'version': '7.1.1', 'build': 'NMF26X'}
+{'model': 'SM-C7010', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'x600', 'version': '6.0', 'build': 'ABXCNOP5902605181S'}
+{'model': 'M6', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'vivo X6SPlus A', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'TA-1041', 'version': '7.1.1', 'build': 'NMF26F'}
+{'model': 'ZTE BV0701', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'EVA-AL10', 'version': '7.0', 'build': 'HUAWEIEVA-AL10; wv'}
+{'model': 'r9s', 'version': '5.1', 'build': 'LMY47I; wv'}
+{'model': 'HUAWEI G521-L076', 'version': '4.3', 'build': 'HUAWEI G521-L076'}
+{'model': 'Coolpad Y803-8', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'OPPO A77t', 'version': '7.1.1', 'build': 'NMF26F'}
+{'model': '??', 'version': '5.1', 'build': 'HUAWEITAG-AL00'}
+{'model': 'vivo Y53L', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'E6653', 'version': '7.0', 'build': '32.3.A.2.33'}
+{'model': 'OPPO R7sPlus', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'BLN-AL40', 'version': '7.0', 'build': 'HONORBLN-AL40'}
+{'model': 'R7Plus', 'version': '5.0', 'build': 'LRX21M; wv'}
+{'model': 'GN9010', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'DOOV A5', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'X900+', 'version': '6.0.1', 'build': 'CEXCNFN5902303131S; wv'}
+{'model': 'Le X621', 'version': '6.0', 'build': 'HCXCNCT5902606112S'}
+{'model': 'MI 5', 'version': '6.0.1', 'build': 'MOB31K; wv'}
+{'model': 'vivo X3S W', 'version': '4.2.2', 'build': 'JDQ39'}
+{'model': 'BLA-AL00', 'version': '8.0.0', 'build': 'HUAWEIBLA-AL00'}
+{'model': 'OPPO A53m', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'HUAWEI TIT-TL00', 'version': '5.1', 'build': 'HUAWEITIT-TL00'}
+{'model': '1605-A01', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'HUAWEI MT7-TL10', 'version': '5.1.1', 'build': 'HuaweiMT7-TL10'}
+{'model': 'PRO 7-H', 'version': '7.0', 'build': 'NRD90M; wv'}
+{'model': 'SM-C5018', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'OPPO R11 Pluskt', 'version': '7.1.1', 'build': 'NMF26X; wv'}
+{'model': 'M5', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'HLA Note3 Pro', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'Redmi Note 4', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'Lenovo A320t', 'version': '4.4.2', 'build': 'KOT49H'}
+{'model': 'HUAWEI P7-L05', 'version': '4.4.2', 'build': 'HuaweiP7-L05'}
+{'model': 'Letv X501', 'version': '5.0.2', 'build': 'DBXCNOP5501001304S'}
+{'model': 'ONEPLUS A3010', 'version': '6.0.1', 'build': 'MXB48T'}
+{'model': 'M611D', 'version': '6.0', 'build': 'MRA58K'}
+{'model': '1515-A01', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'SD4930UR', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': '8692-M02', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': '1607-A01', 'version': '7.1.1', 'build': 'NMF26F; wv'}
+{'model': 'GEM-703L', 'version': '6.0', 'build': 'HUAWEIGEM-703L; wv'}
+{'model': 'S6', 'version': '6.0', 'build': 'LMY47I'}
+{'model': 'XT1650-05', 'version': '7.1.1', 'build': 'NCC26.118-31-1'}
+{'model': 'ONE E1001', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'Hisense F23', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'Che2-TL00M', 'version': '4.4.2', 'build': 'HonorChe2-TL00M'}
+{'model': 'DUK-TL30', 'version': '7.0', 'build': 'HUAWEIDUK-TL30; wv'}
+{'model': 'G01111', 'version': '4.4.4', 'build': '1.1.4631_20160323'}
+{'model': 'GT-N7100', 'version': '4.3', 'build': 'JSS15J'}
+{'model': 'LEX622', 'version': '6.0', 'build': 'HBXCNCU5801811241S'}
+{'model': 'GRA-UL00', 'version': '5.0.1', 'build': 'HUAWEIGRA'}
+{'model': 'koobee A3', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'Le X620', 'version': '6.0', 'build': 'HEXCNFN5801607142S; wv'}
+{'model': 'CHE-TL00H', 'version': '5.0.2', 'build': 'HonorCHE-TL00H'}
+{'model': 'Kindle Fire HDX 7', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'HTC X920e', 'version': '4.3', 'build': 'JSS15J'}
+{'model': 'W909', 'version': '5.1', 'build': 'LMY47I; wv'}
+{'model': 'M-17', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'PRO 6 Plus', 'version': '6.0.1', 'build': 'MMB29T; wv'}
+{'model': 'FRD-DL00', 'version': '6.0', 'build': 'HUAWEIFRD-DL00; wv'}
+{'model': 'LEX626', 'version': '6.0', 'build': 'HEXCNFN5902606111S; wv'}
+{'model': 'ATH-UL00', 'version': '6.0.1', 'build': 'HONORATH-UL00; wv'}
+{'model': 'ZTE A2015', 'version': '5.0.2', 'build': 'LRX22G'}
+{'model': 'BLN-AL10', 'version': '6.0', 'build': 'HONORBLN-AL10'}
+{'model': 'EVA-AL00', 'version': '6.0', 'build': 'HUAWEIEVA-AL00'}
+{'model': 'OYSIN X5', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'X909', 'version': '4.2.2', 'build': 'JDQ39'}
+{'model': 'SM-G9006V', 'version': '5.0', 'build': 'LRX21T; wv'}
+{'model': 'HUAWEI TIT-AL00', 'version': '5.1', 'build': 'HUAWEITIT-AL00'}
+{'model': 'Redmi 4X', 'version': '7.1.2', 'build': 'N2G47H'}
+{'model': 'Le X820', 'version': '6.0.1', 'build': 'FEXCNFN5902303111S; wv'}
+{'model': 'VTR-L29', 'version': '7.0', 'build': 'HUAWEIVTR-L29'}
+{'model': 'BLN-AL20', 'version': '7.0', 'build': 'HONORBLN-AL20; wv'}
+{'model': 'PRA-AL00', 'version': '7.0', 'build': 'HONORPRA-AL00; wv'}
+{'model': 'OPPO R9sk', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'U680D', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'LG-F350L', 'version': '4.4.2', 'build': 'KOT49I.F350L10y'}
+{'model': 'S9', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'Lenovo 2 A8-50LC', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'koobee M9', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'SM-C7000', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'vivo Y55A', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'GN3003', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'SM-G955U', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'KOPO L9', 'version': '5.1', 'build': 'LMY47D'}
+{'model': '2014812', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'HUAWEI KII-L21', 'version': '6.0.1', 'build': 'HUAWEIKII-L21'}
+{'model': 'E6853', 'version': '6.0.1', 'build': '32.2.A.0.305'}
+{'model': 'Lenovo Z90-7', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'KOB-L09', 'version': '7.0', 'build': 'HUAWEIKOB-L09; wv'}
+{'model': 'C106', 'version': '6.0.1', 'build': 'ZAXCNFN5902606201S'}
+{'model': 'T1-823L', 'version': '5.1.1', 'build': 'HuaweiMediaPad'}
+{'model': 'C106-9', 'version': '6.0.1', 'build': 'ZCXCNCT5902606201S; wv'}
+{'model': 'Hisense M20-T', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'vivo Y13iL', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'ZTE Q529T', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'SM-G9250', 'version': '5.0.2', 'build': 'LRX22G; wv'}
+{'model': 'SM-J3110', 'version': '5.1.1', 'build': 'LMY47X'}
+{'model': 'SM-N9006', 'version': '5.0', 'build': 'LRX21V; wv'}
+{'model': 'SM-A9000', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'HUAWEI ALE-CL00', 'version': '4.4.4', 'build': 'HuaweiALE-CL00'}
+{'model': 'ALE-UL00', 'version': '5.0', 'build': 'HuaweiALE-UL00'}
+{'model': 'HUAWEI P8max', 'version': '6.0', 'build': 'HUAWEIDAV-703L; wv'}
+{'model': 'OPPO R9 Plusm A', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'YD206', 'version': '4.4.3', 'build': 'KTU84L'}
+{'model': 'm2 note', 'version': '5.1', 'build': 'LMY47D; wv'}
+{'model': 'NCE-AL00', 'version': '6.0', 'build': 'HUAWEINCE-AL00; wv'}
+{'model': 'Redmi Note 4', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'F106', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'SM-G900FD', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'vivo X20Plus A', 'version': '7.1.1', 'build': 'NMF26X'}
+{'model': 'NEM-AL10', 'version': '7.0', 'build': 'HONORNEM-AL10; wv'}
+{'model': 'M A5', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'NX508J', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'm3 note', 'version': '7.0', 'build': 'NRD90M; wv'}
+{'model': 'CUN-AL00', 'version': '5.1', 'build': 'HUAWEICUN-AL00'}
+{'model': 'NX511J', 'version': '5.0.2', 'build': 'LRX22G'}
+{'model': 'SM-G3502C', 'version': '4.3', 'build': 'JLS36C'}
+{'model': 'vivo X7Plus L', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'X900', 'version': '6.0.1', 'build': 'CBXCNOP5902605091S; wv'}
+{'model': 'GIONEE S10L', 'version': '7.0', 'build': 'NRD90M; wv'}
+{'model': 'HUAWEI MLA-AL10', 'version': '6.0', 'build': 'HUAWEIMLA-AL10; wv'}
+{'model': 'SLA-TL10', 'version': '7.0', 'build': 'HUAWEISLA-TL10; wv'}
+{'model': 'HUAWEI MLA-UL00', 'version': '7.0', 'build': 'HUAWEIMLA-UL00'}
+{'model': 'HTC D820u', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'EVA-TL00', 'version': '7.0', 'build': 'HUAWEIEVA-TL00'}
+{'model': 'JMM-AL10', 'version': '7.0', 'build': 'HONORJMM-AL10'}
+{'model': 'PIC-AL00', 'version': '7.0', 'build': 'HUAWEIPIC-AL00'}
+{'model': 'HONOR H30-L02', 'version': '4.4.2', 'build': 'HonorH30-L02'}
+{'model': 'ROAM_CAT M8', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'vivo X5Pro V', 'version': '5.0.2', 'build': 'LRX22G'}
+{'model': 'OPPO R11', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'ZTE C2017', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'NX513J', 'version': '5.0.2', 'build': 'LRX22G'}
+{'model': 'N7000R', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'SM-N910S', 'version': '5.1.1', 'build': 'LMY47X'}
+{'model': 'MX6', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'H30-T10', 'version': '4.4.2', 'build': 'HuaweiH30-T10'}
+{'model': 'MI 6', 'version': '7.1.1', 'build': 'NMF26X'}
+{'model': 'MI 6', 'version': '7.1.1', 'build': 'NMF26F'}
+{'model': 'Coolpad SK1-01', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'GT-S6812i', 'version': '4.1.2', 'build': 'JZO54K'}
+{'model': 'AR9', 'version': '6.1', 'build': 'MRA58K'}
+{'model': 'P7', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'Le X620', 'version': '6.0', 'build': 'HEXCNFN5801708221S'}
+{'model': 'M621C', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'SM-G925I', 'version': '6.0.1', 'build': 'MMB29K'}
+{'model': 'F103', 'version': '5.0', 'build': 'LRX21M'}
+{'model': 'ZTE A2015', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'Letv X500', 'version': '6.0', 'build': 'DAXCNCU5902012161S'}
+{'model': 'PLK-TL00', 'version': '5.0.2', 'build': 'HONORPLK-TL00'}
+{'model': 'MI 5', 'version': '6.0.1', 'build': 'MXB48T; wv'}
+{'model': 'vivo X9L', 'version': '7.1.1', 'build': 'NMF26F'}
+{'model': 'GS55-6', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'S3', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'vivo X20Plus A', 'version': '7.1.1', 'build': 'NMF26X; wv'}
+{'model': 'BLN-AL20', 'version': '6.0', 'build': 'HONORBLN-AL20; wv'}
+{'model': '20151209T', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'GN8001', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'm3', 'version': '5.1', 'build': 'LMY47I; wv'}
+{'model': 'Letv X501', 'version': '6.0', 'build': 'DBXCNOP5902012161S; wv'}
+{'model': 'OPPO R9 Plustm A', 'version': '5.1.1', 'build': 'LMY47V; wv'}
+{'model': 'BLN-TL10', 'version': '7.0', 'build': 'HONORBLN-TL10'}
+{'model': 'SM-N9200', 'version': '5.1.1', 'build': 'LMY47X'}
+{'model': 'HUAWEI RIO-AL00', 'version': '6.0.1', 'build': 'HuaweiRIO-AL00'}
+{'model': 'SM-G5700', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'ONEPLUS A3000', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'C105-6', 'version': '6.0.1', 'build': 'VCXCNCT5811805232S'}
+{'model': 'Lenovo A808t', 'version': '4.4.2', 'build': 'KOT49H'}
+{'model': 'PRO 5', 'version': '5.1', 'build': 'LMY47D; wv'}
+{'model': 'VOTO GT7', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'AoleDior', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'H60-L12', 'version': '6.0', 'build': 'HDH60-L12; wv'}
+{'model': 'CPH1607', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'SM-G955U', 'version': '7.0', 'build': 'NRD90M; wv'}
+{'model': 'C106-6', 'version': '6.0.1', 'build': 'ZOXCNFN5902606201S'}
+{'model': 'SM-G935F', 'version': '7.0', 'build': 'NRD90M'}
+{'model': '8676-A01', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'Note4X', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'WAS-AL00', 'version': '7.0', 'build': 'HUAWEIWAS-AL00; wv'}
+{'model': 'VIE-AL10', 'version': '7.0', 'build': 'HUAWEIVIE-AL10'}
+{'model': 'SM-G5520', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'Lenovo PB1-770N', 'version': '5.1.1', 'build': 'S100'}
+{'model': 'LON-L29', 'version': '7.0', 'build': 'HUAWEILON-L29; wv'}
+{'model': 'NEM-AL10', 'version': '7.0', 'build': 'HONORNEM-AL10'}
+{'model': 'vivo X6S A', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'vivo Xplay5A', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'MI 5', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'TRT-TL10A', 'version': '7.0', 'build': 'HUAWEITRT-TL10A'}
+{'model': 'SM-J3300', 'version': '7.1.1', 'build': 'NMF26X'}
+{'model': 'SLA-AL00', 'version': '7.0', 'build': 'HUAWEISLA-AL00'}
+{'model': 'H101    KT-101-D', 'version': '4.4.2', 'build': 'KOT49H'}
+{'model': 'EVA-AL00', 'version': '6.0', 'build': 'HUAWEIEVA-AL00; wv'}
+{'model': 'Redmi Note 4X', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'SUGAR F11', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'Le X621', 'version': '6.0', 'build': 'HCXCNCT5801708221S'}
+{'model': 'SM-G9300', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'HUAWEI CAZ-TL20', 'version': '6.0', 'build': 'HUAWEICAZ-TL20'}
+{'model': 'SM-G928F', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'DOOV V5', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'ZUK Z1', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'MP1603', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'D6503', 'version': '4.4.4', 'build': '23.0.1.A.3.12'}
+{'model': 'XT1085', 'version': '5.0.2', 'build': 'LXE22.92-30'}
+{'model': 'vivo Y51', 'version': '5.0.2', 'build': 'LRX22G'}
+{'model': 'Letv X500', 'version': '5.0.2', 'build': 'LRX22G; wv'}
+{'model': 'XT1650-05', 'version': '7.0', 'build': 'NCC25.106-15.7'}
+{'model': 'GN9011', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'CM810', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'OWWO 7S', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'ivvi SS1-01', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'GIONEE M7', 'version': '7.1.1', 'build': 'N6F26Q; wv'}
+{'model': 'NX523J_V1', 'version': '5.1.1', 'build': 'LMY47V; wv'}
+{'model': 'ZTE A2018', 'version': '6.0.1', 'build': 'MXB48T'}
+{'model': 'SM-N9100', 'version': '5.1.1', 'build': 'LMY47X'}
+{'model': 'X900+', 'version': '6.0.1', 'build': 'CEXCNFN5902303131S'}
+{'model': 'GN9007', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'SM-A7000', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'HUAWEI G610-T11', 'version': '4.2.2', 'build': 'HuaweiG610-T11'}
+{'model': 'HUAWEI G6-U00', 'version': '4.3', 'build': 'HuaweiG6-U00'}
+{'model': 'GIONEE S10B', 'version': '7.0', 'build': 'NRD90M; wv'}
+{'model': 'D6503', 'version': '4.4.2', 'build': '17.1.1.A.0.402'}
+{'model': 'SM-G920V', 'version': '5.1.1', 'build': 'LMY47X; wv'}
+{'model': 'vivo X20A', 'version': '7.1.1', 'build': 'NMF26X; wv'}
+{'model': 'XM50h', 'version': '4.3', 'build': '19.0.D.0.253'}
+{'model': 'Lenovo Z90-7', 'version': '5.0.2', 'build': 'LRX22G'}
+{'model': 'D6503', 'version': '6.0.1', 'build': '23.5.A.1.291'}
+{'model': 'SM-N9150', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'SM-A5000', 'version': '5.0.2', 'build': 'LRX22G'}
+{'model': 'vivo Y55', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'SM-G9508', 'version': '7.0', 'build': 'NRD90M; wv'}
+{'model': 'LGLS992', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'Lenovo A7600', 'version': '5.0', 'build': 'LRX21M'}
+{'model': 'vivo Y23L', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'SM-G9250', 'version': '5.1.1', 'build': 'LMY47X; wv'}
+{'model': 'M2017', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'VCR-A0', 'version': '7.1.1', 'build': 'VCRSCN00X1000MPX1708310'}
+{'model': 'M681C', 'version': '5.1', 'build': 'LMY47I'}
+{'model': 'LEX626', 'version': '6.0', 'build': 'HEXCNFN5801811041S'}
+{'model': 'DIG-AL00', 'version': '6.0', 'build': 'HUAWEIDIG-AL00; wv'}
+{'model': 'X800', 'version': '6.0.1', 'build': 'BBXCNOP5902605091S; wv'}
+{'model': 'HUAWEI P7-L00', 'version': '5.1.1', 'build': 'HuaweiP7-L00'}
+{'model': 'NEM-UL10', 'version': '6.0', 'build': 'HONORNEM-UL10; wv'}
+{'model': 'SM-N950N', 'version': '7.1.1', 'build': 'NMF26X; wv'}
+{'model': 'PRA-AL00X', 'version': '7.0', 'build': 'HONORPRA-AL00X'}
+{'model': 'X9', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'R2010', 'version': '4.3', 'build': 'JLS36C'}
+{'model': 'MI 4C', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'vivo Xplay6L', 'version': '7.1.1', 'build': 'NMF26F; wv'}
+{'model': 'F8332', 'version': '7.0', 'build': '39.2.A.0.417'}
+{'model': 'F106', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'Caesar', 'version': '7.1.1', 'build': 'NMF26F'}
+{'model': 'OPPO R9km', 'version': '5.1', 'build': 'LMY47I; wv'}
+{'model': '1505-A02', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'LA-X5', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'ZTE BA611T', 'version': '5.1', 'build': 'LMY47D; wv'}
+{'model': '1501-A02', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'SM-N920T', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'vivo Y66L', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'SM-A7100', 'version': '5.1.1', 'build': 'LMY47X'}
+{'model': '8848 M4', 'version': '7.1.2', 'build': 'N2G47H'}
+{'model': 'SM-G7106', 'version': '4.3', 'build': 'JLS36C'}
+{'model': 'm2 note', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'vivo Y622', 'version': '4.2.2', 'build': 'JDQ39'}
+{'model': 'LA-S6', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'Laaboo V3', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'Redmi Pro', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'M836', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'SLA-TL10', 'version': '7.0', 'build': 'HUAWEISLA-TL10'}
+{'model': 'MX4', 'version': '4.4.2', 'build': 'KOT49H'}
+{'model': 'YD201', 'version': '5.0', 'build': 'LRX21M'}
+{'model': 'EVA-DL00', 'version': '6.0', 'build': 'HUAWEIEVA-DL00; wv'}
+{'model': 'V11-PLUS', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'HM NOTE 1W', 'version': '4.2.2', 'build': 'JDQ39'}
+{'model': 'MK260', 'version': '4.2.2', 'build': 'JDQ39'}
+{'model': 'SM-N9200', 'version': '6.0.1', 'build': 'MMB29K'}
+{'model': 'TRT-TL10', 'version': '7.0', 'build': 'HUAWEITRT-TL10; wv'}
+{'model': 'Bird L600', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'OPPO R11', 'version': '5.1', 'build': 'LMY47I'}
+{'model': 'MI 4W', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'OD105', 'version': '7.1.1', 'build': 'NMF26F'}
+{'model': 'GN5002', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'vivo X710L', 'version': '4.4.2', 'build': 'KVT49L'}
+{'model': 'BLN-AL10', 'version': '7.0', 'build': 'HONORBLN-AL10; wv'}
+{'model': 'C1330', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'vivo X9', 'version': '7.1.1', 'build': 'NMF26F'}
+{'model': 'HTC 802t', 'version': '5.0.2', 'build': 'LRX22G'}
+{'model': '3000', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'Le X620', 'version': '6.0', 'build': 'HEXCNFN5601904221S'}
+{'model': 'A1001', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'vivo X5F', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'vivo X9Plus L', 'version': '7.1.1', 'build': 'NMF26F'}
+{'model': 'vivo Y51A', 'version': '5.0.2', 'build': 'LRX22G'}
+{'model': 'PRO 5', 'version': '7.0', 'build': 'NRD90M; wv'}
+{'model': 'Coolpad 8737', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'KING 7S', 'version': '5.1', 'build': 'PP6000_230I'}
+{'model': 'LON-AL00', 'version': '7.0', 'build': 'HUAWEILON-AL00; wv'}
+{'model': 'Mi-4c', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'Le X621', 'version': '6.0', 'build': 'HCXCNCT5801809301S'}
+{'model': 'Mytel', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'ZTE G720T', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'OPPO A33', 'version': '5.1.1', 'build': 'LMY47V; wv'}
+{'model': 'ZTE B2015', 'version': '5.1.1', 'build': 'LMY47V; wv'}
+{'model': 'GN5005', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'vivo X9i', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': '4G', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'SM-G9280', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'LEX651', 'version': '6.0', 'build': 'KGXCNFN5902003141S'}
+{'model': 'OPPO A33m', 'version': '5.1.1', 'build': 'LMY47V; wv'}
+{'model': 'BTV-DL09', 'version': '7.0', 'build': 'HUAWEIBEETHOVEN-DL09; wv'}
+{'model': 'vivo X7Plus', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'KOB-L09', 'version': '7.0', 'build': 'HUAWEIKOB-L09'}
+{'model': 'vivo X9L', 'version': '7.1.1', 'build': 'NMF26F; wv'}
+{'model': 'X9000', 'version': '4.3', 'build': 'JLS36C'}
+{'model': 'X600', 'version': '6.0', 'build': 'AAXCNCU5902605181S; wv'}
+{'model': 'vivo Y67A', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'Lenovo A938t', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'GN5003', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'HUAWEI G628-TL00', 'version': '4.4.4', 'build': 'HUAWEIG628-TL00'}
+{'model': 'NX531J', 'version': '7.1.1', 'build': 'NMF26F'}
+{'model': 'M5 Note', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'C106-9', 'version': '6.0.1', 'build': 'ZCXCNCT5801712291S'}
+{'model': 'SM-G9280', 'version': '6.0.1', 'build': 'MMB29K; wv'}
+{'model': 'CHM-TL00H', 'version': '4.4.2', 'build': 'HonorCHM-TL00H'}
+{'model': 'OPPO R9st', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'R7c', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'Coolpad Y803-9', 'version': '5.1', 'build': 'LMY47D; wv'}
+{'model': 'H60-L03', 'version': '4.4.2', 'build': 'HDH60-L03'}
+{'model': 'Letv X502', 'version': '5.0.2', 'build': 'DBXCNOP5501304131S'}
+{'model': 'OD103', 'version': '7.1.1', 'build': 'NMF26F'}
+{'model': 'F8331', 'version': '7.0', 'build': '39.2.A.0.417'}
+{'model': 'HTC U-1w', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'MX5', 'version': '5.1', 'build': 'LMY47I'}
+{'model': 'm3 note', 'version': '5.1', 'build': 'LMY47I'}
+{'model': 'NX569H', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'ZTE Q7', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'KIW-TL00H', 'version': '6.0.1', 'build': 'HONORKIW-TL00H'}
+{'model': 'SM-G9508', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'HUAWEI NXT-AL10', 'version': '7.0', 'build': 'HUAWEINXT-AL10; wv'}
+{'model': 'HUAWEI MT7-TL10', 'version': '6.0', 'build': 'HuaweiMT7-TL10; wv'}
+{'model': '2014501', 'version': '4.4.2', 'build': 'KOT49H'}
+{'model': 'SM-N920S', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'NX513J', 'version': '5.1.1', 'build': 'LMY47V; wv'}
+{'model': 'HTC E9pw', 'version': '5.0.2', 'build': 'LRX22G'}
+{'model': 'PIC-TL00', 'version': '7.0', 'build': 'HUAWEIPIC-TL00; wv'}
+{'model': 'OPPO R9st', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': '2014813', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'MX4 Pro', 'version': '5.1.1', 'build': 'LMY48W'}
+{'model': 'XT1085', 'version': '5.1', 'build': 'LPES23.32-70-5; wv'}
+{'model': 'Redmi 3X', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'ALP-AL00', 'version': '8.0.0', 'build': 'HUAWEIALP-AL00; wv'}
+{'model': 'Le X520', 'version': '6.0.1', 'build': 'IEXCNFN5801507019S; wv'}
+{'model': 'Coolpad 8297W', 'version': '4.2.2', 'build': 'JDQ39'}
+{'model': 'NX549J', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'SM-E7000', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'SM-N920K', 'version': '7.0', 'build': 'NRD90M; wv'}
+{'model': 'XT1085', 'version': '5.1', 'build': 'LPE23.32-70'}
+{'model': 'OPPO R11 Plus', 'version': '7.1.1', 'build': 'NMF26X; wv'}
+{'model': 'Le X620', 'version': '6.0', 'build': 'HBXCNCU5902605181S'}
+{'model': 'ZUK Z2121', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'BOWAY_V95', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'X-apple', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'vivo X5Max V', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'TCL 750', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'koobee S500Q', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'vivo X7L', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'Coolpad 7620L', 'version': '4.3', 'build': 'JLS36C'}
+{'model': 'DLI-AL10', 'version': '7.0', 'build': 'HONORDLI-AL10'}
+{'model': 'OPPO R9m', 'version': '5.1', 'build': 'LMY47I; wv'}
+{'model': 'NX403A', 'version': '4.2.2', 'build': 'JDQ39'}
+{'model': 'M3X', 'version': '6.0.1', 'build': 'MMB29U; wv'}
+{'model': 'SCL-TL00', 'version': '5.1.1', 'build': 'HonorSCL-TL00'}
+{'model': 'HUAWEI TAG-CL00', 'version': '5.1', 'build': 'HUAWEITAG-CL00'}
+{'model': 'OPPO R9 Plustm A', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'TCL 580', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'STF-AL10', 'version': '7.0', 'build': 'HUAWEISTF-AL10; wv'}
+{'model': 'Coolpad 8675-A', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'Letv X501', 'version': '5.0.2', 'build': 'DBXCNOP5501304131S'}
+{'model': 'koobee H9', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'SM-N910C', 'version': '6.0.1', 'build': 'MMB29K'}
+{'model': 'KOOMII-K19', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'PLE-703L', 'version': '5.1.1', 'build': 'HuaweiMediaPad; wv'}
+{'model': 'ONE A2001', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'BLN-AL30', 'version': '7.0', 'build': 'HONORBLN-AL30'}
+{'model': 'vivo Xplay5S', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'SM-C5010', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'ZUK Z1', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'VS990', 'version': '5.1.1', 'build': 'LMY47V; wv'}
+{'model': 'Letv X500', 'version': '6.0', 'build': 'DBXCNOP5801810092S'}
+{'model': 'Nexus 5X', 'version': '6.0.1', 'build': 'MOB31T'}
+{'model': 'X600', 'version': '6.0', 'build': 'AAXCNCU5801810201S'}
+{'model': 'DLI-AL10', 'version': '7.0', 'build': 'HONORDLI-AL10; wv'}
+{'model': 'GIONEE S10', 'version': '7.0', 'build': 'NRD90M; wv'}
+{'model': 'G0111', 'version': '4.4.4', 'build': '1.1.4639_20160331'}
+{'model': 'm2', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'SM-N9100', 'version': '5.1.1', 'build': 'LMY47X; wv'}
+{'model': 'PRA-AL00X', 'version': '7.0', 'build': 'HONORPRA-AL00X; wv'}
+{'model': 'Lenovo A7600', 'version': '5.0.2', 'build': 'LRX21M'}
+{'model': 'Le X620', 'version': '6.0', 'build': 'HEXCNFN5902604241S'}
+{'model': 'BLN-AL40', 'version': '7.0', 'build': 'HONORBLN-AL40; wv'}
+{'model': 'KNT-AL10', 'version': '7.0', 'build': 'HUAWEIKNT-AL10; wv'}
+{'model': 'C630Lw', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'LEX626', 'version': '6.0', 'build': 'HEXCNFN5801811241S; wv'}
+{'model': '2014813', 'version': '5.1.1', 'build': 'LMY47V; wv'}
+{'model': 'vivo X9s', 'version': '7.1.1', 'build': 'NMF26F; wv'}
+{'model': '100Cw', 'version': '4.2.2', 'build': 'JDQ39'}
+{'model': 'M612C', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'LG-H961N', 'version': '7.0', 'build': 'NRD90U'}
+{'model': 'CPN-AL00', 'version': '7.0', 'build': 'HUAWEICPN-AL00; wv'}
+{'model': 'DOOV L1M', 'version': '4.4.4', 'build': 'DOOVL1M'}
+{'model': 'Letv X500', 'version': '5.0.2', 'build': 'DBXCNOP5501001304S'}
+{'model': 'Lenovo A3910e70', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'SM-C1116', 'version': '4.4.2', 'build': 'KOT49H'}
+{'model': 'GIONEE S10L', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'LA-S7', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'X800+', 'version': '6.0.1', 'build': 'BEXCNFN5902605111S; wv'}
+{'model': 'LEX650', 'version': '6.0', 'build': 'KGXCNFN5902605181S'}
+{'model': 'KIW-UL00', 'version': '6.0.1', 'build': 'HONORKIW-UL00'}
+{'model': 'SM-T705C', 'version': '4.4.2', 'build': 'KOT49H'}
+{'model': 'KIW-UL00', 'version': '6.0.1', 'build': 'HONORKIW-UL00; wv'}
+{'model': 'VKY-AL00', 'version': '7.0', 'build': 'HUAWEIVKY-AL00; wv'}
+{'model': 'Redmi Note 3', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'HUAWEI MLA-AL00', 'version': '7.0', 'build': 'HUAWEIMLA-AL00; wv'}
+{'model': 'MX5', 'version': '5.0.1', 'build': 'LRX22C'}
+{'model': 'NEM-AL10', 'version': '6.0', 'build': 'HONORNEM-AL10; wv'}
+{'model': 'SM-G9287', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'M1 E', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'MYA-AL10', 'version': '6.0', 'build': 'HONORMYA-AL10'}
+{'model': 'HUAWEI NXT-DL00', 'version': '6.0', 'build': 'HUAWEINXT-DL00; wv'}
+{'model': 'm1 note', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'GT-I9500', 'version': '4.4.2', 'build': 'KOT49H'}
+{'model': 'SM-N9008S', 'version': '4.3', 'build': 'JSS15J'}
+{'model': 'vivo Y13L', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'M3s', 'version': '5.1', 'build': 'LMY47I; wv'}
+{'model': 'G8232', 'version': '7.1.1', 'build': '41.2.A.7.76'}
+{'model': 'FRD-AL00', 'version': '6.0', 'build': 'HUAWEIFRD-AL00'}
+{'model': 'Le X520', 'version': '6.0.1', 'build': 'IEXCNFN5801507019S'}
+{'model': 'Le X620', 'version': '6.0', 'build': 'HEXCNFN5902012151S; wv'}
+{'model': 'PIC-TL00', 'version': '7.0', 'build': 'HUAWEIPIC-TL00'}
+{'model': 'SM-N920T', 'version': '6.0.1', 'build': 'MMB29K; wv'}
+{'model': 'MI NOTE LTE', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'KOPO K11', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'SM-A8000', 'version': '5.1.1', 'build': 'LMY47X; wv'}
+{'model': 'GIONEE S10CL', 'version': '7.1.1', 'build': 'NMF26F'}
+{'model': 'LG-H818', 'version': '5.1', 'build': 'LMY47D; wv'}
+{'model': 'MP1512', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'Redmi 3X', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'ZUK Z2121', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'PRO 6s', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'SM-G925W8', 'version': '7.0', 'build': 'NRD90M; wv'}
+{'model': 'ZTE A2018', 'version': '6.0.1', 'build': 'MXB48T; wv'}
+{'model': 'JDN-AL00', 'version': '6.0.1', 'build': 'HuaweiMediaPad; wv'}
+{'model': 'SM-C101', 'version': '4.2.2', 'build': 'JDQ39'}
+{'model': 'ZUK Z2121', 'version': '7.0', 'build': 'NRD90M; wv'}
+{'model': 'PLE-703L', 'version': '5.1.1', 'build': 'HuaweiMediaPad'}
+{'model': 'NEM-UL10', 'version': '7.0', 'build': 'HONORNEM-UL10'}
+{'model': 'SM-G5520', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'SM-N9005', 'version': '5.0', 'build': 'LRX21V; wv'}
+{'model': 'vivo X7Plus', 'version': '7.1.1', 'build': 'NMF26F; wv'}
+{'model': 'GN8002', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'KNT-AL20', 'version': '6.0', 'build': 'HUAWEIKNT-AL20'}
+{'model': 'E6883', 'version': '5.1.1', 'build': '32.0.A.6.209'}
+{'model': 'PRO 6', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'F5', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'HUAWEI GRA-UL00', 'version': '6.0', 'build': 'HUAWEIGRA-UL00'}
+{'model': 'NTS-AL00', 'version': '6.0', 'build': 'HUAWEINTS-AL00'}
+{'model': 'Le X620', 'version': '6.0', 'build': 'HBXCNCU5902303291S'}
+{'model': 'Le X528', 'version': '6.0.1', 'build': 'IJXCNCM5902012311S; wv'}
+{'model': 'M571C', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'M685C', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'vivo X6SPlus D', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'vivo Y17W', 'version': '4.2.2', 'build': 'JDQ39'}
+{'model': 'SM-C7010', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'MI 4S', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'vivo X9', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'GEM-703L', 'version': '5.1.1', 'build': 'HUAWEIGEM-703L'}
+{'model': 'Xperia Z3', 'version': '5.0.2', 'build': '23.2.A.1.62'}
+{'model': 'SM-G925F', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'FDR-A03L', 'version': '5.1.1', 'build': 'HuaweiMediaPad'}
+{'model': 'HUAWEI CAZ-AL10', 'version': '6.0', 'build': 'HUAWEICAZ-AL10; wv'}
+{'model': 'XT1635-03', 'version': '6.0.1', 'build': 'MCNS24.104-35.2-3'}
+{'model': 'Redmi Note 2', 'version': '5.0.2', 'build': 'LRX22G'}
+{'model': 'C106', 'version': '6.0.1', 'build': 'ZAXCNFN5801712291S'}
+{'model': 'F105', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'Letv X500', 'version': '6.0', 'build': 'DAXCNCU5902605181S; wv'}
+{'model': 'NX505H', 'version': '4.4.2', 'build': 'KVT49L'}
+{'model': 'C1', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'ZTE BV0710T', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'HUAWEI eH880', 'version': '6.0', 'build': 'HUAWEINXT-XD00'}
+{'model': 'Lenovo K80M', 'version': '4.4.4', 'build': 'S100'}
+{'model': 'PLK-UL00', 'version': '5.0.2', 'build': 'HONORPLK-UL00; wv'}
+{'model': 'SM-G6000', 'version': '5.1.1', 'build': 'LMY47X; wv'}
+{'model': 'FS8010', 'version': '7.1.1', 'build': 'NMF26X; wv'}
+{'model': 'ZTE BV0720', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'ZTE N939St', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'OPPO R9 Plusm A', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'Redmi 4', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'SM-G9280', 'version': '6.0.1', 'build': 'MMB29K'}
+{'model': 'STF-TL10', 'version': '7.0', 'build': 'HUAWEISTF-TL10; wv'}
+{'model': 'NX507J', 'version': '4.4.2', 'build': 'KVT49L'}
+{'model': 'Redmi Pro', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'MI 5', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'SM-G925A', 'version': '5.1.1', 'build': 'LMY47X'}
+{'model': 'TCL Y910', 'version': '4.2.2', 'build': 'JDQ39'}
+{'model': 'SM-G9300', 'version': '6.0.1', 'build': 'MMB29K'}
+{'model': 'SM-G9300', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'Coolpad 5370', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'ZTE B2015', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'NX907J', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'Coolpad Y891', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'OPPO R9tm', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'X9070', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'MX6', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'HTC X9u', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'XT1085', 'version': '5.0.2', 'build': 'LXE22.92-15'}
+{'model': 'XT1635-03', 'version': '7.1.1', 'build': 'NCNS26.118-32-1-3'}
+{'model': 'vivo X9s Plus', 'version': '7.1.1', 'build': 'NMF26F'}
+{'model': 'SM-G900F', 'version': '4.4.2', 'build': 'KOT49H'}
+{'model': 'SM-G9350', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'NX573J', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'OPPO R11Plus', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'SM-A5108', 'version': '6.0.1', 'build': 'MMB29K'}
+{'model': 'OWWO 5S', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'F1w', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'R7Plus', 'version': '5.0', 'build': 'LRX21M'}
+{'model': 'KNT-UL10', 'version': '6.0', 'build': 'HUAWEIKNT-UL10'}
+{'model': 'PRO 6 Plus', 'version': '6.0.1', 'build': 'MMB29T'}
+{'model': 'Le X621', 'version': '6.0', 'build': 'HEXCNFN5801708221S; wv'}
+{'model': '4G', 'version': '5.3', 'build': 'LMY47D'}
+{'model': 'KIW-UL00', 'version': '5.1.1', 'build': 'HONORKIW-UL00; wv'}
+{'model': 'HTC M10h', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'SM-G9208', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'PE-UL00', 'version': '6.0', 'build': 'HuaweiPE-UL00; wv'}
+{'model': 'vivo Y67', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': '4G', 'version': '6.1', 'build': 'MRA58K'}
+{'model': 'H30-U10', 'version': '4.4.2', 'build': 'HuaweiH30-U10'}
+{'model': 'HUAWEI MLA-AL10', 'version': '7.0', 'build': 'HUAWEIMLA-AL10; wv'}
+{'model': 'NX549J', 'version': '7.1.2', 'build': 'NJH47F'}
+{'model': 'Le X520', 'version': '6.0.1', 'build': 'IEXCNFN5902303111S'}
+{'model': 'U10', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'MI 5X', 'version': '7.1.2', 'build': 'N2G47H; wv'}
+{'model': 'SM-G9308', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'BLN-TL10', 'version': '7.0', 'build': 'HONORBLN-TL10; wv'}
+{'model': 'ZJ108-R9', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'GN8001', 'version': '5.1', 'build': 'LMY47D; wv'}
+{'model': 'HUAWEI RIO-UL00', 'version': '6.0.1', 'build': 'HUAWEIRIO-UL00; wv'}
+{'model': 'ASUS_X550', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'Lenovo A3910e70', 'version': '5.1.1', 'build': 'LMY47V; wv'}
+{'model': 'OPPO A77t', 'version': '7.1.1', 'build': 'NMF26F; wv'}
+{'model': 'vivo X9s', 'version': '7.1.1', 'build': 'NMF26F'}
+{'model': 'SM-G9250', 'version': '6.0.1', 'build': 'MMB29K; wv'}
+{'model': '305SH', 'version': '4.4.2', 'build': 'S0020'}
+{'model': 'vivo X710L', 'version': '4.3', 'build': 'JLS36C'}
+{'model': 'MHA-AL00', 'version': '7.0', 'build': 'HUAWEIMHA-AL00; wv'}
+{'model': 'BLN-AL10', 'version': '6.0', 'build': 'HONORBLN-AL10; wv'}
+{'model': 'GIONEE S10', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'SM-J3110', 'version': '5.1.1', 'build': 'LMY47X; wv'}
+{'model': 'PE-CL00', 'version': '4.4.2', 'build': 'HuaweiPE-CL00'}
+{'model': 'vivo X9Plus L', 'version': '7.1.1', 'build': 'NMF26F; wv'}
+{'model': 'SM-T805C', 'version': '4.4.2', 'build': 'KOT49H'}
+{'model': 'vivo Y79A', 'version': '7.1.2', 'build': 'N2G47H; wv'}
+{'model': 'Lenovo P70-A', 'version': '4.4.4', 'build': 'KOT49H'}
+{'model': 'MHA-TL00', 'version': '7.0', 'build': 'HUAWEIMHA-TL00'}
+{'model': 'H30-U10', 'version': '4.2.2', 'build': 'HuaweiH30-U10'}
+{'model': 'ZUK Z2131', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'DB6PLUS', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'GN3002L', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'OPPO A59st', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'Note4X', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'GEM-703LT', 'version': '6.0', 'build': 'HUAWEIGEM-703LT'}
+{'model': 'DOOV L5', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'LEX720', 'version': '6.0.1', 'build': 'WAXCNFN5902606012S'}
+{'model': 'M651CY', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'F8132', 'version': '7.1.1', 'build': '41.2.A.7.8'}
+{'model': 'MI 5s', 'version': '7.1.2', 'build': 'NJH47F'}
+{'model': '1515-A01', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'ALE-UL00', 'version': '6.0', 'build': 'HuaweiALE-UL00'}
+{'model': 'SM-N9500', 'version': '7.1.1', 'build': 'NMF26X; wv'}
+{'model': 'M353', 'version': '4.2.1', 'build': 'JOP40D'}
+{'model': 'X1 7.0', 'version': '4.4.2', 'build': 'HuaweiMediaPad'}
+{'model': 'SM-N9100', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'SM-G5700', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'SM-C9000', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'OPPO A59s', 'version': '5.1', 'build': 'LMY47I; wv'}
+{'model': 'M5 Note', 'version': '6.0', 'build': 'MRA58K'}
+{'model': '??', 'version': '5.1', 'build': 'LMY47I'}
+{'model': 'SM-N910H', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'ONEPLUS A3000', 'version': '7.1.1', 'build': 'NMF26F; wv'}
+{'model': 'Letv X501', 'version': '6.0', 'build': 'DBXCNOP5902605181S.AT121'}
+{'model': 'MeituM2', 'version': '4.2.2', 'build': 'JDQ39'}
+{'model': 'G0215D', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'R8200', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'HUAWEI MT7-UL00', 'version': '5.1.1', 'build': 'HuaweiMT7-UL00'}
+{'model': 'PRO 6s', 'version': '7.1.1', 'build': 'NMF26O'}
+{'model': 'vivo Y55L', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'Palace', 'version': '7.1.1', 'build': 'NMF26F; wv'}
+{'model': 'MX4', 'version': '5.1', 'build': 'LMY47I; wv'}
+{'model': 'C106-9', 'version': '6.0.1', 'build': 'ZCXCNCT5902606201S'}
+{'model': 'Redmi 3S', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'Mi Note 2', 'version': '7.0', 'build': 'NRD90M; wv'}
+{'model': 'HTC U-3w', 'version': '7.1.1', 'build': 'NMF26X'}
+{'model': 'NEM-TL00', 'version': '6.0', 'build': 'HONORNEM-TL00'}
+{'model': 'MI 2', 'version': '5.0.2', 'build': 'LRX22G; wv'}
+{'model': 'SM-G928A', 'version': '5.1.1', 'build': 'LMY47X'}
+{'model': 'GT-I9500', 'version': '5.0.1', 'build': 'LRX22C; wv'}
+{'model': '??', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'HUAWEI P8max', 'version': '6.0', 'build': 'HUAWEIDAV-703L'}
+{'model': 'F100B', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'TCL M2U', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'Le X520', 'version': '6.0.1', 'build': 'IEXCNFN5507602152D'}
+{'model': 'R8207', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'NX512J', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'SUGAR F11', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'Lenovo P1c58', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'HTC D816w', 'version': '4.4.2', 'build': 'KOT49H'}
+{'model': 'FRD-DL00', 'version': '6.0', 'build': 'HUAWEIFRD-DL00'}
+{'model': 'CAM-UL00', 'version': '6.0', 'build': 'HONORCAM-UL00; wv'}
+{'model': 'OPPO R11t', 'version': '7.1.1', 'build': 'NMF26X'}
+{'model': 'Lenovo A3600-d', 'version': '4.4.2', 'build': 'LenovoA3600-d'}
+{'model': 'GN5001S', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'CHM-UL00', 'version': '6.0', 'build': 'HonorCHM-UL00; wv'}
+{'model': 'CK3-01', 'version': '5.1', 'build': 'LMY47D; wv'}
+{'model': 'SM-J710F', 'version': '6.0.1', 'build': 'MMB29K'}
+{'model': 'Che2-UL00', 'version': '6.0', 'build': 'HonorChe2-UL00'}
+{'model': 'KIW-AL10', 'version': '6.0.1', 'build': 'HONORKIW-AL10'}
+{'model': 'M611D', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'MI NOTE LTE', 'version': '8.0.0', 'build': 'OPR6.170623.012'}
+{'model': 'vivo Y66', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'V183', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'Letv X501', 'version': '6.0', 'build': 'DBXCNOP5902605181S'}
+{'model': 'MI MAX', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'HUAWEI P6-C00', 'version': '4.2.2', 'build': 'HuaweiP6-C00'}
+{'model': 'SM-G925A', 'version': '6.0.1', 'build': 'MMB29K'}
+{'model': 'ZUK Z2121', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'Y09', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'SM-J700F', 'version': '5.1.1', 'build': 'LMY48B'}
+{'model': 'F100S', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'Letv X501', 'version': '5.0.2', 'build': 'DBXCNOP5501001303S'}
+{'model': 'GIONEE S10C', 'version': '7.1.1', 'build': 'NMF26F'}
+{'model': 'SM-G9500', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'Le X820', 'version': '6.0.1', 'build': 'FEXCNFN5801607221S'}
+{'model': '1605-A01', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'X900+', 'version': '6.0.1', 'build': 'CEXCNFN5801810191S; wv'}
+{'model': 'SM-G900P', 'version': '6.0.1', 'build': 'MOB31E; wv'}
+{'model': 'ZTE BV0710T', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'HUAWEI G610-U00', 'version': '4.2.1', 'build': 'HuaweiG610-U00'}
+{'model': 'SM-N9008V', 'version': '5.0', 'build': 'LRX21V'}
+{'model': 'Le X820', 'version': '6.0.1', 'build': 'FEXCNFN5902012151S'}
+{'model': 'HDN-W09', 'version': '7.0', 'build': 'HUAWEIHDN-W09'}
+{'model': 'vivo X9s L', 'version': '7.1.1', 'build': 'NMF26F; wv'}
+{'model': 'CAM-TL00', 'version': '6.0', 'build': 'HONORCAM-TL00'}
+{'model': 'vivo X20Plus', 'version': '7.1.1', 'build': 'NMF26X; wv'}
+{'model': 'M621C-S', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'E6683', 'version': '5.1.1', 'build': '32.0.A.6.209'}
+{'model': 'HUAWEI GRA-UL10', 'version': '5.0', 'build': 'HUAWEIGRA-UL10'}
+{'model': 'HUAWEI RIO-AL00', 'version': '5.1', 'build': 'HuaweiRIO-AL00; wv'}
+{'model': 'dazen X7', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'N5117', 'version': '4.3', 'build': 'JLS36C'}
+{'model': 'SM-A5100', 'version': '5.1.1', 'build': 'LMY47X'}
+{'model': 'Redmi Note 4X', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'MP1503', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'Lenovo K51c78', 'version': '5.1', 'build': 'LMY47D; wv'}
+{'model': 'E6533', 'version': '5.0.2', 'build': '28.0.A.7.24'}
+{'model': 'S8', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'OPPO A37t', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'DOOV L5Pro', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'SM-G1600', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'PRO 6', 'version': '7.1.1', 'build': 'NMF26O'}
+{'model': '4G', 'version': '6.0', 'build': 'DQ; wv'}
+{'model': 'Meizu', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'Le X620', 'version': '6.0', 'build': 'HEXCNFN5601405171S'}
+{'model': 'X9077', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'FRD-AL10', 'version': '6.0', 'build': 'HUAWEIFRD-AL10; wv'}
+{'model': 'NCE-AL00', 'version': '6.0', 'build': 'HUAWEINCE-AL00'}
+{'model': 'LON-AL00-PD', 'version': '7.0', 'build': 'HUAWEILON-AL00; wv'}
+{'model': 'SM-G9006V', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'Le X820', 'version': '6.0.1', 'build': 'MOB31T'}
+{'model': 'E6883', 'version': '7.1.1', 'build': '32.4.A.1.54; wv'}
+{'model': 'E6683', 'version': '5.1.1', 'build': '32.0.A.6.152'}
+{'model': 'FDR-A01w', 'version': '5.1.1', 'build': 'HuaweiMediaPad'}
+{'model': 'Hisense A2', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'HUAWEI CAZ-AL10', 'version': '7.0', 'build': 'HUAWEICAZ-AL10'}
+{'model': 'HUAWEI CRR-UL00', 'version': '6.0', 'build': 'HUAWEICRR-UL00'}
+{'model': 'ZTE B2015', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'YU FLY F9', 'version': '7.1.1', 'build': 'NMF26F; wv'}
+{'model': 'ZTE BV0710', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'vivo Y66', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'vivo Xplay6', 'version': '6.0.1', 'build': 'MXB48T'}
+{'model': 'G8232', 'version': '7.1.1', 'build': '41.2.A.7.53; wv'}
+{'model': 'SM-A5000', 'version': '5.0.2', 'build': 'LRX22G; wv'}
+{'model': 'HUAWEI MLA-AL00', 'version': '6.0', 'build': 'HUAWEIMLA-AL00; wv'}
+{'model': 'MHA-AL00', 'version': '8.0.0', 'build': 'HUAWEIMHA-AL00; wv'}
+{'model': 'vivo Y51n', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'SM-G9350', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'SM-A7000', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'Che1-CL20', 'version': '4.4.4', 'build': 'Che1-CL20'}
+{'model': 'GN5001S', 'version': '5.1', 'build': 'LMY47D; wv'}
+{'model': 'SM901', 'version': '6.0.1', 'build': 'MXB48T'}
+{'model': 'VKY-TL00', 'version': '7.0', 'build': 'HUAWEIVKY-TL00; wv'}
+{'model': 'Le X620', 'version': '6.0', 'build': 'HEXCNFN5902012151S'}
+{'model': 'M5', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'DOOV A8', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'SM-G5108Q', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'conquest-S8', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'GN3001', 'version': '5.1', 'build': 'LMY47I'}
+{'model': 'SM-N9006', 'version': '4.4.2', 'build': 'KOT49H'}
+{'model': 'Coolpad A8-930', 'version': '5.1.1', 'build': 'LMY47V; wv'}
+{'model': 'NOAIN_K3', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'x600', 'version': '6.0', 'build': 'ABXCNOP5902605181S; wv'}
+{'model': 'M6SPlus', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'Mi-4c', 'version': '5.1.1', 'build': 'LMY47V; wv'}
+{'model': 'SM-G9006V', 'version': '5.0', 'build': 'LRX21T'}
+{'model': 'VTR-TL00', 'version': '7.0', 'build': 'HUAWEIVTR-TL00'}
+{'model': 'AGS-L09', 'version': '7.0', 'build': 'HUAWEIAGS-L09'}
+{'model': 'Letv X501', 'version': '6.0', 'build': 'DBXCNOP5902605181S; wv'}
+{'model': 'vivo Y55L', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'PP5600', 'version': '5.1', 'build': 'PP56002D_REL_111I'}
+{'model': 'OPPO A59st', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'Le X820', 'version': '6.0.1', 'build': 'FEXCNFN5902605092S'}
+{'model': 'DOOV V15', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'M1', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'vivo Y35', 'version': '5.0', 'build': 'LRX21M'}
+{'model': 'GN3002', 'version': '5.1', 'build': 'LMY47D; wv'}
+{'model': 'SS2-01', 'version': '5.1.1', 'build': 'LMY47V; wv'}
+{'model': 'SM-C5000', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'YQ603', 'version': '5.1.1', 'build': 'LMY47V; wv'}
+{'model': 'VIE-AL10', 'version': '6.0', 'build': 'HUAWEIVIE-AL10; wv'}
+{'model': 'GN5001', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'Letv X501', 'version': '6.0', 'build': 'DBXCNOP5902303111S'}
+{'model': 'Lenovo P1c72', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'VIE-AL10', 'version': '7.0', 'build': 'HUAWEIVIE-AL10; wv'}
+{'model': 'HUAWEI MT7-UL00', 'version': '4.4.2', 'build': 'HuaweiMT7-UL00'}
+{'model': 'SBM303SH', 'version': '4.2.2', 'build': 'S0018'}
+{'model': 'SM-A7100', 'version': '5.1.1', 'build': 'LMY47X; wv'}
+{'model': 'OPPO R11', 'version': '7.1.1', 'build': 'NMF26X'}
+{'model': '8692-M02', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'Pixel', 'version': '8.0.0', 'build': 'OPR3.170623.008'}
+{'model': 'KNT-UL10', 'version': '7.0', 'build': 'HUAWEIKNT-UL10; wv'}
+{'model': 'vivo Y53L', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'EDI-AL10', 'version': '7.0', 'build': 'HUAWEIEDISON-AL10; wv'}
+{'model': 'SM-N910U', 'version': '5.0.1', 'build': 'LRX22C'}
+{'model': 'HUAWEI CAZ-TL10', 'version': '7.0', 'build': 'HUAWEICAZ-TL10'}
+{'model': 'ONEPLUS A3010', 'version': '6.0.1', 'build': 'MXB48T; wv'}
+{'model': 'XT1710-08', 'version': '7.1.1', 'build': 'NZS26.71-97-41; wv'}
+{'model': 'Lenovo K50-t5', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'M621C-S', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'ZTE C2016', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'Redmi Note 2', 'version': '5.0.2', 'build': 'LRX22G; wv'}
+{'model': 'MI NOTE LTE', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'Le X620', 'version': '6.0', 'build': 'HBXCNCU5801708221S'}
+{'model': 'Le X620', 'version': '6.0', 'build': 'HEXCNFN5902606141S; wv'}
+{'model': 'MI 3W', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'MI 5s', 'version': '6.0.1', 'build': 'MXB48T'}
+{'model': 'KNT-AL10', 'version': '7.0', 'build': 'HUAWEIKNT-AL10'}
+{'model': 'Coolpad Y82-900', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'XT1635-03', 'version': '6.0.1', 'build': 'MCN24.104-35.2'}
+{'model': 'PE-TL10', 'version': '6.0', 'build': 'HuaweiPE-TL10'}
+{'model': 'Mi Note 2', 'version': '6.0.1', 'build': 'MXB48T'}
+{'model': 'Letv X501', 'version': '5.0.2', 'build': 'DAXCNCU5501001304S'}
+{'model': 'SM-N9002', 'version': '4.3', 'build': 'JSS15J'}
+{'model': 'HUAWEI MT7-TL10', 'version': '6.0', 'build': 'HuaweiMT7-TL10'}
+{'model': 'm1 metal', 'version': '5.1', 'build': 'LMY47I'}
+{'model': 'HTC D830u', 'version': '5.1', 'build': 'LMY47D; wv'}
+{'model': 'ZTE A2015', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'SM-C9000', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'vivo X5V', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'FRD-AL10', 'version': '7.0', 'build': 'HUAWEIFRD-AL10'}
+{'model': 'KIW-AL10', 'version': '5.1.1', 'build': 'HONORKIW-AL10; wv'}
+{'model': 'SM-G955N', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'MI NOTE Pro', 'version': '5.1.1', 'build': 'LMY47V; wv'}
+{'model': 'SM-N9150', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': '8681-M02', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'F8332', 'version': '7.1.1', 'build': '41.2.A.7.76'}
+{'model': 'ChanghongS06', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'SUGAR F7', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'ASUS_X008', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'Coolpad V1-T', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': '3007', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'Le X528', 'version': '6.0.1', 'build': 'IJXCNCM5902605131S; wv'}
+{'model': 'lephone W9', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'LEX651', 'version': '6.0', 'build': 'KGXCNFN5902605181S; wv'}
+{'model': 'SM-G5510', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'Coolpad Y72-921', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'U20', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'HUAWEI TAG-AL00', 'version': '5.1', 'build': 'HUAWEITAG-AL00; wv'}
+{'model': 'U10', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'HUAWEI MT7-CL00', 'version': '6.0', 'build': 'HuaweiMT7-CL00'}
+{'model': 'HM 1SW', 'version': '4.3', 'build': 'JLS36C'}
+{'model': 'X900', 'version': '6.0.1', 'build': 'CBXCNOP5902605091S'}
+{'model': 'SM-G9280', 'version': '5.1.1', 'build': 'LMY47X'}
+{'model': 'Lenovo K51c78', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'V18H', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'OPPO R11 PLUS', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'MI 4S', 'version': '7.0', 'build': 'NRD90M; wv'}
+{'model': 'OPPO R9tm', 'version': '5.1', 'build': 'LMY47I; wv'}
+{'model': 'SM-G5308W', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'Letv X501', 'version': '6.0', 'build': 'DAXCNCU5801810201S'}
+{'model': 'Coolpad A8-930', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'm1 note', 'version': '5.1', 'build': 'LMY47D; wv'}
+{'model': 'MI 3W', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'W909', 'version': '5.1', 'build': 'LMY47I'}
+{'model': 'TRT-AL00A', 'version': '7.0', 'build': 'HUAWEITRT-AL00A; wv'}
+{'model': 'SM701', 'version': '4.4.2', 'build': 'SANFRANCISCO'}
+{'model': 'vivo Y55', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'MI 5C', 'version': '7.1.2', 'build': 'N2G47J; wv'}
+{'model': 'MIX', 'version': '6.0.1', 'build': 'MXB48T'}
+{'model': 'HTC One', 'version': '4.4.4', 'build': 'KTU84P.H1'}
+{'model': 'vivo V3Max L', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'TA-1000', 'version': '7.0', 'build': 'NRD90M; wv'}
+{'model': 'SM-A7000', 'version': '5.0.2', 'build': 'LRX22G'}
+{'model': 'BAH-AL00', 'version': '7.0', 'build': 'HUAWEIBAH-AL00'}
+{'model': 'Le X528', 'version': '6.0.1', 'build': 'IJXCNCM5801809291S'}
+{'model': 'Lenovo K30-T', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'M688C', 'version': '5.1', 'build': 'LMY47I'}
+{'model': 'ZTE BA611T', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'OPPO R9s Plus', 'version': '7.1.1', 'build': 'NMF26F'}
+{'model': 'CUN-AL00', 'version': '5.1', 'build': 'HONORCUN-AL00; wv'}
+{'model': 'SM-N9002', 'version': '5.0', 'build': 'LRX21V; wv'}
+{'model': 'OPPO R9s', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'Lenovo X3c50', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'MI 5', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'X800+', 'version': '6.0.1', 'build': 'BEXCNFN5902605111S'}
+{'model': 'unknown', 'version': '5.0.1', 'build': 'LRX22C'}
+{'model': 'OPPO A59s', 'version': '5.1', 'build': 'LMY47I'}
+{'model': 'SM-G950U', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'F103', 'version': '5.0.2', 'build': 'LRX21M; wv'}
+{'model': '8681-A01', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'SM-G935F', 'version': '6.0.1', 'build': 'MMB29K'}
+{'model': 'DIG-TL10', 'version': '6.0', 'build': 'HUAWEIDIG-TL10'}
+{'model': 'PLK-UL00', 'version': '6.0', 'build': 'HONORPLK-UL00'}
+{'model': 'ZTE BV0720', 'version': '5.1', 'build': 'LMY47I'}
+{'model': 'FRD-AL00', 'version': '6.0', 'build': 'HUAWEIFRD-AL00; wv'}
+{'model': 'STF-AL00', 'version': '7.0', 'build': 'HUAWEISTF-AL00; wv'}
+{'model': 'X600', 'version': '5.0', 'build': 'ABXCNOP5000104271S'}
+{'model': 'X900+', 'version': '6.0.1', 'build': 'CEXCNFN5801810191S'}
+{'model': 'HUAWEI GRA-UL10', 'version': '6.0', 'build': 'HUAWEIGRA-UL10; wv'}
+{'model': 'Le X620', 'version': '6.0', 'build': 'HEXCNFN5902605261S'}
+{'model': 'BTV-DL09', 'version': '6.0', 'build': 'HUAWEIBEETHOVEN-DL09'}
+{'model': 'LEX720', 'version': '6.0.1', 'build': 'WAXCNFN5902303282S'}
+{'model': 'victara_retcn', 'version': '7.1.2', 'build': 'NJH47F'}
+{'model': 'T1-701u', 'version': '4.4.2', 'build': 'HuaweiMediaPad'}
+{'model': 'VCR-A0', 'version': '7.1.1', 'build': 'VCRSCN00X1000MPX1707170'}
+{'model': 'MI 5', 'version': '8.0.0', 'build': 'OPR5.170623.007; wv'}
+{'model': 'VTR-TL00', 'version': '7.0', 'build': 'HUAWEIVTR-TL00; wv'}
+{'model': 'MX4 Pro', 'version': '5.1.1', 'build': 'LMY48W; wv'}
+{'model': 'HTC D728w', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'M621C', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'Le X520', 'version': '6.0.1', 'build': 'IEXCNFN5902605131S'}
+{'model': 'SM-G920V', 'version': '5.1.1', 'build': 'LMY47X'}
+{'model': 'F100S', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'PLK-AL10', 'version': '6.0', 'build': 'HONORPLK-AL10; wv'}
+{'model': 'SM-G9198', 'version': '5.1.1', 'build': 'LMY47X'}
+{'model': 'LEX728', 'version': '6.0.1', 'build': 'WDXCNCM5801811011S; wv'}
+{'model': 'S2', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'vivo X1', 'version': '4.1.1', 'build': 'JRO03C'}
+{'model': 'PE-TL00M', 'version': '4.4.2', 'build': 'HuaweiPE-TL00M'}
+{'model': '1503-A01', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'vivo X7Plus', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'R831T', 'version': '4.2.2', 'build': 'JDQ39'}
+{'model': 'weiimi 7s', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'koobee M6', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'vivo X7', 'version': '7.1.1', 'build': 'NMF26F'}
+{'model': 'vivo Xplay5S', 'version': '7.1.1', 'build': 'NMF26F'}
+{'model': 'Le X620', 'version': '6.0', 'build': 'HEXCNFN5801809301S'}
+{'model': 'OPPO R9t', 'version': '5.1', 'build': 'LMY47I'}
+{'model': 'Hisense E76', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'M1 E', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'vivo Xplay5A', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'SLA-AL00', 'version': '7.0', 'build': 'HUAWEISLA-AL00; wv'}
+{'model': 'SM-N7506V', 'version': '4.3', 'build': 'JLS36C'}
+{'model': 'Le X621', 'version': '6.0', 'build': 'HEXCNFN5601904221S; wv'}
+{'model': 'HTC 801e', 'version': '5.0.2', 'build': 'LRX22G'}
+{'model': 'XT1650-05', 'version': '7.1.1', 'build': 'NCC26.118-31-1; wv'}
+{'model': 'vivo X9s L', 'version': '7.1.1', 'build': 'NMF26F'}
+{'model': 'KNT-AL10', 'version': '6.0', 'build': 'HUAWEIKNT-AL10; wv'}
+{'model': 'Get', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'vivo X5Max F', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'PROTRULY D7', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'Philips_V787', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'SM-A300H', 'version': '5.0.2', 'build': 'LRX22G'}
+{'model': 'SM-N9008S', 'version': '5.0', 'build': 'LRX21V'}
+{'model': 'vivo X5Pro D', 'version': '5.0', 'build': 'LRX21M'}
+{'model': 'HUAWEI VNS-DL00', 'version': '6.0', 'build': 'HUAWEIVNS-DL00; wv'}
+{'model': 'HM NOTE 1TD', 'version': '4.2.2', 'build': 'JDQ39'}
+{'model': 'Letv X500', 'version': '6.0', 'build': 'DBXCNOP5902605181S'}
+{'model': 'HUAWEI MLA-TL10', 'version': '7.0', 'build': 'HUAWEIMLA-TL10; wv'}
+{'model': '??', 'version': '6.1', 'build': 'LMY47I'}
+{'model': 'VTR-AL00', 'version': '7.0', 'build': 'HUAWEIVTR-AL00'}
+{'model': 'PRO 7 Plus', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'vivo X7', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'GT-N7100', 'version': '4.1.2', 'build': 'JZO54K'}
+{'model': 'G620S-UL00', 'version': '4.4.4', 'build': 'HuaweiG620S-UL00'}
+{'model': 'ZUK Z2131', 'version': '7.1.1', 'build': 'NMF26F'}
+{'model': 'NX595J', 'version': '7.1.1', 'build': 'NMF26X'}
+{'model': 'Le X621', 'version': '6.0', 'build': 'HCXCNCT5902012151S'}
+{'model': 'vivo Y31A', 'version': '5.0.2', 'build': 'LRX22G'}
+{'model': 'E601', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'SM-N9108V', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'HUAWEI CRR-UL20', 'version': '6.0', 'build': 'HUAWEICRR-UL20'}
+{'model': 'G115', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'KIW-AL10', 'version': '6.0.1', 'build': 'HONORKIW-AL10; wv'}
+{'model': 'HUAWEI SC-UL10', 'version': '4.4.4', 'build': 'HUAWEISC-UL10'}
+{'model': 'Coolpad 8675-W00', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'SM-G9200', 'version': '5.0.2', 'build': 'LRX22G'}
+{'model': 'vivo X710F', 'version': '4.3', 'build': 'JLS36C'}
+{'model': 'SM-A9100', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'SM-G9308', 'version': '7.0', 'build': 'NRD90M; wv'}
+{'model': 'YU FLY F9', 'version': '7.1.1', 'build': 'NMF26F'}
+{'model': 'Le X621', 'version': '6.0', 'build': 'HEXCNFN7601304221S'}
+{'model': 'HUAWEI TAG-TL00', 'version': '5.1', 'build': 'HUAWEITAG-TL00'}
+{'model': 'LEX622', 'version': '6.0', 'build': 'HBXCNCU5801811041S'}
+{'model': 'Lenovo X3c70', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'SM-A5000', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'Coolpad 8690', 'version': '4.4.2', 'build': 'KOT49H'}
+{'model': 'OPPO R7sm', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'OD103', 'version': '7.1.1', 'build': 'NMF26F; wv'}
+{'model': 'Hisense C20', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'SM-J7008', 'version': '5.1', 'build': 'LMY47O'}
+{'model': 'TRT-AL00', 'version': '7.0', 'build': 'HUAWEITRT-AL00; wv'}
+{'model': 'OPPO A30', 'version': '5.1.1', 'build': 'LMY47V; wv'}
+{'model': 'EDI-AL10', 'version': '7.0', 'build': 'HUAWEIEDISON-AL10'}
+{'model': 'F3213', 'version': '7.0', 'build': '36.1.A.1.86'}
+{'model': 'DLI-TL20', 'version': '7.0', 'build': 'HONORDLI-TL20; wv'}
+{'model': 'vivo X3L', 'version': '4.3', 'build': 'JLS36C'}
+{'model': 'M5 Note', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'STV100-1', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'X608', 'version': '5.0.2', 'build': 'ACXCNCM5501304131S'}
+{'model': 'MP1701', 'version': '7.1.1', 'build': 'NMF26O; wv'}
+{'model': 'MI 2', 'version': '5.0.2', 'build': 'LRX22G'}
+{'model': 'MI 5s Plus', 'version': '7.0', 'build': 'NRD90M; wv'}
+{'model': 'NG2', 'version': '5.1', 'build': 'LMY47I'}
+{'model': 'XT1662', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'MI MAX', 'version': '7.0', 'build': 'NRD90M; wv'}
+{'model': 'GIONEE M7', 'version': '7.1.1', 'build': 'N6F26Q'}
+{'model': 'GN9005', 'version': '4.3', 'build': 'JLS36C'}
+{'model': 'Y685C', 'version': '5.1', 'build': 'LMY47I'}
+{'model': 'Coolpad T2-W01', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'ZUK Z2151', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'SM-A7100', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'OPPO R9tm', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'SM-G9006W', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'X800', 'version': '6.0.1', 'build': 'BBXCNOP5902605091S'}
+{'model': 'DIG-AL00', 'version': '6.0', 'build': 'HUAWEIDIG-AL00'}
+{'model': 'vivo X6Plus A', 'version': '5.0.2', 'build': 'LRX22G'}
+{'model': 'SM-J7108', 'version': '6.0.1', 'build': 'MMB29K'}
+{'model': 'SM-A3000', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'Redmi Note 3', 'version': '5.0.2', 'build': 'LRX22G; wv'}
+{'model': 'OPPO R11', 'version': '7.0', 'build': 'OPPO+R11'}
+{'model': 'EVA-DL00', 'version': '6.0', 'build': 'HUAWEIEVA-DL00'}
+{'model': 'vivo Y37', 'version': '5.0.2', 'build': 'LRX22G'}
+{'model': 'Lenovo X2-TO', 'version': '4.4.2', 'build': 'KOT49H'}
+{'model': 'M6', 'version': '7.0', 'build': 'NRD90M; wv'}
+{'model': 'ONEPLUS A3010', 'version': '7.1.1', 'build': 'NMF26F; wv'}
+{'model': 'SM-A3000', 'version': '5.0.2', 'build': 'LRX22G'}
+{'model': 'SM-C5010', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'MIX', 'version': '7.0', 'build': 'NRD90M; wv'}
+{'model': 'SM-A8000', 'version': '5.1.1', 'build': 'LMY47X'}
+{'model': 'HUAWEI GRA-UL10', 'version': '6.0', 'build': 'HUAWEIGRA-UL10'}
+{'model': 'H7', 'version': '5.1', 'build': 'LMY47I'}
+{'model': 'gucci', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'GT-I9507V', 'version': '5.0.1', 'build': 'LRX22C; wv'}
+{'model': 'G8142', 'version': '8.0.0', 'build': '47.1.A.3.254'}
+{'model': 'HM NOTE 1LTETD', 'version': '4.4.2', 'build': 'KVT49L'}
+{'model': 'OPPO R9s', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'Le X620', 'version': '6.0', 'build': 'HBXCNCU5801708221S; wv'}
+{'model': 'ZTE C880S', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'X903S', 'version': '4.4.2', 'build': 'KOT49H'}
+{'model': 'Coolpad Y803-9', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'SM-G9250', 'version': '5.0.2', 'build': 'LRX22G'}
+{'model': 'H60-L12', 'version': '4.4.2', 'build': 'HDH60-L12'}
+{'model': 'Mi Note 3', 'version': '7.1.1', 'build': 'NMF26X'}
+{'model': 'Samsung Note3', 'version': '5.1.1', 'build': 'LMY47X'}
+{'model': 'SM-N9100', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'A101', 'version': '5.1', 'build': 'KOT49H'}
+{'model': 'Letv X500', 'version': '6.0', 'build': 'DBXCNOP5801810092S; wv'}
+{'model': 'M3 Max', 'version': '7.0', 'build': 'NRD90M; wv'}
+{'model': 'Letv X501', 'version': '6.0', 'build': 'DAXCNCU5902605181S; wv'}
+{'model': 'NCE-TL10', 'version': '6.0', 'build': 'HUAWEINCE-TL10'}
+{'model': 'HUAWEI P8max', 'version': '5.1.1', 'build': 'HUAWEIDAV-703L'}
+{'model': 'vivo X9Plus', 'version': '7.1.1', 'build': 'NMF26F'}
+{'model': 'SM-G925F', 'version': '7.0', 'build': 'NRD90M; wv'}
+{'model': 'XT1581', 'version': '5.1.1', 'build': 'LPKS23.229-1-5; wv'}
+{'model': 'SCL-TL00H', 'version': '5.1.1', 'build': 'HonorSCL-TL00H; wv'}
+{'model': 'ASUS_T00F', 'version': '4.4.2', 'build': 'KVT49L'}
+{'model': 'SM-G9250', 'version': '6.0.1', 'build': 'MMB29K'}
+{'model': 'Kindle Fire HDX', 'version': '5.1.1', 'build': 'LMY49J'}
+{'model': 'CK3-01', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'vivo X9s Plus', 'version': '7.1.1', 'build': 'NMF26F; wv'}
+{'model': 'MI 5s', 'version': '7.1.2', 'build': 'NJH47F; wv'}
+{'model': 'SM-A700YD', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'BTV-W09', 'version': '7.0', 'build': 'HUAWEIBEETHOVEN-W09'}
+{'model': 'R2017', 'version': '4.3', 'build': 'JLS36C'}
+{'model': 'SM-A5100', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'D6503', 'version': '6.0.1', 'build': '23.5.A.0.575'}
+{'model': 'ALP-AL00', 'version': '8.0.0', 'build': 'HUAWEIALP-AL00'}
+{'model': 'PRO 7-H', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'NX535J', 'version': '5.1', 'build': 'LMY47I'}
+{'model': 'PLK-AL10', 'version': '5.0.2', 'build': 'HONORPLK-AL10'}
+{'model': 'NX569J', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'vivo Y67L', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'XT1710-08', 'version': '7.1.1', 'build': 'NZS26.71-89; wv'}
+{'model': 'Le X822', 'version': '6.0.1', 'build': 'FWXCNCT5902605092S'}
+{'model': 'MX4 Pro', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'OPPO R9s Plust', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': '1505-A01', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'OPPO R9m', 'version': '5.1', 'build': 'LMY47I'}
+{'model': 'Le X520', 'version': '6.0.1', 'build': 'IEXCNFN5902605131S; wv'}
+{'model': 'SM-N915S', 'version': '6.0.1', 'build': 'MMB29K'}
+{'model': 'OPPO R7', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'vivo X7', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'Redmi 4X', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'STV100-1', 'version': '5.1.1', 'build': 'LMY47V; wv'}
+{'model': 'A680Q', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'SM-G9200', 'version': '5.1.1', 'build': 'LMY47X; wv'}
+{'model': 'MP1611', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'YEPEN', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'K68w', 'version': '4.4.2', 'build': 'KOT49H'}
+{'model': 'A1601', 'version': '5.1', 'build': 'LMY47I; wv'}
+{'model': '1603-A03', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'vivo X7Plus', 'version': '7.1.1', 'build': 'NMF26F'}
+{'model': 'SBM303SH', 'version': '4.2.2', 'build': 'S0030'}
+{'model': 'Coolpad 8675', 'version': '4.4.2', 'build': 'KOT49H'}
+{'model': '6plus', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'vivo X9L', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'SM-G7200', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'Lenovo YB-Q501F', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'koobee S106M', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'PRO 6', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'MI 5', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'Le X620', 'version': '6.0', 'build': 'HEXCNFN5801507011S; wv'}
+{'model': 'ivvi SS1-03', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'F105', 'version': '5.1', 'build': 'LMY47D; wv'}
+{'model': 'MP1701', 'version': '7.1.1', 'build': 'NMF26O'}
+{'model': 'MLLED L9', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'GN9006', 'version': '5.0.2', 'build': 'LRX21M'}
+{'model': 'M6SPlus', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'GN3002L', 'version': '5.1', 'build': 'LMY47D; wv'}
+{'model': 'OPPO A53m', 'version': '5.1.1', 'build': 'LMY47V; wv'}
+{'model': 'M612C', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'NEM-UL10', 'version': '6.0', 'build': 'HONORNEM-UL10'}
+{'model': 'PRO 6 Plus', 'version': '7.0.0', 'build': 'NRD90M'}
+{'model': 'SUGAR C7', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'Lovme-T23', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'Lenovo K50-t5', 'version': '5.0', 'build': 'LRX21M'}
+{'model': 'ZTE Q5-T', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'HTC U11', 'version': '7.1.1', 'build': 'NMF26X'}
+{'model': 'NX549J', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': '1503-A01', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'SM-G9550', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'Hisense K1', 'version': '7.1.1', 'build': 'NMF26F'}
+{'model': 'A1601', 'version': '5.1', 'build': 'LMY47I'}
+{'model': 'OPPO R7s', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'KNT-AL20', 'version': '6.0', 'build': 'HUAWEIKNT-AL20; wv'}
+{'model': 'ONEPLUS A3000', 'version': '8.0.0', 'build': 'OPR6.170623.013'}
+{'model': 'L55t', 'version': '4.4.4', 'build': '23.0.1.G.0.87'}
+{'model': 'vivo X9Plus L', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'UOOGOU T10', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'SAMSUNG-SM-G925A', 'version': '6.0.1', 'build': 'MMB29K'}
+{'model': 'MP1504', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'HUAWEI VNS-AL00', 'version': '6.0', 'build': 'HUAWEIVNS-AL00'}
+{'model': 'SCL-AL00', 'version': '5.1.1', 'build': 'HonorSCL-AL00; wv'}
+{'model': 'H60-L02', 'version': '6.0', 'build': 'HDH60-L02'}
+{'model': 'TA-1000', 'version': '7.1.1', 'build': 'NMF26F'}
+{'model': 'SM-G950U', 'version': '7.0', 'build': 'NRD90M; wv'}
+{'model': 'TA-1000', 'version': '7.1.1', 'build': 'NMF26F; wv'}
+{'model': 'ZTE BV0701', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'MI 5s', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'M685C', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'SM901', 'version': '6.0.1', 'build': 'MXB48T; wv'}
+{'model': 'MP1512', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'SM-N9005', 'version': '4.4.2', 'build': 'KOT49H'}
+{'model': 'ONEPLUS A5000', 'version': '7.1.1', 'build': 'NMF26X; wv'}
+{'model': 'BLN-TL10', 'version': '6.0', 'build': 'HONORBLN-TL10; wv'}
+{'model': 'HUAWEI M2-803L', 'version': '6.0', 'build': 'HUAWEIM2-803L'}
+{'model': 'vivo X20', 'version': '7.1.1', 'build': 'NMF26X; wv'}
+{'model': 'SM-A5100', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'C106-7', 'version': '6.0.1', 'build': 'ZBXCNCU5902606201S'}
+{'model': 'Le X620', 'version': '6.0', 'build': 'HBXCNCU5902606112S; wv'}
+{'model': 'Cong C1391', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'ASUS_X015D', 'version': '7.0', 'build': 'NRD90M; wv'}
+{'model': 'Le X620', 'version': '6.0', 'build': 'HEXCNFN7601304221S; wv'}
+{'model': 'ZUK Z2131', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'NX403A', 'version': '4.4.2', 'build': 'KOT49H'}
+{'model': 'WAS-AL00', 'version': '7.0', 'build': 'HUAWEIWAS-AL00'}
+{'model': 'OPPO R11 Plus', 'version': '7.0', 'build': 'OPPO+R11+Plus'}
+{'model': 'ZTE STAR', 'version': '4.4.2', 'build': 'KVT49L'}
+{'model': 'Lenovo YT3-850M', 'version': '5.1.1', 'build': 'LMY47V; wv'}
+{'model': 'F106L', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'Le X620', 'version': '6.0', 'build': 'HEXCNFN5601304221S'}
+{'model': 'Coolpad Y91-921', 'version': '5.1.1', 'build': 'LMY47V; wv'}
+{'model': 'SM-G9350', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'E6553', 'version': '7.1.1', 'build': '32.4.A.0.160'}
+{'model': 'FTJ152C', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'SM-N910L', 'version': '6.0.1', 'build': 'MMB29K'}
+{'model': 'Coolpad Y82-520', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'F3216', 'version': '7.0', 'build': '36.1.A.1.86'}
+{'model': 'vivo X9Plus', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'MI 6', 'version': '7.1.1', 'build': 'MI+6'}
+{'model': 'MI 5C', 'version': '7.1.2', 'build': 'N2G47J'}
+{'model': 'Redmi 3', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'SM-N9008', 'version': '5.0', 'build': 'LRX21V'}
+{'model': 'vivo Xplay6', 'version': '7.1.1', 'build': 'NMF26F; wv'}
+{'model': 'MI 5s Plus', 'version': '6.0.1', 'build': 'MXB48T'}
+{'model': 'vivo X6L', 'version': '5.1', 'build': 'LMY47I'}
+{'model': 'vivo X6SPlus D', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'ALE-UL00', 'version': '5.0.2', 'build': 'HuaweiALE-UL00'}
+{'model': 'GIONEE S10BL', 'version': '7.0', 'build': 'NRD90M; wv'}
+{'model': 'F8132', 'version': '7.1.1', 'build': '41.2.A.7.65'}
+{'model': 'DOOV A6', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'Coolpad 8297-T01', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'WAS-TL10', 'version': '7.0', 'build': 'HUAWEIWAS-TL10; wv'}
+{'model': 'OPPO R9km', 'version': '5.1', 'build': 'LMY47I'}
+{'model': 'NX503A', 'version': '4.2.2', 'build': 'JDQ39'}
+{'model': 'HUAWEI G700-U00', 'version': '4.2.1', 'build': 'HuaweiG700-U00'}
+{'model': 'vivo X7Plus', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'PRO 6', 'version': '7.1.1', 'build': 'NMF26O; wv'}
+{'model': 'HUAWEI CAZ-AL10', 'version': '6.0', 'build': 'HUAWEICAZ-AL10'}
+{'model': 'vivo Y20T', 'version': '4.2.2', 'build': 'JDQ39'}
+{'model': 'L55u', 'version': '4.4.4', 'build': '23.0.1.F.0.98'}
+{'model': 'LEX622', 'version': '6.0', 'build': 'HBXCNCU5902606112S'}
+{'model': 'MI 3C', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'XT1635-03', 'version': '7.1.1', 'build': 'NCNS26.118-32-1-3; wv'}
+{'model': 'Redmi 4A', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': '2014813', 'version': '4.4.4', 'build': 'ID'}
+{'model': 'Le X620', 'version': '6.0', 'build': 'HBXCNCU5902012151S'}
+{'model': 'DUK-AL20', 'version': '7.0', 'build': 'HUAWEIDUK-AL20'}
+{'model': 'Lenovo K50-t5', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'ZUK Z1', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'Coolpad Y76', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'm3 note', 'version': '5.1', 'build': 'LMY47I; wv'}
+{'model': 'vivo X9s Plus L', 'version': '7.1.1', 'build': 'NMF26F; wv'}
+{'model': 'Hisense F30', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'HUAWEI TAG-AL00', 'version': '5.1', 'build': 'HUAWEITAG-AL00'}
+{'model': 'vivo Y628', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'PLK-UL00', 'version': '6.0', 'build': 'HONORPLK-UL00; wv'}
+{'model': 'A31u', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'HUAWEI HN3-U01', 'version': '4.2.2', 'build': 'HuaweiHN3-U01'}
+{'model': 'Le X820', 'version': '6.0.1', 'build': 'FEXCNFN5601405237S'}
+{'model': 'DOOV A12', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'Redmi 5A', 'version': '7.1.2', 'build': 'N2G47H; wv'}
+{'model': 'HUAWEI NXT-DL00', 'version': '7.0', 'build': 'HUAWEINXT-DL00; wv'}
+{'model': 'V9180', 'version': '4.3', 'build': 'JLS36C'}
+{'model': 'NX505J', 'version': '4.4.2', 'build': 'KVT49L'}
+{'model': 'SM-J5108', 'version': '5.1.1', 'build': 'LMY47X; wv'}
+{'model': 'PRO 6s', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'x600', 'version': '5.0.2', 'build': 'ABXCNOP5501102061S'}
+{'model': 'MX6', 'version': '7.1.1', 'build': 'NMF26O'}
+{'model': 'HM 2A', 'version': '4.4.4', 'build': 'KTU84Q'}
+{'model': 'SM-J710K', 'version': '6.0.1', 'build': 'MMB29K'}
+{'model': 'HTC M8w', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'STF-AL00', 'version': '7.0', 'build': 'HUAWEISTF-AL00'}
+{'model': 'HUAWEI MLA-AL00', 'version': '7.0', 'build': 'HUAWEIMLA-AL00'}
+{'model': 'Mi Note 2', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'EVA-AL10', 'version': '6.0', 'build': 'HUAWEIEVA-AL10'}
+{'model': 'Hisense F23', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'HUAWEI CAZ-TL20', 'version': '7.0', 'build': 'HUAWEICAZ-TL20'}
+{'model': 'ZTE BA601', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'SM-G935L', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'GN9012', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'YEPEN', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'MI 4LTE', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'AGM X1', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'CUN-TL00', 'version': '5.1', 'build': 'HUAWEICUN-TL00'}
+{'model': 'vivo Y53', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'SM-G9350', 'version': '7.0', 'build': 'NRD90M; wv'}
+{'model': 'G621-TL00', 'version': '4.4.4', 'build': 'HonorG621-TL00'}
+{'model': 'Meitu V4', 'version': '5.1', 'build': 'LMY47I'}
+{'model': 'PRO 7-S', 'version': '7.0', 'build': 'NRD90M; wv'}
+{'model': 'SUGAR F9', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'SM-G935T', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'Q6 Plus', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'KNT-AL20', 'version': '7.0', 'build': 'HUAWEIKNT-AL20'}
+{'model': 'GT-I9300I', 'version': '4.3', 'build': 'JLS36C'}
+{'model': 'N5110', 'version': '4.3', 'build': 'JLS36C'}
+{'model': 'E6883', 'version': '7.1.1', 'build': '32.4.A.0.160'}
+{'model': '2014813', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'X600', 'version': '6.0', 'build': 'AAXCNCU5902605181S'}
+{'model': 'SUGAR Y9', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'Redmi Note 5A', 'version': '7.1.2', 'build': 'N2G47H'}
+{'model': 'HUAWEI MT7-UL00', 'version': '6.0', 'build': 'HuaweiMT7-UL00'}
+{'model': 'ZTE Grand S II LTE', 'version': '4.4.2', 'build': 'KVT49L'}
+{'model': 'SM-A5000', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'MI 5X', 'version': '7.1.2', 'build': 'N2G47H'}
+{'model': 'SUGAR Y7', 'version': '5.1.1', 'build': 'LMY47V; wv'}
+{'model': 'ZTE BA520', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'HUAWEI MLA-AL10', 'version': '6.0', 'build': 'HUAWEIMLA-AL10'}
+{'model': 'TRT-TL10', 'version': '7.0', 'build': 'HUAWEITRT-TL10'}
+{'model': 'ZUK Z2131', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'Lenovo S850t', 'version': '4.4.2', 'build': 'KOT49H'}
+{'model': 'BAC-AL00', 'version': '7.0', 'build': 'HUAWEIBAC-AL00'}
+{'model': 'vivo Y28L', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'LG-F600S', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'vivo 1716', 'version': '7.1.2', 'build': 'N2G47H'}
+{'model': 'DLI-TL20', 'version': '7.0', 'build': 'HONORDLI-TL20'}
+{'model': 'NX575J', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'SM-G6100', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'SM-A7108', 'version': '6.0.1', 'build': 'MMB29K'}
+{'model': 'Le X621', 'version': '6.0', 'build': 'HCXCNCT5601405171S'}
+{'model': 'VIE-L29', 'version': '6.0', 'build': 'HUAWEIVIE-L29; wv'}
+{'model': '8692-A00', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'HUAWEI NXT-AL10', 'version': '7.0', 'build': 'HUAWEINXT-AL10'}
+{'model': 'ZTE C2016', 'version': '5.1.1', 'build': 'LMY47V; wv'}
+{'model': 'Redmi 4X', 'version': '7.1.2', 'build': 'N2G47H; wv'}
+{'model': 'Letv X500', 'version': '6.0', 'build': 'DBXCNOP5902012161S'}
+{'model': 'M3 Max', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'YQ601', 'version': '5.1.1', 'build': 'LMY47V; wv'}
+{'model': '1605-A01', 'version': '7.1.1', 'build': 'NMF26F'}
+{'model': 'Lenovo X3c50', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'vivo X6S A', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': '6607', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'koobee M9', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'HUAWEI CRR-UL00', 'version': '6.0', 'build': 'HUAWEICRR-UL00; wv'}
+{'model': 'KIW-AL10', 'version': '5.1.1', 'build': 'HONORKIW-AL10'}
+{'model': '1607-A01', 'version': '7.1.1', 'build': 'NMF26F'}
+{'model': 'vivo Y37A', 'version': '5.0.2', 'build': 'LRX22G'}
+{'model': 'PRO 5', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'ZTE C880A', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'MI 5', 'version': '7.1.1', 'build': 'NMF26X; wv'}
+{'model': 'STV100-1', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'Le X620', 'version': '6.0', 'build': 'HBXCNCU5601405171S'}
+{'model': 'MI NOTE Pro', 'version': '7.0', 'build': 'NRD90M; wv'}
+{'model': 'PE-UL00', 'version': '6.0', 'build': 'HuaweiPE-UL00'}
+{'model': 'ivvi SS1-03', 'version': '5.1.1', 'build': 'LMY47V; wv'}
+{'model': 'DOOV L8 Plus', 'version': '5.1', 'build': 'LMY47I'}
+{'model': 'OPPO A59m', 'version': '5.1', 'build': 'LMY47I'}
+{'model': 'vivo x20A', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'W900', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': '??', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'DUK-TL30', 'version': '7.0', 'build': 'HUAWEIDUK-TL30'}
+{'model': 'SM-A9000', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'C5008', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'F100L', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'GN8003', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'HUAWEI CRR-UL00', 'version': '5.1.1', 'build': 'HUAWEICRR-UL00'}
+{'model': 'SAGA V9', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'vivo V3Max A', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'MI 4LTE', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'F100', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'HUAWEI M2-803L', 'version': '6.0', 'build': 'HUAWEIM2-803L; wv'}
+{'model': 'F8332', 'version': '7.1.1', 'build': '41.2.A.7.76; wv'}
+{'model': 'LA2-S', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'NX511J_V3', 'version': '5.1.1', 'build': 'LMY47V; wv'}
+{'model': 'MP1611', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'GEM-703L', 'version': '6.0', 'build': 'HUAWEIGEM-703L'}
+{'model': 'OPPO R9 Plust A', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'HUAWEI G750-T01', 'version': '4.2.2', 'build': 'HuaweiG750-T01'}
+{'model': 'PLK-AL10', 'version': '5.0.2', 'build': 'HONORPLK-AL10; wv'}
+{'model': 'HTC E9w', 'version': '5.0.2', 'build': 'LRX22G; wv'}
+{'model': 'SHL25', 'version': '5.0.2', 'build': 'SC261'}
+{'model': 'HM NOTE 1LTEW', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'HUAWEI MT7-TL10', 'version': '4.4.2', 'build': 'HuaweiMT7-TL10'}
+{'model': 'DOOV A10', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'H60-L02', 'version': '4.4.2', 'build': 'HDH60-L02'}
+{'model': 'ZUK Z1', 'version': '5.1.1', 'build': 'LMY47V; wv'}
+{'model': 'X600', 'version': '5.0', 'build': 'ABXCNOP5000206021S'}
+{'model': 'R7007', 'version': '4.3', 'build': 'JLS36C'}
+{'model': 'NTS-AL00', 'version': '6.0', 'build': 'HUAWEINTS-AL00; wv'}
+{'model': 'Le X820', 'version': '6.0.1', 'build': 'MRA58K'}
+{'model': 'NX573J', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'ONEPLUS A3000', 'version': '8.0', 'build': 'OPR6.170623.013; wv'}
+{'model': 'STV100-3', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'KIW-UL00', 'version': '5.1.1', 'build': 'HONORKIW-UL00'}
+{'model': 'Redmi Note 4X', 'version': '7.0', 'build': 'NRD90M; wv'}
+{'model': 'SM-G925V', 'version': '6.0.1', 'build': 'MMB29K'}
+{'model': 'NEM-AL10', 'version': '6.0', 'build': 'HONORNEM-AL10'}
+{'model': 'OPPO R9s Plus', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'vivo X1S', 'version': '4.2.1', 'build': 'JOP40D'}
+{'model': 'SM-N9005', 'version': '5.0', 'build': 'LRX21V'}
+{'model': 'Le X620', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'Pioneer C1', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'SM801', 'version': '5.1.1', 'build': 'LMY47V; wv'}
+{'model': 'OPPO R11 Plusk', 'version': '7.1.1', 'build': 'NMF26X'}
+{'model': 'SM-A9000', 'version': '5.1.1', 'build': 'LMY47V; wv'}
+{'model': 'U680D', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'C107-9', 'version': '6.0.1', 'build': 'ZFXCNCT5902606201S; wv'}
+{'model': 'HUAWEI CAZ-TL10', 'version': '6.0', 'build': 'HUAWEICAZ-TL10'}
+{'model': 'GIONEE S10C', 'version': '7.1.1', 'build': 'NMF26F; wv'}
+{'model': 'PRO 6s', 'version': '7.1.1', 'build': 'NMF26O; wv'}
+{'model': 'STF-TL10', 'version': '7.0', 'build': 'HUAWEISTF-TL10'}
+{'model': 'SHL23', 'version': '4.2.2', 'build': 'S4040'}
+{'model': 'D6503', 'version': '5.1.1', 'build': '23.4.A.0.546; wv'}
+{'model': 'SUGAR S9', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'SM-G9280', 'version': '7.0', 'build': 'NRD90M; wv'}
+{'model': 'LEX626', 'version': '6.0', 'build': 'HEXCNFN5801811241S'}
+{'model': 'HUAWEI G7-UL20', 'version': '5.1.1', 'build': 'HuaweiG7-UL20'}
+{'model': 'X9007', 'version': '4.3', 'build': 'JLS36C'}
+{'model': 'DOOV S5', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'PRO 5', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'SUGAR C6', 'version': '5.1.1', 'build': 'LMY47V; wv'}
+{'model': 'SCL-AL00', 'version': '5.1.1', 'build': 'HonorSCL-AL00'}
+{'model': 'SM-A7000', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'LG-F500L', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'Mi Note 3', 'version': '7.1.1', 'build': 'NMF26X; wv'}
+{'model': 'E6683', 'version': '5.1.1', 'build': '32.0.A.6.209; wv'}
+{'model': 'A31c', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'HTC D626w', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'HM NOTE 1W', 'version': '4.4.2', 'build': 'KOT49H'}
+{'model': 'GT-I9235', 'version': '4.2.2', 'build': 'JDQ39'}
+{'model': 'DUK-AL20', 'version': '7.0', 'build': 'HUAWEIDUK-AL20; wv'}
+{'model': 'vivo X6S A', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'OPPO R9sk', 'version': '7.1.1', 'build': 'NMF26F; wv'}
+{'model': '1711-A01', 'version': '7.1.1', 'build': 'NMF26F; wv'}
+{'model': 'OPPO R9sk', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'HUAWEI CAZ-AL10', 'version': '7.0', 'build': 'HUAWEICAZ-AL10; wv'}
+{'model': 'Lenovo A936', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'vivo X5Pro D', 'version': '5.0.2', 'build': 'LRX21M'}
+{'model': 'ATH-UL00', 'version': '5.1.1', 'build': 'HONORATH-UL00; wv'}
+{'model': 'Letv X500', 'version': '6.0', 'build': 'DBXCNOP5902604241S'}
+{'model': 'vivo X9Plus', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'MI 2S', 'version': '5.0.2', 'build': 'LRX22G'}
+{'model': 'Meitu M4s', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'OPPO R9skt', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'Letv X502', 'version': '6.0', 'build': 'DBXCNOP5902605181S'}
+{'model': '1603-A02', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'vivo X20Plus', 'version': '7.1.1', 'build': 'NMF26X'}
+{'model': 'MI NOTE Pro', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'M6 Note', 'version': '7.1.2', 'build': 'N2G47H'}
+{'model': 'Coolpad T2-00', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'CAM-AL00', 'version': '6.0', 'build': 'HONORCAM-AL00; wv'}
+{'model': 'GIONEE S10BL', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'Lenovo K51c78', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'G8232', 'version': '7.1.1', 'build': '41.2.A.7.76; wv'}
+{'model': 'M1 E', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'KING 7S', 'version': '5.1', 'build': 'PP6000_87I'}
+{'model': 'OPPO A37t', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'Le X620', 'version': '6.0', 'build': 'HBXCNCU5801809301S'}
+{'model': 'Lenovo P1c72', 'version': '5.1.1', 'build': 'LMY47V; wv'}
+{'model': 'HTC D816w', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'ZTE C2017', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'MP1602', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'NOSSON N1', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'SM-G9006W', 'version': '5.0', 'build': 'LRX21T'}
+{'model': 'ramos MOS 1', 'version': '5.0.2', 'build': 'LRX22G'}
+{'model': 'Le X625', 'version': '6.0', 'build': 'HEXCNFN5902606111S; wv'}
+{'model': 'EVA-AL00', 'version': '7.0', 'build': 'HUAWEIEVA-AL00; wv'}
+{'model': 'SM-N910S', 'version': '6.0.1', 'build': 'MMB29K'}
+{'model': '20160829S', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'Letv X500', 'version': '6.0', 'build': 'DAXCNCU5902605181S'}
+{'model': 'vivo V3', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'OPPO R9s', 'version': '7.1.1', 'build': 'NMF26F; wv'}
+{'model': 'H60-L11', 'version': '4.4.2', 'build': 'HDH60-L11'}
+{'model': 'OPPO R9tm', 'version': '5.1', 'build': 'LMY47I'}
+{'model': 'ATH-AL00', 'version': '5.1.1', 'build': 'HONORATH-AL00'}
+{'model': 'KNT-UL10', 'version': '6.0', 'build': 'HUAWEIKNT-UL10; wv'}
+{'model': 'HUAWEI NXT-AL10', 'version': '6.0', 'build': 'HUAWEINXT-AL10'}
+{'model': 'Le X620', 'version': '6.0', 'build': 'HEXCNFN5801811041S; wv'}
+{'model': 'M6 Note', 'version': '7.1.2', 'build': 'N2G47H; wv'}
+{'model': 'm1', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'SM-N9300', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'HUAWEI NXT-DL00', 'version': '7.0', 'build': 'HUAWEINXT-DL00'}
+{'model': 'vivo X5M', 'version': '5.0.2', 'build': 'LRX22G'}
+{'model': 'Redmi 4X', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'MI MAX', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'vivo X6SPlus', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'GN9006', 'version': '5.0', 'build': 'LRX21M; wv'}
+{'model': 'SM-G7508Q', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'SM-A5108', 'version': '6.0.1', 'build': 'MMB29K; wv'}
+{'model': 'HUAWEI GRA-UL10', 'version': '5.0.1', 'build': 'HUAWEIGRA-UL10'}
+{'model': 'TA-1000', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'GN5003', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'TRT-AL00A', 'version': '7.0', 'build': 'HUAWEITRT-AL00A'}
+{'model': 'SAMSUNG-SM-G891A', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'SM-G9550', 'version': '7.0', 'build': 'NRD90M; wv'}
+{'model': 'SM-N9008S', 'version': '5.0', 'build': 'LRX21V; wv'}
+{'model': 'MHA-AL00', 'version': '7.0', 'build': 'HUAWEIMHA-AL00'}
+{'model': 'CHM-UL00', 'version': '6.0', 'build': 'HonorCHM-UL00'}
+{'model': 'FRD-AL00', 'version': '7.0', 'build': 'HUAWEIFRD-AL00'}
+{'model': 'R7Plust', 'version': '5.0', 'build': 'LRX21M; wv'}
+{'model': 'E6683', 'version': '7.1.1', 'build': '32.4.A.1.54'}
+{'model': 'M51w', 'version': '4.4.2', 'build': '14.3.A.0.681'}
+{'model': 'vivo Y67L', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'HTC M8Sw', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'M3 Max', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'HUAWEI P7-L00', 'version': '4.4.2', 'build': 'HuaweiP7-L00'}
+{'model': 'Le X620', 'version': '6.0', 'build': 'HEXCNFN5801809301S; wv'}
+{'model': 'Le X620', 'version': '6.0', 'build': 'HEXCNFN5601405171S; wv'}
+{'model': 'Le X620', 'version': '6.0', 'build': 'HEXCNFN5801607142S'}
+{'model': 'DOOV A5', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'OPPO A77', 'version': '7.1.1', 'build': 'NMF26F'}
+{'model': 'PE-UL00', 'version': '4.4.2', 'build': 'HuaweiPE-UL00'}
+{'model': 'E2', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'ALE-UL00', 'version': '6.0', 'build': 'HuaweiALE-UL00; wv'}
+{'model': 'ATH-AL00', 'version': '6.0.1', 'build': 'HONORATH-AL00'}
+{'model': 'M5', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'E6883', 'version': '7.1.1', 'build': '32.4.A.1.54'}
+{'model': 'Le X822', 'version': '6.0.1', 'build': 'FWXCNCT5902605092S; wv'}
+{'model': 'LON-AL00-PD', 'version': '7.0', 'build': 'HUAWEILON-AL00'}
+{'model': 'HUAWEI RIO-AL00', 'version': '5.1', 'build': 'HuaweiRIO-AL00'}
+{'model': 'GN3001', 'version': '5.1', 'build': 'LMY47I; wv'}
+{'model': 'GN5001', 'version': '5.1', 'build': 'LMY47D; wv'}
+{'model': 'DOOV L3', 'version': '4.4.4', 'build': 'unknown'}
+{'model': 'E6533', 'version': '6.0.1', 'build': '32.2.A.0.253'}
+{'model': 'HUAWEI RIO-L02', 'version': '5.1', 'build': 'HUAWEIRIO-L02'}
+{'model': 'SM-G9308', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'FS8010', 'version': '7.1.1', 'build': 'NMF26X'}
+{'model': 'SM-G6000', 'version': '5.1.1', 'build': 'LMY47X'}
+{'model': 'OPPO R11 Plusk', 'version': '7.1.1', 'build': 'NMF26X; wv'}
+{'model': 'MX4', 'version': '5.1', 'build': 'LMY47I'}
+{'model': 'BAC-TL00', 'version': '7.0', 'build': 'HUAWEIBAC-TL00; wv'}
+{'model': 'ZTE S2010', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'A107', 'version': '5.1', 'build': 'KOT49H'}
+{'model': 'ZTE N939St', 'version': '5.1', 'build': 'LMY47O'}
+{'model': 'KNT-UL10', 'version': '7.0', 'build': 'HUAWEIKNT-UL10'}
+{'model': 'vivo X5S L', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'Le X620', 'version': '6.0', 'build': 'HEXCNFN5902303291S'}
+{'model': 'MI 5s', 'version': '6.0.1', 'build': 'MXB48T; wv'}
+{'model': 'vivo Xplay6', 'version': '6.0.1', 'build': 'MXB48T; wv'}
+{'model': 'MIX 2', 'version': '7.1.1', 'build': 'NMF26X'}
+{'model': 'Letv X500', 'version': '5.0.2', 'build': 'DBXCNOP5500912251S'}
+{'model': 'ZTE BV0720', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'DOOV L520', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'NX513J', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'ZTE BA910T', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'HUAWEI VNS-TL00', 'version': '6.0', 'build': 'HUAWEIVNS-TL00'}
+{'model': 'vivo Y55A', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'HUAWEI NXT-DL00', 'version': '6.0', 'build': 'HUAWEINXT-DL00'}
+{'model': 'ASUS_Z00ADA', 'version': '5.0', 'build': 'LRX21V; wv'}
+{'model': 'GT-N7102', 'version': '4.3', 'build': 'JSS15J'}
+{'model': 'MI 4W', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'DOOV A10', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'CAM-TL00H', 'version': '6.0', 'build': 'HONORCAM-TL00H'}
+{'model': 'Redmi Note 3', 'version': '5.0.2', 'build': 'LRX22G'}
+{'model': 'Le X621', 'version': '6.0', 'build': 'HCXCNCT5801607151S'}
+{'model': 'G8142', 'version': '8.0.0', 'build': '47.1.A.3.254; wv'}
+{'model': 'SUGAR Y9', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'SM-G920S', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'OWWO 5S', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': '1505-A02', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'Mi-4c', 'version': '7.0', 'build': 'NRD90M; wv'}
+{'model': 'ONEPLUS A3010', 'version': '8.0.0', 'build': 'OPR6.170623.013'}
+{'model': 'M685U', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'Letv X500', 'version': '6.0', 'build': 'DBXCNOP5902303111S; wv'}
+{'model': 'SM-N9106W', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'M3s', 'version': '5.1', 'build': 'LMY47I'}
+{'model': 'SM-G5306W', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'X-apple', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'SM-N9100', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'F100B', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'SM-A7100', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'PRA-TL10', 'version': '7.0', 'build': 'HONORPRA-TL10; wv'}
+{'model': 'SOP-N1', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'm1 metal', 'version': '5.1', 'build': 'LMY47I; wv'}
+{'model': 'NX531J', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'H60-L12', 'version': '5.1.1', 'build': 'HDH60-L12'}
+{'model': 'N5209', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'MI 5s Plus', 'version': '6.0.1', 'build': 'MXB48T; wv'}
+{'model': 'vivo X6SPlus', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'HUAWEI M2-803L', 'version': '5.1.1', 'build': 'HUAWEIM2-803L'}
+{'model': 'PLK-TL01H', 'version': '6.0', 'build': 'HONORPLK-TL01H'}
+{'model': 'Redmi Note 3', 'version': '5.1.1', 'build': 'LMY47V; wv'}
+{'model': 'HTC M8Sw', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'koobee A3', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'S200', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'R7Plusm', 'version': '5.1.1', 'build': 'LMY47V; wv'}
+{'model': 'SM-C7100', 'version': '7.1.1', 'build': 'NMF26X'}
+{'model': 'OPPO R9s Plus', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': '20160212W', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'SM-J5108', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'ONEPLUS A3000', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'M512', 'version': '4.4.2', 'build': 'KVT49L'}
+{'model': 'vivo X6S', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'Lenovo P2c72', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'C105', 'version': '6.0.1', 'build': 'VAXCNFN5811805233S'}
+{'model': 'OPPO R9 Plustm A', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'Che1-CL20', 'version': '5.1', 'build': 'Che1-CL20'}
+{'model': 'MP1503', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'NX541J', 'version': '5.1', 'build': 'LMY47I; wv'}
+{'model': 'Redmi 4', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'SM-N9002', 'version': '4.4.2', 'build': 'KOT49H'}
+{'model': 'MI NOTE LTE', 'version': '4.4.4', 'build': 'HERCULES'}
+{'model': 'HUAWEI MLA-TL10', 'version': '7.0', 'build': 'HUAWEIMLA-TL10'}
+{'model': 'vivo Y51A', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'SM-G9200', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'vivo Y17T', 'version': '4.2.2', 'build': 'JDQ39'}
+{'model': 'LGUS992', 'version': '7.0', 'build': 'NRD90U'}
+{'model': 'vivo Y35', 'version': '5.0.2', 'build': 'LRX21M'}
+{'model': 'Lenovo S60-t', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'SM-J3308', 'version': '7.1.1', 'build': 'NMF26X'}
+{'model': 'ONEPLUS A3010', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'vivo X9i', 'version': '7.1.1', 'build': 'NMF26F'}
+{'model': 'SM-G9300', 'version': '7.0', 'build': 'NRD90M; wv'}
+{'model': 'OPPO A77', 'version': '7.1.1', 'build': 'NMF26F; wv'}
+{'model': 'vivo X20A', 'version': '7.1.1', 'build': 'NMF26X'}
+{'model': 'GN8002S', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'MI 5C', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'Le X620', 'version': '6.0', 'build': 'HBXCNCU5902606112S'}
+{'model': 'NCE-AL10', 'version': '6.0', 'build': 'HUAWEINCE-AL10; wv'}
+{'model': 'Nexus 5X', 'version': '6.0', 'build': 'MDA89E'}
+{'model': 'Hisense E76mini', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'HUAWEI VNS-AL00', 'version': '6.0', 'build': 'HUAWEIVNS-AL00; wv'}
+{'model': 'FRD-DL00', 'version': '7.0', 'build': 'HUAWEIFRD-DL00; wv'}
+{'model': 'CAM-UL00', 'version': '6.0', 'build': 'HONORCAM-UL00'}
+{'model': 'SM-A8000', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'ZTE BV0710', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'P9', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'ZUK Z2131', 'version': '7.0', 'build': 'NRD90M; wv'}
+{'model': 'Coolpad Y91-921', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'HUAWEI MT2-L05', 'version': '4.4.2', 'build': 'HuaweiMT2-L05'}
+{'model': 'N5207', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'YQ607', 'version': '5.1.1', 'build': 'LMY47V; wv'}
+{'model': 'MI 3W', 'version': '4.4.2', 'build': 'KVT49L'}
+{'model': 'OPPO A57', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'GN8002S', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'NX541J', 'version': '5.1', 'build': 'LMY47I'}
+{'model': 'MX6', 'version': '7.1.1', 'build': 'NMF26O; wv'}
+{'model': 'Lenovo S90-t', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'D3', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'Coolpad S6-NC1', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'HUAWEI MLA-AL10', 'version': '7.0', 'build': 'HUAWEIMLA-AL10'}
+{'model': 'BLN-AL20', 'version': '7.0', 'build': 'HONORBLN-AL20'}
+{'model': 'Le X820', 'version': '6.0.1', 'build': 'FEXCNFN5902605092S; wv'}
+{'model': 'HTC D826w', 'version': '5.0.2', 'build': 'LRX22G'}
+{'model': 'ZTE BA610T', 'version': '5.1', 'build': 'LMY47D; wv'}
+{'model': 'Che2-TL00', 'version': '4.4.2', 'build': 'HonorChe2-TL00'}
+{'model': '8298-A01', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'JY-S3', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'LA-A1', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'OPPO A57', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'FRD-DL00', 'version': '7.0', 'build': 'HUAWEIFRD-DL00'}
+{'model': 'Letv X501', 'version': '6.0', 'build': 'DAXCNCU5902605181S'}
+{'model': 'VTR-AL00', 'version': '7.0', 'build': 'HUAWEIVTR-AL00; wv'}
+{'model': 'GN9010', 'version': '5.1', 'build': 'LMY47D; wv'}
+{'model': 'Lenovo K51c78', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'NX508J', 'version': '5.1.1', 'build': 'LMY47V; wv'}
+{'model': 'BLN-TL10', 'version': '6.0', 'build': 'HONORBLN-TL10'}
+{'model': 'MLLED X9', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'SM-N9500', 'version': '7.1.1', 'build': 'NMF26X'}
+{'model': 'Redmi Note 4X', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'vivo Xplay3S', 'version': '4.3', 'build': 'JLS36C'}
+{'model': 'Le X620', 'version': '6.0', 'build': 'HEXCNFN5902606111S'}
+{'model': 'HUAWEI VNS-DL00', 'version': '6.0', 'build': 'HUAWEIVNS-DL00'}
+{'model': '1603-A03', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'HUAWEI RIO-UL00', 'version': '5.1', 'build': 'HUAWEIRIO-UL00; wv'}
+{'model': 'Hisense F30', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'vivo Y29L', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'MI 3W', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'PLK-AL10', 'version': '6.0', 'build': 'HONORPLK-AL10'}
+{'model': 'X800+', 'version': '6.0.1', 'build': 'BEXCNFN5801607201S; wv'}
+{'model': 'MX5', 'version': '5.1', 'build': 'LMY47I; wv'}
+{'model': 'HUAWEI eH880', 'version': '6.0', 'build': 'HUAWEINXT-XD00; wv'}
+{'model': 'SM-G9287', 'version': '6.0.1', 'build': 'MMB29K'}
+{'model': 'Redmi 3S', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'ZTE BA520', 'version': '6.0', 'build': 'MRA58K'}
+{'model': '4G', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'Coolpad 8675-W00', 'version': '5.0.2', 'build': 'LRX22G'}
+{'model': 'HM NOTE 1TD', 'version': '4.4.2', 'build': 'KOT49H'}
+{'model': 'OPPO R9 Plusm A', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'OPPO R9s Plus', 'version': '7.1.1', 'build': 'NMF26F; wv'}
+{'model': 'L50u', 'version': '4.4.2', 'build': '17.1.1.F.0.43'}
+{'model': 'R6007', 'version': '4.3', 'build': 'JLS36C'}
+{'model': 'OPPO A37m', 'version': '5.1', 'build': 'LMY47I; wv'}
+{'model': 'NX563J', 'version': '7.1.1', 'build': 'NMF26X'}
+{'model': 'NX535J', 'version': '5.1', 'build': 'LMY47I; wv'}
+{'model': 'MI 4LTE', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'XT1570', 'version': '5.1.1', 'build': 'LPH23.145-22; wv'}
+{'model': 'HTC M8Et', 'version': '5.0.2', 'build': 'LRX22G'}
+{'model': 'SM-N900', 'version': '4.4.2', 'build': 'KOT49H'}
+{'model': 'MI 4W', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'ZTE Q529C', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'GN9012', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'OPPO R11 Plus', 'version': '7.1.1', 'build': 'NMF26X'}
+{'model': 'MHA-TL00', 'version': '7.0', 'build': 'HUAWEIMHA-TL00; wv'}
+{'model': 'ATH-UL00', 'version': '6.0.1', 'build': 'HONORATH-UL00'}
+{'model': 'XT1570', 'version': '6.0.1', 'build': 'MOB31T; wv'}
+{'model': 'OPPO A53', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'vivo Y51', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'Lovme-T21', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'Lenovo P70-t', 'version': '4.4.4', 'build': 'KOT49H'}
+{'model': 'SM-C5000', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'Coolpad 8675-FHD', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': '8676-A01', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'TRT-TL10A', 'version': '7.0', 'build': 'HUAWEITRT-TL10A; wv'}
+{'model': 'CHC-U23', 'version': '4.4.2', 'build': 'HuaweiCHC-U23'}
+{'model': 'LA-S33', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'XT1570', 'version': '5.1.1', 'build': 'LPH23.145-22'}
+{'model': 'OPPO A37m', 'version': '5.1', 'build': 'LMY47I'}
+{'model': 'vivo Y67A', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'OPPO R7sPlus', 'version': '5.1.1', 'build': 'LMY47V; wv'}
+{'model': 'G8142', 'version': '7.1.1', 'build': '45.0.A.7.137; wv'}
+{'model': 'SM-N916S', 'version': '6.0.1', 'build': 'MMB29K'}
+{'model': 'F5', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'BND-AL10', 'version': '7.0', 'build': 'HONORBND-AL10; wv'}
+{'model': 'ONE A2001', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'Redmi 3', 'version': '5.1.1', 'build': 'LMY47V; wv'}
+{'model': 'FS8016', 'version': '7.1.1', 'build': 'NMF26X'}
+{'model': 'SM-G9350', 'version': '6.0.1', 'build': 'MMB29K'}
+{'model': 'X900+', 'version': '6.0.1', 'build': 'CEXCNFN5902605111S; wv'}
+{'model': 'LG-F200K', 'version': '4.4.2', 'build': 'KOT49I.F200K30d'}
+{'model': 'SM-J3119S', 'version': '5.1.1', 'build': 'LMY47X; wv'}
+{'model': 'R7plusf', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'NX551J', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'KOPO L9', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'HUAWEI CRR-UL20', 'version': '6.0', 'build': 'HUAWEICRR-UL20; wv'}
+{'model': 'SM-G9009D', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'Redmi Note 4X', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'SM-N9200', 'version': '6.0.1', 'build': 'MMB29K; wv'}
+{'model': 'HUAWEI GRA-UL00', 'version': '5.0', 'build': 'HUAWEIGRA-UL00'}
+{'model': 'GN8002', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'ZTE BV0730', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'vivo Y66L', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'NX569H', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'GN5002', 'version': '5.1', 'build': 'LMY47D; wv'}
+{'model': 'LG-F800L', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'SM-G925V', 'version': '5.1.1', 'build': 'LMY47X; wv'}
+{'model': 'HUAWEI RIO-UL00', 'version': '5.1', 'build': 'HUAWEIRIO-UL00'}
+{'model': 'SM-T715C', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'HM 1S', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'HUAWEI M2-A01W', 'version': '5.1.1', 'build': 'HUAWEIM2-A01W'}
+{'model': 'LG-H860', 'version': '7.0', 'build': 'NRD90U'}
+{'model': 'SM-G9200', 'version': '7.0', 'build': 'NRD90M; wv'}
+{'model': 'A0001', 'version': '6.0.1', 'build': 'MHC19Q'}
+{'model': 'ATH-AL00', 'version': '5.1.1', 'build': 'HONORATH-AL00; wv'}
+{'model': 'CHM-TL00', 'version': '4.4.2', 'build': 'HonorCHM-TL00'}
+{'model': 'OD105', 'version': '7.1.1', 'build': 'NMF26F; wv'}
+{'model': 'NX510J', 'version': '5.1.1', 'build': 'LMY47V; wv'}
+{'model': 'OPPO R11', 'version': '7.1.1', 'build': 'NMF26X; wv'}
+{'model': 'koobee S305M', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'Lenovo Z90-7', 'version': '5.1.1', 'build': 'LMY47V; wv'}
+{'model': 'MI 5', 'version': '6.0.1', 'build': 'MXB48T'}
+{'model': 'HUAWEI GRA-UL00', 'version': '5.0.1', 'build': 'HUAWEIGRA-UL00'}
+{'model': 'C1', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'SM-G925S', 'version': '5.1.1', 'build': 'LMY47X'}
+{'model': 'vivo X9i', 'version': '7.1.1', 'build': 'NMF26F; wv'}
+{'model': 'NX589J', 'version': '7.1.1', 'build': 'NMF26F'}
+{'model': 'Redmi 4A', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'LA-S31', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'Che2-UL00', 'version': '4.4.2', 'build': 'KOT49H'}
+{'model': 'GT-I9500', 'version': '5.0.1', 'build': 'LRX22C'}
+{'model': 'MI 4S', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'SM-G920P', 'version': '6.0.1', 'build': 'MMB29K; wv'}
+{'model': 'MIX 2', 'version': '7.1.1', 'build': 'NMF26X; wv'}
+{'model': 'C1530L', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'Q7', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'GN9006', 'version': '5.0', 'build': 'LRX21M'}
+{'model': 'EYU T5', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'KOPO L6', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'LEX720', 'version': '6.0.1', 'build': 'WAXCNFN5902606012S; wv'}
+{'model': 'Che1-CL20', 'version': '6.0.1', 'build': 'Che1-CL20; wv'}
+{'model': 'ZTE V0721', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'SM-T355C', 'version': '6.0.1', 'build': 'MMB29M'}
+{'model': 'Redmi Note 5A', 'version': '7.1.2', 'build': 'N2G47H; wv'}
+{'model': 'PLK-TL00', 'version': '6.0', 'build': 'HONORPLK-TL00'}
+{'model': 'vivo X5Pro L', 'version': '5.0.2', 'build': 'LRX21M'}
+{'model': 'vivo X7', 'version': '7.1.1', 'build': 'NMF26F; wv'}
+{'model': 'BAC-AL00', 'version': '7.0', 'build': 'HUAWEIBAC-AL00; wv'}
+{'model': 'SAMSUNG-SM-N910A', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'R8007', 'version': '4.3', 'build': 'JLS36C'}
+{'model': '2014811', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'SM-N916L', 'version': '6.0.1', 'build': 'MMB29K'}
+{'model': 'GT-I9507V', 'version': '5.0.1', 'build': 'LRX22C'}
+{'model': 'Lenovo X2-CU', 'version': '4.4.2', 'build': 'KOT49H'}
+{'model': 'A51', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': '304SH', 'version': '4.4.2', 'build': 'S0028'}
+{'model': 'KNT-AL20', 'version': '7.0', 'build': 'HUAWEIKNT-AL20; wv'}
+{'model': 'MI 6', 'version': '7.1.1', 'build': 'NMF26X; wv'}
+{'model': 'M711C', 'version': '7.0', 'build': 'NRD90M; wv'}
+{'model': 'GN3003', 'version': '5.1', 'build': 'LMY47D; wv'}
+{'model': 'EBEN M2', 'version': '4.4.4', 'build': '2.7.e326bc.20170419.user'}
+{'model': 'HUAWEI CRR-UL20', 'version': '5.1.1', 'build': 'HUAWEICRR-UL20'}
+{'model': 'XT1570', 'version': '5.1.1', 'build': 'LPHS23.145-22-4'}
+{'model': 'Bird M6', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'MI NOTE Pro', 'version': '5.0.2', 'build': 'LRX22G'}
+{'model': 'RNE-AL00', 'version': '7.0', 'build': 'HUAWEIRNE-AL00'}
+{'model': 'XT1085', 'version': '6.0', 'build': 'MPES24.49-24-3'}
+{'model': 'SAMSUNG-SM-G891A', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'HM NOTE 1S', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'OPPO R9m', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'PRA-AL00', 'version': '7.0', 'build': 'HONORPRA-AL00'}
+{'model': 'MI MAX 2', 'version': '7.1.1', 'build': 'NMF26F; wv'}
+{'model': 'MP1603', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'HUAWEI MT7-TL00', 'version': '4.4.2', 'build': 'HuaweiMT7-TL00'}
+{'model': 'vivo Xplay6L', 'version': '7.1.1', 'build': 'NMF26F'}
+{'model': 'SM705', 'version': '4.4.2', 'build': 'SANFRANCISCO'}
+{'model': 'vivo X710F', 'version': '4.4.2', 'build': 'KVT49L'}
+{'model': '4G+', 'version': '6.0', 'build': 'DQ; wv'}
+{'model': 'Redmi Note 3', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'LEX622', 'version': '6.0', 'build': 'HBXCNCU5902606112S; wv'}
+{'model': 'Coolpad Y71-711', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'LEX622', 'version': '6.0', 'build': 'HBXCNCU5801811241S; wv'}
+{'model': 'Meitu M4', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'MI 2S', 'version': '4.1.1', 'build': 'JRO03L'}
+{'model': 'SM-G9208', 'version': '5.0.2', 'build': 'LRX22G; wv'}
+{'model': 'MI 4C', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'C106', 'version': '6.0.1', 'build': 'ZAXCNFN5902606201S; wv'}
+{'model': 'OPPO R9s', 'version': '7.1.1', 'build': 'NMF26F'}
+{'model': 'ASUS_T00G', 'version': '4.4.2', 'build': 'KVT49L'}
+{'model': 'GN9000', 'version': '4.4.2', 'build': 'KOT49H'}
+{'model': 'SM-G9250', 'version': '5.1.1', 'build': 'LMY47X'}
+{'model': 'weiimi X3', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'SM-G1600', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'JMM-AL10', 'version': '7.0', 'build': 'HONORJMM-AL10; wv'}
+{'model': 'SM-G8508S', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'EVA-AL10', 'version': '6.0', 'build': 'HUAWEIEVA-AL10; wv'}
+{'model': 'vivo Xplay5S', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'SM-G9500', 'version': '7.0', 'build': 'NRD90M; wv'}
+{'model': '1605-A01', 'version': '7.1.1', 'build': 'NMF26F; wv'}
+{'model': 'M685U', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'lephone T7+', 'version': '6.0', 'build': '079'}
+{'model': 'FRD-AL10', 'version': '6.0', 'build': 'HUAWEIFRD-AL10'}
+{'model': 'ONEPLUS A5000', 'version': '7.1.1', 'build': 'NMF26X'}
+{'model': 'HUAWEI GRA-CL10', 'version': '6.0', 'build': 'HUAWEIGRA-CL10'}
+{'model': 'vivo X20', 'version': '7.1.1', 'build': 'NMF26X'}
+{'model': 'HTC U-3w', 'version': '7.1.1', 'build': 'NMF26X; wv'}
+{'model': 'NX523J_V1', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'SM-N9200', 'version': '5.1.1', 'build': 'LMY47X; wv'}
+{'model': 'EVA-AL10', 'version': '7.0', 'build': 'HUAWEIEVA-AL10'}
+{'model': 'Le X620', 'version': '6.0', 'build': 'HEXCNFN7601304221S'}
+{'model': 'vivo Xplay', 'version': '4.2.2', 'build': 'JDQ39'}
+{'model': 'MP1709', 'version': '7.1.1', 'build': 'NMF26O'}
+{'model': 'UOOGOU', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'Q1', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'ZTE BA910', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'CARRERA', 'version': '5.1.1', 'build': 'HUAWEICRR'}
+{'model': 'M1 E', 'version': '7.0', 'build': 'NRD90M; wv'}
+{'model': 'BLN-AL20', 'version': '6.0', 'build': 'HONORBLN-AL20'}
+{'model': 'E6653', 'version': '7.1.1', 'build': '32.4.A.1.54'}
+{'model': 'P024', 'version': '5.0.2', 'build': 'LRX22G'}
+{'model': 'm1 note', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'GN5005', 'version': '6.0', 'build': 'MRA58K'}
+{'model': '1107', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'OPPO R11 Plus', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'X600', 'version': '5.0', 'build': 'AAXCNCU5000206021S'}
+{'model': 'Redmi 5A', 'version': '7.1.2', 'build': 'N2G47H'}
+{'model': 'OPPO R11 Plus', 'version': '7.1.2', 'build': 'NJH47F'}
+{'model': 'OPPO R11 Plus', 'version': '7.1.2', 'build': 'NJH47B'}
+{'model': 'SM-A5000', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'Lenovo P1c72', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'NX511J_V3', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'SM-G950F', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'Che2-UL00', 'version': '4.4.2', 'build': 'HonorChe2-UL00'}
+{'model': 'SM-G9200', 'version': '6.0.1', 'build': 'MMB29K'}
+{'model': 'Letv X500', 'version': '5.0.2', 'build': 'DAXCNCU5501304131S'}
+{'model': 'OPPO A33', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'STF-AL10', 'version': '7.0', 'build': 'HUAWEISTF-AL10'}
+{'model': 'ONEPLUS A3010', 'version': '7.1.1', 'build': 'NMF26F'}
+{'model': '306', 'version': '5.1', 'build': 'LMY47I'}
+{'model': 'Le X620', 'version': '6.0', 'build': 'HEXCNFN5801507011S'}
+{'model': 'Le X621', 'version': '6.0', 'build': 'HCXCNCT5902606112S; wv'}
+{'model': 'Le X620', 'version': '6.0', 'build': 'HEXCNFN5902606111S; wv'}
+{'model': 'HUAWEI G7-UL20', 'version': '4.4.4', 'build': 'HuaweiG7-UL20'}
+{'model': 'Coolpad8720Q', 'version': '4.2.1', 'build': 'JOP40D'}
+{'model': 'PIC-AL00', 'version': '7.0', 'build': 'HUAWEIPIC-AL00; wv'}
+{'model': 'BND-AL10', 'version': '7.0', 'build': 'HONORBND-AL10'}
+{'model': 'R8000', 'version': '4.3', 'build': 'JLS36C'}
+{'model': 'M3 Max', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'U7', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'NX575J', 'version': '6.0', 'build': 'MRA58K; wv'}
+{'model': 'X900+', 'version': '5.0.2', 'build': 'CEXCNFN5501304131S'}
+{'model': 'CHM-CL00', 'version': '4.4.4', 'build': 'CHM-CL00'}
+{'model': 'SM-G920V', 'version': '6.0.1', 'build': 'MMB29K; wv'}
+{'model': 'SK3-01', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'XT1085', 'version': '7.1.1', 'build': 'NMF26V'}
+{'model': 'ONE A2001', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'ONE E1001', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'MI 3W', 'version': '4.3', 'build': 'JLS36C'}
+{'model': 'NX529J', 'version': '5.1.1', 'build': 'LMY47V'}
+{'model': 'ONEPLUS A3010', 'version': '7.1.2', 'build': 'NJH47F'}
+{'model': 'ONEPLUS A3010', 'version': '7.1.2', 'build': 'NJH47D'}
+{'model': 'vivo Y623', 'version': '4.4.4', 'build': 'KTU84P'}
+{'model': 'S9L', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'Le X520', 'version': '6.0.1', 'build': 'IEXCNFN5801607282S; wv'}
+{'model': 'MI 5s Plus', 'version': '6.0.1', 'build': 'MI+5s+Plus'}
+{'model': '1701-M01', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'BTV-DL09', 'version': '7.0', 'build': 'HUAWEIBEETHOVEN-DL09'}
+{'model': 'M570C', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'DIG-TL10', 'version': '6.0', 'build': 'HUAWEIDIG-TL10; wv'}
+{'model': 'vivo V3M A', 'version': '5.1', 'build': 'LMY47I'}
+{'model': 'M3X', 'version': '6.0.1', 'build': 'MMB29U'}
+{'model': 'EDI-AL10', 'version': '6.0', 'build': 'HUAWEIEDISON-AL10'}
+{'model': 'OYSIN X8', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'SM-J700H', 'version': '6.0.1', 'build': 'MMB29K'}
+{'model': 'HLJ6', 'version': '6.0', 'build': 'MRA58K'}
+{'model': 'PE-TL20', 'version': '4.4.2', 'build': 'HuaweiPE-TL20'}
+{'model': 'SM-G955F', 'version': '7.0', 'build': 'NRD90M'}
+{'model': 'GT-I9100G', 'version': '4.0.4', 'build': 'IMM76D'}
+{'model': 'ramos R9', 'version': '5.1', 'build': 'LMY47D'}
+{'model': 'Le X620', 'version': '6.0', 'build': 'HEXCNFN5601904221S; wv'}
+{'model': 'MI MAX', 'version': '6.0.1', 'build': 'MMB29M; wv'}
+{'model': 'LEX820', 'version': '7.1.2', 'build': 'NJH47F; wv'}
+{'model': 'Letv X500', 'version': '5.0.2', 'build': 'DBXCNOP5503111031E'}
+{'model': 'Le X520', 'version': '6.0.1', 'build': 'IEXCNFN5801809291S'}
+{'model': 'GN715', 'version': '4.4.2', 'build': 'KVT49L'}
