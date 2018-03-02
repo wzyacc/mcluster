@@ -760,3 +760,4 @@
 {'screan_rsn': '1080*1920', 'android_version': '6.0', 'android_model': 'M621C', 'android_api': '23', 'os_build': 'MRA58K; wv'}
 {'screan_rsn': '720*1280', 'android_version': '5.1', 'android_model': 'OPPO A59s', 'android_api': '22', 'os_build': 'LMY47I'}
 {'screan_rsn': '1080*1920', 'android_version': '6.0', 'android_model': 'GN8002S', 'android_api': '23', 'os_build': 'MRA58K'}
+{'screan_rsn': '1080*1920', 'android_version': '5.0', 'android_model': 'Lenovo A7600-m', 'android_api': '21', 'os_build': 'LRX21M'}
