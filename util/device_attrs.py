@@ -51,7 +51,19 @@ def random_dev():
     for k,v in build_probs.iteritems():
         d.append({k:v})
     d.append({"packages":packages})
+
+    #sd信息
+    sd = random_sd()
+    for k,v in sd.iteritems():
+        d.append({k:v})
+
     return d
+
+
+def random_sd(brand=None):
+    id1 = {"sd_name":"HBG4a2","sd_cid":"90014a484247346132a40d872d0b33ff"}
+    id2 = {"sd_name":"BJNB4R","sd_cid":"150100424a4e423452071c164338c3f1"}
+    return random.choice([id1,id2])
 
 def gen_build_probs(builds,uas):
     bf = builds["build_fingerprint"]
@@ -163,7 +175,6 @@ def random_brand_packages(brand):
             t_install = (time.time()-t_dis)*1000 
             t_up = random.randint(0,100)
             if t_up < 10:
-                print t_up
                 t_update = (time.time()-random.randint(2*24*3600,10*24*3600))*1000
                 t_update = max(t_create,t_update)
             else:
@@ -173,7 +184,6 @@ def random_brand_packages(brand):
             pk["firstInstallTime"] = '%d' % t_install
             pk["lastUpdateTime"] = '%d' % t_update
             ret["third"].append(pk)
-            print pk
 
     return ret
     
