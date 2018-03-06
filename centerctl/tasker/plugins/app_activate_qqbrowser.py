@@ -170,6 +170,58 @@ class AppActiveQQBrowser(TaskerBase):
             self._rd.hdel(cfg_rd_act_do,ip) #清除设备状态
             self._rd.hdel(cfg_rd_act_do,self._task["tid"])
         
+        #临时添加时段激活分布
+        n = int(self._task["round_n"])
+        while True:
+            hour = datetime.datetime.now().hour
+            if hour < 6:
+                edge = 180 - n*0.02*7
+                if edge <= 0:
+                    break
+                rd = random.randint(0,edge)
+                if rd < 1/edge:
+                    break
+            elif hour < 9:
+                edge = 180 - n*0.1*7
+                if edge <= 0:
+                    break
+                rd = random.randint(0,edge)
+                if rd < 1/edge:
+                    break
+            elif hour < 12:
+                edge = 180 - n*0.3*7
+                if edge <= 0:
+                    break
+                rd = random.randint(0,edge)
+                if rd < 1/edge:
+                    break
+            elif hour < 15:
+                edge = 180 - n*0.2*7
+                if edge <= 0:
+                    break
+                rd = random.randint(0,edge)
+                if rd < 1/edge:
+                    break
+            elif hour < 18:
+                edge = 180 - n*0.15*7
+                if edge <= 0:
+                    break
+                rd = random.randint(0,edge)
+                if rd < 1/edge:
+                    break
+            else:
+                edge = 180 - n*0.24*7
+                if edge <= 0:
+                    break
+                rd = random.randint(0,edge)
+                if rd < 1/edge:
+                    break
+
+            print "Not hit for qq-browser-active for rd:{0},edge:{1}".format(rd,edge)
+            time.sleep(60)
+
+
+        
         self._task["status"] = 200
         self._rd.hset(cfg_rd_task,self._task["tid"],self._task)
         return True

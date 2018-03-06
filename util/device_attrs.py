@@ -53,17 +53,55 @@ def random_dev():
     d.append({"packages":packages})
 
     #sd信息
-    sd = random_sd()
+    sd = random_sd(brand,model)
     for k,v in sd.iteritems():
         d.append({k:v})
 
     return d
 
 
-def random_sd(brand=None):
-    id1 = {"sd_name":"HBG4a2","sd_cid":"90014a484247346132a40d872d0b33ff"}
-    id2 = {"sd_name":"BJNB4R","sd_cid":"150100424a4e423452071c164338c3f1"}
-    return random.choice([id1,id2])
+def random_sd(brand=None,model=None):
+    wds = "0123456789qwertyuiopasdfghjklzxcvbnm"
+    if brand.lower().find("leeco") != -1:
+        if model.lower().find("le x620") != -1:
+            sd_name = 'HBG4a2'
+            sd_cid = '90014a484247346132a'
+            for i in range(13):
+                sd_cid += random.choice(wds)
+            return {"sd_name":sd_name,"sd_cid":sd_cid}
+        if model.lower().find("lex651") != -1:
+            sd_name = 'BJNB4R'
+            sd_cid = '150100424a4e4234520'
+            for i in range(13):
+                sd_cid += random.choice(wds)
+            return {"sd_name":sd_name,"sd_cid":sd_cid}
+    
+    if brand.lower().find("360") != -1:
+        if model.lower().find("1501_m02") != -1:
+            sd_name = 'DF4016'
+            sd_cid = '4501004446343031360'
+            for i in range(13):
+                sd_cid += random.choice(wds)
+            return {"sd_name":sd_name,"sd_cid":sd_cid}
+    
+    if brand.lower().find("oppo") != -1:
+        if model.lower().find("a37m") != -1:
+            sd_name = 'Q2J96R'
+            sd_cid = '13014e51324a3936521'
+            for i in range(13):
+                sd_cid += random.choice(wds)
+            return {"sd_name":sd_name,"sd_cid":sd_cid}
+    
+    if brand.lower().find("vivo") != -1:
+        if model.lower().find("y55") != -1:
+            sd_name = 'QE13MB'
+            sd_cid = '150100514531334d420'
+            for i in range(13):
+                sd_cid += random.choice(wds)
+            return {"sd_name":sd_name,"sd_cid":sd_cid}
+
+    return {"sd_name":"","sd_cid":""}
+
 
 def gen_build_probs(builds,uas):
     bf = builds["build_fingerprint"]
@@ -213,7 +251,13 @@ def random_mac():
     return ':'.join(map(lambda x: "%02x" % x, mac))
 
 def random_nettype():
-    return random.choice(['wifi','4g','3g'])
+    return random.choice(['4g','3g'])
+    rd = random.randint(0,100)
+    if rd < 5:
+        return '3g'
+    elif rd < 20:
+        return '4g'
+    return 'wifi'
 
 def random_android_id():
     seed = '1234567890qwertyuiopasdfghjklzxcvbnm'
