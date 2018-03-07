@@ -30,3 +30,14 @@ task_conf = {
         "rotationBackups": 0
     }
 }
+monitor_conf = {
+    "logging": {
+        "format": "%(asctime)s [%(levelname)s] %(name)s:%(lineno)d - %(message)s",
+        "type": "file",
+        "level": 2,
+        "filename": "/data/log/mcluster/task_monitor/monitor_manager",
+        "rotationWhen": "M",
+        "rotationInterval": 120,
+        "rotationBackups": 0
+    }
+}

@@ -12,6 +12,7 @@ import json
 import time
 import datetime
 import logging
+import logging.handlers
 
 sys.path.append(os.path.join(os.path.dirname(os.path.realpath(__file__)),'../../config'))
 from cfg_db import *
@@ -118,6 +119,7 @@ def setup_logging(conf):
 
 if __name__ == "__main__":
     print 'ok'
+    setup_logging(task_conf)
     mgr = TaskerManager()
     while True:
         #task = mgr.findProcessingTask() 

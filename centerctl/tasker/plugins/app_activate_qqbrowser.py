@@ -177,50 +177,50 @@ class AppActiveQQBrowser(TaskerBase):
         while True:
             hour = datetime.datetime.now().hour
             if hour < 6:
-                edge = 180 - n*0.02*7
+                edge = 300 - n*0.02*7
                 if edge <= 0:
                     break
                 rd = random.randint(0,edge)
-                if rd < 1/edge:
+                if rd < n*0.02:
                     break
             elif hour < 9:
                 edge = 180 - n*0.1*7
                 if edge <= 0:
                     break
                 rd = random.randint(0,edge)
-                if rd < 1/edge:
+                if rd < n*0.1:
                     break
             elif hour < 12:
                 edge = 180 - n*0.3*7
                 if edge <= 0:
                     break
                 rd = random.randint(0,edge)
-                if rd < 1/edge:
+                if rd < n*0.3:
                     break
             elif hour < 15:
                 edge = 180 - n*0.2*7
                 if edge <= 0:
                     break
                 rd = random.randint(0,edge)
-                if rd < 1/edge:
+                if rd < n*0.2:
                     break
             elif hour < 18:
                 edge = 180 - n*0.15*7
                 if edge <= 0:
                     break
                 rd = random.randint(0,edge)
-                if rd < 1/edge:
+                if rd < n*0.15:
                     break
             else:
-                edge = 180 - n*0.24*7
+                edge = 300 - n*0.24*7
                 if edge <= 0:
                     break
                 rd = random.randint(0,edge)
-                if rd < 1/edge:
+                if rd < n*0.24:
                     break
 
             print "Not hit for qq-browser-active for rd:{0},edge:{1}".format(rd,edge)
-            time.sleep(60)
+            time.sleep(1)
 
 
         

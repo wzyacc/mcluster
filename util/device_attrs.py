@@ -68,13 +68,13 @@ def random_sd(brand=None,model=None):
             sd_cid = '90014a484247346132a'
             for i in range(13):
                 sd_cid += random.choice(wds)
-            return {"sd_name":sd_name,"sd_cid":sd_cid}
+            return {"sd_type":"MMC","sd_name":sd_name,"sd_cid":sd_cid}
         if model.lower().find("lex651") != -1:
             sd_name = 'BJNB4R'
             sd_cid = '150100424a4e4234520'
             for i in range(13):
                 sd_cid += random.choice(wds)
-            return {"sd_name":sd_name,"sd_cid":sd_cid}
+            return {"sd_type":"MMC","sd_name":sd_name,"sd_cid":sd_cid}
     
     if brand.lower().find("360") != -1:
         if model.lower().find("1501_m02") != -1:
@@ -82,7 +82,7 @@ def random_sd(brand=None,model=None):
             sd_cid = '4501004446343031360'
             for i in range(13):
                 sd_cid += random.choice(wds)
-            return {"sd_name":sd_name,"sd_cid":sd_cid}
+            return {"sd_type":"MMC","sd_name":sd_name,"sd_cid":sd_cid}
     
     if brand.lower().find("oppo") != -1:
         if model.lower().find("a37m") != -1:
@@ -90,7 +90,7 @@ def random_sd(brand=None,model=None):
             sd_cid = '13014e51324a3936521'
             for i in range(13):
                 sd_cid += random.choice(wds)
-            return {"sd_name":sd_name,"sd_cid":sd_cid}
+            return {"sd_type":"MMC","sd_name":sd_name,"sd_cid":sd_cid}
     
     if brand.lower().find("vivo") != -1:
         if model.lower().find("y55") != -1:
@@ -98,9 +98,9 @@ def random_sd(brand=None,model=None):
             sd_cid = '150100514531334d420'
             for i in range(13):
                 sd_cid += random.choice(wds)
-            return {"sd_name":sd_name,"sd_cid":sd_cid}
+            return {"sd_type":"MMC","sd_name":sd_name,"sd_cid":sd_cid}
 
-    return {"sd_name":"","sd_cid":""}
+    return {"sd_type":"","sd_name":"","sd_cid":""}
 
 
 def gen_build_probs(builds,uas):
