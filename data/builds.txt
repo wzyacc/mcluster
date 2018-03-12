@@ -1,25 +1,4 @@
 {
-    "samsung":{
-        "SM-G9350":[
-            {
-                "build_brand":"samsung",
-                "build_manufacturer":"samsung",
-                "build_model":"SM-G9350",
-                "build_product":"hero2qltezc",
-                "build_display":"NRD90M.G9350ZCU2BQL3",
-                "build_board":"msm8996",
-                "build_device":"hero2qltechn",
-                "build_fingerprint":"samsung/hero2qltezc/hero2qltechn:7.0/NRD90M/G9350ZCU2BQL3:user/release-keys",
-                "build_hardware":"qcom",
-                "build_host":"SWHE8817",
-                "build_id":"NRD90M",
-                "build_tags":"release-keys",
-                "build_type":"user",
-                "build_user":"dpi",
-                "build_bootloader":"G9350ZCU2BQL3"
-            }
-        ]
-    },
     "HONOR":{
         "PRA-AL00X":[
             {

@@ -11,11 +11,15 @@ sys.path.append(os.path.join(os.path.dirname(os.path.realpath(__file__)),"../cen
 from tuia_wap_cpc import TuiaWapCPC
 from app_activate_qqbrowser import AppActiveQQBrowser
 from app_idle_qqbrowser import AppIdleQQBrowser
+from app_activate_fztt import AppActiveFztt
+from app_idle_fztt import AppIdleFztt
 
 task_modules = {
             "tuia-wap-click":TuiaWapCPC,
             "app-active-qqbrowser":AppActiveQQBrowser,
-            "app-idle-qqbrowser":AppIdleQQBrowser
+            "app-idle-qqbrowser":AppIdleQQBrowser,
+            "app-active-fztt":AppActiveQQBrowser,
+            "app-idle-fztt":AppIdleQQBrowser
         }
 
 
