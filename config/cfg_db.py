@@ -9,12 +9,12 @@ cfg_mysql = {
             "port":3306,
             "user":"root",
             "pass":"chinatt_1347",
-            "db":"mcluster"
+            "db":"mcluster_v1"
         }
 
 cfg_redis = {
             "host":"192.168.100.199",
-            "port":6679
+            "port":6889
         }
 
 cfg_rd_task = 'task'

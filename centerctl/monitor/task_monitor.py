@@ -79,6 +79,12 @@ class TaskMonitor:
                 status = self._prepare_app_idle_fztt(task)
                 if not status: #如果初始化失败，中止，这里考虑到设备繁忙的情况，oarea可能正在占用
                     continue
+            
+            #新任务，疯转头条需要数据准备
+            if task["act"] == "app-idle-miaopai":
+                status = self._prepare_app_idle_miaopai(task)
+                if not status: #如果初始化失败，中止，这里考虑到设备繁忙的情况，oarea可能正在占用
+                    continue
 
             #新任务，放入redis中
             task["status"] = 100
@@ -209,6 +215,68 @@ class TaskMonitor:
             cursor.execute(sql)
             self._rd.hdel(cfg_rd_act_appbackup,cip) #删除redis中临时备份信息
             self._rd.hdel(cfg_rd_act_net_oarea,cip) #删除redis中临时区域信息
+    
+    def _prepare_app_idle_miaopai(self,task,first=True):
+        #first:是否是初始化任务
+        #为“秒拍”初始化数据，包括设备信息，出口ip
+        #检测设备是否繁忙
+        
+        gid = task["gid"]
+        devs = self._rd.hget(cfg_rd_rdg,gid)
+        if not devs or len(devs) == 0:
+            print '分组内没有设备...'
+            return False
+        devs = eval(devs) 
+
+        for dev in devs:
+            cip = dev["ip"]
+            dev_info = self._rd.hget(cfg_rd_device,cip)
+            if not dev_info or dev_info == "":
+                print "TaskMonitor->Can not find dev for cip:"+cip
+                return False
+
+            dev_info = eval(dev_info)
+            busy = dev_info.get("busy",None)
+            if first and busy and dev_info["busy"] != 0:
+                print "TaskMonitor->app_idle_miaopai device is busy of cip:"+cip
+                return False
+        
+        n_dev = len(devs)
+        cursor = self._mysql.cursor()
+        sql = "SELECT count(DISTINCT(imei)) as n FROM `m_appbackup` WHERE act='app-active-miaopai'"
+        cursor.execute(sql)
+        ret = cursor.fetchall()
+        n_imei = ret[0]["n"]
+        if n_imei < n_dev:
+            print "TaskMonitor->app-idle-miaopai imeis less for devices!"
+            return False
+        sql = "SELECT DISTINCT imei,id FROM `m_appbackup` WHERE act='app-active-miaopai' GROUP BY imei"
+        cursor.execute(sql)
+        ret = cursor.fetchall()
+        ids = []
+        for r in ret:
+            ids.append(str(r["id"]))
+        hits = random.sample(ids,n_dev)
+        
+        sql = "SELECT id,imei,oarea,attrs FROM m_appbackup WHERE id IN({0})".format(",".join(hits))
+        cursor.execute(sql)
+        rets = cursor.fetchall()
+        lst_fake = [] #虚拟信息
+        for r in rets:
+            attrs_str = base64.b64decode(r["attrs"])
+            if not attrs_str or attrs_str == "":
+                print "TaskMonitor->app-idle-miaopai attrs is None for id:"+str(r[id])
+                return False
+            attrs = eval(attrs_str)
+            fake = {}
+            fake["fake_attrs"] = attrs["fake_attrs"]
+            fake["oarea"] = r["oarea"]
+            lst_fake.append(fake)
+        for i in range(len(devs)):
+            cip = devs[i]["ip"]
+            self._rd.hset(cfg_rd_app_idle_oarea,cip,lst_fake[i]["oarea"])
+            self._rd.hset(cfg_rd_app_idle_dev,cip,json.dumps(lst_fake[i]["fake_attrs"]))
+        return True
 
     def _prepare_app_idle_fztt(self,task,first=True):
         #first:是否是初始化任务

@@ -13,13 +13,17 @@ from app_activate_qqbrowser import AppActiveQQBrowser
 from app_idle_qqbrowser import AppIdleQQBrowser
 from app_activate_fztt import AppActiveFztt
 from app_idle_fztt import AppIdleFztt
+from app_activate_miaopai import AppActiveMiaopai
+from app_idle_miaopai import AppIdleMiaopai
 
 task_modules = {
             "tuia-wap-click":TuiaWapCPC,
             "app-active-qqbrowser":AppActiveQQBrowser,
             "app-idle-qqbrowser":AppIdleQQBrowser,
             "app-active-fztt":AppActiveQQBrowser,
-            "app-idle-fztt":AppIdleQQBrowser
+            "app-idle-fztt":AppIdleQQBrowser,
+            "app-active-miaopai":AppActiveMiaopai,
+            "app-idle-miaopai":AppIdleMiaopai,
         }
 
 
