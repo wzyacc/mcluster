@@ -27,3 +27,4 @@ cfg_rd_act_appbackup = 'act_appbackup'
 cfg_rd_act_net_oarea = 'act_net_oarea'
 cfg_rd_app_idle_oarea = 'app_idle_oarea'
 cfg_rd_app_idle_dev = 'app_idle_dev'
+cfg_rd_app_user = 'app_user' #app登录账号数据
