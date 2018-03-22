@@ -5,6 +5,7 @@
 '''
 import os
 import sys
+import pdb
 import json
 import time
 import datetime
@@ -32,6 +33,9 @@ def get_unlogin_user(platform,num=1):
     cursor = db.cursor()
     sql = "SELECT * FROM m_app_user WHERE platform='{0}' AND is_login=0 AND is_valid=1 LIMIT 0,{1}".format(platform,num)
     cursor.execute(sql)
-    ret = cursor.fetchall()
-    return ret
+    rets = cursor.fetchall()
+    for ret in rets:
+        if ret.has_key("ctime"):
+            del ret["ctime"]
+    return rets
 

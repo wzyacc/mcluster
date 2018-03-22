@@ -21,7 +21,7 @@ from cfg_db import *
 
 sys.path.append(os.path.join(os.path.dirname(os.path.realpath(__file__)),"../../../util/"))
 import device_attrs
-from user_info import get_unlogin_user_douyin
+from user_info import get_unlogin_user
 
 LOG = logging.getLogger(__name__)
 
@@ -131,7 +131,7 @@ class AppActiveDouyin(TaskerBase):
         task_act_do = {"tid":self._task["tid"],"action":self._task["act_do"],"devices":devices,"cur_step":self._task["cur_step"]}
         
         #给任务添加登录账号信息
-        users = get_unlogin_user_douyin(len(devices))
+        users = get_unlogin_user("douyin",len(devices))
         if not users or len(users) == 0:
             self._task["status"] = 200
             self._rd.hset(cfg_rd_task,self._task["tid"],self._task)
