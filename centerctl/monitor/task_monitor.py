@@ -214,12 +214,13 @@ class TaskMonitor:
             user = js.get("user","")
             utype = js.get("utype",0)
             platform = js.get("platform","")
-            sql = "INSERT INTO `m_appbackup`(imei,act,oarea,attrs,data,user,utype,platform) VALUES('{0}','{1}','{2}','{3}','{4}')".format(imei,act,oarea,b64_attrs,js["app_data"],user,utype,platform)
+            sql = "INSERT INTO `m_appbackup`(imei,act,oarea,attrs,data,user,utype,platform) VALUES('{0}','{1}','{2}','{3}','{4}','{5}',{6},'{7}')".format(imei,act,oarea,b64_attrs,js["app_data"],user,utype,platform)
             cursor.execute(sql)
             self._mysql.commit()
-            sql = "UPDATE `m_app_user` SET is_login=1 WHERE user='{0}',utype={1},platform='{2}'".format(user,utype,platform)
-            cursor.execute(sql)
-            self._mysql.commit()
+            if len(user) > 3:
+                sql = "UPDATE `m_app_user` SET is_login=1 WHERE user='{0}' AND utype={1} AND platform='{2}'".format(user,utype,platform)
+                cursor.execute(sql)
+                self._mysql.commit()
             self._rd.hdel(cfg_rd_act_appbackup,cip) #删除redis中临时备份信息
             self._rd.hdel(cfg_rd_act_net_oarea,cip) #删除redis中临时区域信息
     

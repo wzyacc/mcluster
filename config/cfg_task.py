@@ -15,9 +15,11 @@ from app_activate_fztt import AppActiveFztt
 from app_idle_fztt import AppIdleFztt
 from app_activate_miaopai import AppActiveMiaopai
 from app_idle_miaopai import AppIdleMiaopai
-from app_activate_douyin import AppActiveDouyin
-from app_activate_huajiao import AppActiveHuajiao
-from app_activate_huoshan import AppActiveHuoshan
+from app_yh_douyin import AppActiveDouyin
+from app_yh_huajiao import AppActiveHuajiao
+from app_yh_huoshan import AppActiveHuoshan
+from app_yh_kuaishou import AppActiveKuaishou
+from app_yh_xiongmao import AppActiveXiongmao
 
 task_modules = {
             "tuia-wap-click":TuiaWapCPC,
@@ -30,6 +32,8 @@ task_modules = {
             "app-active-douyin":AppActiveDouyin,
             "app-active-huajiao":AppActiveHuajiao,
             "app-active-huoshan":AppActiveHuoshan,
+            "app-active-kuaishou":AppActiveKuaishou,
+            "app-active-xiongmao":AppActiveXiongmao,
         }
 
 
