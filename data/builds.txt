@@ -20,27 +20,6 @@
             }
         ]
     },
-    "HUAWEI":{
-        "RNE-AL00":[
-            {
-                "build_brand":"HUAWEI",
-                "build_manufacturer":"HUAWEI",
-                "build_model":"RNE-AL00",
-                "build_product":"RNE-AL00",
-                "build_display":"RNE-AL00C00B178",
-                "build_board":"RNE",
-                "build_device":"HWRNE",
-                "build_fingerprint":"HUAWEI/RNE-AL00/HWRNE:7.0/HUAWEIRNE-AL00/C00B178:user/release-keys",
-                "build_hardware":"hi6250",
-                "build_host":"shajk0108cna",
-                "build_id":"HUAWEIRNE-AL00",
-                "build_tags":"release-keys",
-                "build_type":"user",
-                "build_user":"test",
-                "build_bootloader":"unknown"
-            }
-        ]
-    },
     "OPPO":{
         "OPPO A37m":[
             {
