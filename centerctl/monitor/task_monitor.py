@@ -75,14 +75,30 @@ class TaskMonitor:
                     continue
             
             #新任务，疯转头条需要数据准备
-            if task["act"] == "app-idle-fztt":
-                status = self._prepare_app_idle_fztt(task)
+            if task["act"] == "app-idle-douyin":
+                status = self._prepare_app_idle_common(task,"douyin")
                 if not status: #如果初始化失败，中止，这里考虑到设备繁忙的情况，oarea可能正在占用
                     continue
             
-            #新任务，疯转头条需要数据准备
-            if task["act"] == "app-idle-miaopai":
-                status = self._prepare_app_idle_miaopai(task)
+            #新任务，花椒需要数据准备
+            if task["act"] == "app-idle-huajiao":
+                status = self._prepare_app_idle_common(task,"huajiao")
+                if not status: #如果初始化失败，中止，这里考虑到设备繁忙的情况，oarea可能正在占用
+                    continue
+            
+            #新任务，火山需要数据准备
+            if task["act"] == "app-idle-huoshan":
+                status = self._prepare_app_idle_common(task,"huoshan")
+                if not status: #如果初始化失败，中止，这里考虑到设备繁忙的情况，oarea可能正在占用
+                    continue
+            #新任务，快手需要数据准备
+            if task["act"] == "app-idle-kuaishou":
+                status = self._prepare_app_idle_common(task,"kuaishou")
+                if not status: #如果初始化失败，中止，这里考虑到设备繁忙的情况，oarea可能正在占用
+                    continue
+            #新任务，熊猫需要数据准备
+            if task["act"] == "app-idle-xiongmao":
+                status = self._prepare_app_idle_common(task,"xiongmao")
                 if not status: #如果初始化失败，中止，这里考虑到设备繁忙的情况，oarea可能正在占用
                     continue
 
@@ -224,9 +240,11 @@ class TaskMonitor:
             self._rd.hdel(cfg_rd_act_appbackup,cip) #删除redis中临时备份信息
             self._rd.hdel(cfg_rd_act_net_oarea,cip) #删除redis中临时区域信息
     
-    def _prepare_app_idle_miaopai(self,task,first=True):
+    
+    def _prepare_app_idle_common(self,task,platform,first=True):
+        #platform:平台名称，命名约定（登录激活任务为"app-active-platform",养号日活任务为"app-idle-platform"）
         #first:是否是初始化任务
-        #为“秒拍”初始化数据，包括设备信息，出口ip
+        #为app养号日活初始化数据，包括设备信息，出口ip
         #检测设备是否繁忙
         
         gid = task["gid"]
@@ -246,19 +264,19 @@ class TaskMonitor:
             dev_info = eval(dev_info)
             busy = dev_info.get("busy",None)
             if first and busy and dev_info["busy"] != 0:
-                print "TaskMonitor->app_idle_miaopai device is busy of cip:"+cip
+                print "TaskMonitor->app_idle_{0} device is busy of cip:{1}".format(platform,cip)
                 return False
         
         n_dev = len(devs)
         cursor = self._mysql.cursor()
-        sql = "SELECT count(DISTINCT(imei)) as n FROM `m_appbackup` WHERE act='app-active-miaopai'"
+        sql = "SELECT count(DISTINCT(imei)) as n FROM `m_appbackup` WHERE act='app-active-{0}' AND valid=1".format(platform)
         cursor.execute(sql)
         ret = cursor.fetchall()
         n_imei = ret[0]["n"]
         if n_imei < n_dev:
-            print "TaskMonitor->app-idle-miaopai imeis less for devices!"
+            print "TaskMonitor->app-idle-{0} imeis less for devices!".format(platform)
             return False
-        sql = "SELECT DISTINCT imei,id FROM `m_appbackup` WHERE act='app-active-miaopai' GROUP BY imei"
+        sql = "SELECT DISTINCT imei,id FROM `m_appbackup` WHERE act='app-active-{0}' and valid=1 GROUP BY imei".format(platform)
         cursor.execute(sql)
         ret = cursor.fetchall()
         ids = []
@@ -273,7 +291,69 @@ class TaskMonitor:
         for r in rets:
             attrs_str = base64.b64decode(r["attrs"])
             if not attrs_str or attrs_str == "":
-                print "TaskMonitor->app-idle-miaopai attrs is None for id:"+str(r[id])
+                print "TaskMonitor->app-idle-{0} attrs is None for id:{1}".format(str(r[id]),platform)
+                return False
+            attrs = eval(attrs_str)
+            fake = {}
+            fake["fake_attrs"] = attrs["fake_attrs"]
+            fake["oarea"] = r["oarea"]
+            lst_fake.append(fake)
+        for i in range(len(devs)):
+            cip = devs[i]["ip"]
+            self._rd.hset(cfg_rd_app_idle_oarea,cip,lst_fake[i]["oarea"])
+            self._rd.hset(cfg_rd_app_idle_dev,cip,json.dumps(lst_fake[i]["fake_attrs"]))
+        return True
+    
+    def _prepare_app_idle_douyin(self,task,first=True):
+        #first:是否是初始化任务
+        #为“抖音”初始化数据，包括设备信息，出口ip
+        #检测设备是否繁忙
+        
+        gid = task["gid"]
+        devs = self._rd.hget(cfg_rd_rdg,gid)
+        if not devs or len(devs) == 0:
+            print '分组内没有设备...'
+            return False
+        devs = eval(devs) 
+
+        for dev in devs:
+            cip = dev["ip"]
+            dev_info = self._rd.hget(cfg_rd_device,cip)
+            if not dev_info or dev_info == "":
+                print "TaskMonitor->Can not find dev for cip:"+cip
+                return False
+
+            dev_info = eval(dev_info)
+            busy = dev_info.get("busy",None)
+            if first and busy and dev_info["busy"] != 0:
+                print "TaskMonitor->app_idle_douyin device is busy of cip:"+cip
+                return False
+        
+        n_dev = len(devs)
+        cursor = self._mysql.cursor()
+        sql = "SELECT count(DISTINCT(imei)) as n FROM `m_appbackup` WHERE act='app-active-douyin' AND valid=1"
+        cursor.execute(sql)
+        ret = cursor.fetchall()
+        n_imei = ret[0]["n"]
+        if n_imei < n_dev:
+            print "TaskMonitor->app-idle-douyin imeis less for devices!"
+            return False
+        sql = "SELECT DISTINCT imei,id FROM `m_appbackup` WHERE act='app-active-douyin' and valid=1 GROUP BY imei"
+        cursor.execute(sql)
+        ret = cursor.fetchall()
+        ids = []
+        for r in ret:
+            ids.append(str(r["id"]))
+        hits = random.sample(ids,n_dev)
+        
+        sql = "SELECT id,imei,oarea,attrs FROM m_appbackup WHERE id IN({0})".format(",".join(hits))
+        cursor.execute(sql)
+        rets = cursor.fetchall()
+        lst_fake = [] #虚拟信息
+        for r in rets:
+            attrs_str = base64.b64decode(r["attrs"])
+            if not attrs_str or attrs_str == "":
+                print "TaskMonitor->app-idle-douyin attrs is None for id:"+str(r[id])
                 return False
             attrs = eval(attrs_str)
             fake = {}

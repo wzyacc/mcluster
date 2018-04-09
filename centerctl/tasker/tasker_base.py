@@ -27,7 +27,7 @@ class TaskerBase:
                 print "Task Base dev not found for ip:{0}".format(ip)
                 continue
             busy = dev.get("busy",None)
-            if busy == 1:
+            if busy and int(busy) == 1:#fix 是否繁忙字符串格式问题
                 return True
         return False
 

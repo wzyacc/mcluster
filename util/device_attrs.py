@@ -56,6 +56,12 @@ def random_dev():
     sd = random_sd(brand,model)
     for k,v in sd.iteritems():
         d.append({k:v})
+    
+    #固定屏幕大小
+    for item in d:
+        if item.has_key("screan_rsn"):
+            item["screan_rsn"] = "720*1280"
+
 
     return d
 
@@ -113,6 +119,8 @@ def gen_build_probs(builds,uas):
             break
     if not good_ua:
         return None
+   
+
     for k,v in good_ua.iteritems():
         if builds.has_key(k):
             continue

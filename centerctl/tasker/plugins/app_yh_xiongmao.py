@@ -36,14 +36,14 @@ class AppActiveXiongmao(TaskerBase):
         gid = self._task["gid"]
         devs = self._rd.hget(cfg_rd_rdg,gid)
         if not devs or len(devs) == 0:
-            print '分组内没有设备...'
+            LOG.error(u'分组内没有设备...')
             self._task["status"] = -400
             self._rd.hset(cfg_rd_task,self._task["tid"],self._task)
             return False
         devs = eval(devs) 
         #如果组内设备有忙的，先等待
         if self.dev_has_busy(devs):
-            print "YhXiongmao->Some devices busy!Wait..."
+            LOG.info("YhXiongmao->Some devices busy!Wait...")
             return False
 
         #对所有设备，添加修改手机属性的本地任务
@@ -75,10 +75,10 @@ class AppActiveXiongmao(TaskerBase):
             tid = self._task["tid"]+"-"+ip
             tast_act_dev = self._rd.hget(cfg_rd_act_dev,ip)
             if not tast_act_dev:
-                print "Task->YhXiongmao:device task not finished,tid:{0}".format(tid)
+                LOG.info("Task->YhXiongmao:device task not finished,tid:{0}".format(tid))
                 return False
             if tast_act_dev and tast_act_dev != '0': #有任务没有完成
-                print "Task->YhXiongmao:device task not finished,tid:{0}".format(tid)
+                LOG.info("Task->YhXiongmao:device task not finished,tid:{0}".format(tid))
                 return False
         
         for dev_info in devs:
@@ -102,7 +102,7 @@ class AppActiveXiongmao(TaskerBase):
         gid = self._task["gid"]
         devs = self._rd.hget(cfg_rd_rdg,gid)
         if not devs:
-            print "TaskManager->No devices for group gid:{0}".format(gid)
+            LOG.info("TaskManager->No devices for group gid:{0}".format(gid))
             return False
         devs = eval(devs) 
         
@@ -111,10 +111,10 @@ class AppActiveXiongmao(TaskerBase):
             ip = dev_info["ip"]
             tast_act_dev = self._rd.hget(cfg_rd_act_net,ip)
             if not tast_act_dev:
-                print "TaskManager->Missing net task for ip:{0}".format(ip)
+                LOG.error("TaskManager->Missing net task for ip:{0}".format(ip))
                 return False
             if tast_act_dev and tast_act_dev != '0': #有任务没有完成,注意，这里统一认为vpn总是成功的!
-                print "Task->YhXiongmao:net task not finished,ip:{0}".format(ip)
+                LOG.info("Task->YhXiongmao:net task not finished,ip:{0}".format(ip))
                 return False
         
         #TODO:对net任务结果进行处理
@@ -159,7 +159,7 @@ class AppActiveXiongmao(TaskerBase):
             ip = dev["ip"]
             do_status = self._rd.hget(cfg_rd_act_do,ip)
             if do_status == None:
-                print "Task->YhXiongmao:appium task not finished,ip:{0}".format(ip)
+                LOG.info("Task->YhXiongmao:appium task not finished,ip:{0}".format(ip))
                 return False
         #TODO:对do任务结果进行处理
         for dev in devs:

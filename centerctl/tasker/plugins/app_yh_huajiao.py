@@ -36,14 +36,14 @@ class AppActiveHuajiao(TaskerBase):
         gid = self._task["gid"]
         devs = self._rd.hget(cfg_rd_rdg,gid)
         if not devs or len(devs) == 0:
-            print '分组内没有设备...'
+            LOG.error('分组内没有设备...')
             self._task["status"] = -400
             self._rd.hset(cfg_rd_task,self._task["tid"],self._task)
             return False
         devs = eval(devs) 
         #如果组内设备有忙的，先等待
         if self.dev_has_busy(devs):
-            print "YhHuajiao->Some devices busy!Wait..."
+            LOG.info("YhHuajiao->Some devices busy!Wait...")
             return False
 
         #对所有设备，添加修改手机属性的本地任务
@@ -75,10 +75,10 @@ class AppActiveHuajiao(TaskerBase):
             tid = self._task["tid"]+"-"+ip
             tast_act_dev = self._rd.hget(cfg_rd_act_dev,ip)
             if not tast_act_dev:
-                print "Task->YhHuajiao:device task not finished,tid:{0}".format(tid)
+                LOG.info("Task->YhHuajiao:device task not finished,tid:{0}".format(tid))
                 return False
             if tast_act_dev and tast_act_dev != '0': #有任务没有完成
-                print "Task->YhHuajiao:device task not finished,tid:{0}".format(tid)
+                LOG.info("Task->YhHuajiao:device task not finished,tid:{0}".format(tid))
                 return False
         
         for dev_info in devs:
@@ -102,7 +102,7 @@ class AppActiveHuajiao(TaskerBase):
         gid = self._task["gid"]
         devs = self._rd.hget(cfg_rd_rdg,gid)
         if not devs:
-            print "TaskManager->No devices for group gid:{0}".format(gid)
+            LOG.info("TaskManager->No devices for group gid:{0}".format(gid))
             return False
         devs = eval(devs) 
         
@@ -111,10 +111,10 @@ class AppActiveHuajiao(TaskerBase):
             ip = dev_info["ip"]
             tast_act_dev = self._rd.hget(cfg_rd_act_net,ip)
             if not tast_act_dev:
-                print "TaskManager->Missing net task for ip:{0}".format(ip)
+                LOG.info("TaskManager->Missing net task for ip:{0}".format(ip))
                 return False
             if tast_act_dev and tast_act_dev != '0': #有任务没有完成,注意，这里统一认为vpn总是成功的!
-                print "Task->YhHuajiao:net task not finished,ip:{0}".format(ip)
+                LOG.info("Task->YhHuajiao:net task not finished,ip:{0}".format(ip))
                 return False
         
         #TODO:对net任务结果进行处理
@@ -159,7 +159,7 @@ class AppActiveHuajiao(TaskerBase):
             ip = dev["ip"]
             do_status = self._rd.hget(cfg_rd_act_do,ip)
             if do_status == None:
-                print "Task->YhHuajiao:appium task not finished,ip:{0}".format(ip)
+                LOG.info("Task->YhHuajiao:appium task not finished,ip:{0}".format(ip))
                 return False
         #TODO:对do任务结果进行处理
         for dev in devs:

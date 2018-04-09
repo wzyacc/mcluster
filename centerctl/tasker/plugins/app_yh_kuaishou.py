@@ -36,14 +36,14 @@ class AppActiveKuaishou(TaskerBase):
         gid = self._task["gid"]
         devs = self._rd.hget(cfg_rd_rdg,gid)
         if not devs or len(devs) == 0:
-            print '分组内没有设备...'
+            LOG.error(u'分组内没有设备...')
             self._task["status"] = -400
             self._rd.hset(cfg_rd_task,self._task["tid"],self._task)
             return False
         devs = eval(devs) 
         #如果组内设备有忙的，先等待
         if self.dev_has_busy(devs):
-            print "YhKuaishou->Some devices busy!Wait..."
+            LOG.info("YhKuaishou->Some devices busy!Wait...")
             return False
 
         #对所有设备，添加修改手机属性的本地任务
@@ -75,10 +75,10 @@ class AppActiveKuaishou(TaskerBase):
             tid = self._task["tid"]+"-"+ip
             tast_act_dev = self._rd.hget(cfg_rd_act_dev,ip)
             if not tast_act_dev:
-                print "Task->YhKuaishou:device task not finished,tid:{0}".format(tid)
+                LOG.info("Task->YhKuaishou:device task not finished,tid:{0}".format(tid))
                 return False
             if tast_act_dev and tast_act_dev != '0': #有任务没有完成
-                print "Task->YhKuaishou:device task not finished,tid:{0}".format(tid)
+                LOG.info("Task->YhKuaishou:device task not finished,tid:{0}".format(tid))
                 return False
         
         for dev_info in devs:
@@ -102,7 +102,7 @@ class AppActiveKuaishou(TaskerBase):
         gid = self._task["gid"]
         devs = self._rd.hget(cfg_rd_rdg,gid)
         if not devs:
-            print "TaskManager->No devices for group gid:{0}".format(gid)
+            LOG.info("TaskManager->No devices for group gid:{0}".format(gid))
             return False
         devs = eval(devs) 
         

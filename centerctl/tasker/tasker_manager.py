@@ -125,12 +125,12 @@ if __name__ == "__main__":
         #task = mgr.findProcessingTask() 
         for task in mgr.findProcessingTasks():
             #有进行中的任务
-            print "TaskManager->Find processing task tid:{0}".format(task["tid"])
+            LOG.info("TaskManager->Find processing task tid:{0}".format(task["tid"]))
             mgr.executeTask(task)
             time.sleep(5)
             #continue
         task = mgr.findSpareTask()
         if task is not None:
-            print "Find spare task tid:{0}".format(task["tid"])
+            LOG.info("Find spare task tid:{0}".format(task["tid"]))
             mgr.executeTask(task)
             time.sleep(5)

@@ -40,7 +40,8 @@ task_modules = {
 task_conf = {
     "logging": {
         "format": "%(asctime)s [%(levelname)s] %(name)s:%(lineno)d - %(message)s",
-        "type": "file",
+        "type":"stream",
+        #"type": "file",
         "level": 2,
         "filename": "/data/log/mcluster/task_manager/task_manager",
         "rotationWhen": "M",
@@ -51,7 +52,8 @@ task_conf = {
 monitor_conf = {
     "logging": {
         "format": "%(asctime)s [%(levelname)s] %(name)s:%(lineno)d - %(message)s",
-        "type": "file",
+        "type":"stream",
+        #"type": "file",
         "level": 2,
         "filename": "/data/log/mcluster/task_monitor/monitor_manager",
         "rotationWhen": "M",
