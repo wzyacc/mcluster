@@ -7,7 +7,7 @@ import os
 import sys
 import pdb
 import datetime
-
+import json
 
 sys.path.append(os.path.join(os.path.dirname(os.path.realpath(__file__)),"../../config/"))
 from cfg_db import *
@@ -25,7 +25,7 @@ class TaskerBase:
             _dev = self._rd.hget(cfg_rd_device,ip)
             if not _dev:
                 print "Task Base dev not found for ip:{0}".format(ip)
-                continue
+                return True
             busy = dev.get("busy",None)
             if busy and int(busy) == 1:#fix 是否繁忙字符串格式问题
                 return True
@@ -41,7 +41,7 @@ class TaskerBase:
                 continue
             _dev = eval(_dev)
             _dev["busy"]=1
-            self._rd.hset(cfg_rd_device,ip,_dev)
+            self._rd.hset(cfg_rd_device,ip,json.dumps(_dev))
 
     def transfer_device(self):
         #任务初始化到设备任务；或者本阶段任务状态迁移

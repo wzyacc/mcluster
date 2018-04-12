@@ -21,6 +21,8 @@ from app_yh_huoshan import AppActiveHuoshan
 from app_yh_kuaishou import AppActiveKuaishou
 from app_yh_xiongmao import AppActiveXiongmao
 
+from app_create_weibo import AppCreateWeibo
+
 task_modules = {
             "tuia-wap-click":TuiaWapCPC,
             "app-active-qqbrowser":AppActiveQQBrowser,
@@ -34,6 +36,7 @@ task_modules = {
             "app-active-huoshan":AppActiveHuoshan,
             "app-active-kuaishou":AppActiveKuaishou,
             "app-active-xiongmao":AppActiveXiongmao,
+            "app-create-weibo":AppCreateWeibo,
         }
 
 
