@@ -73,7 +73,6 @@ class TaskMonitor:
                 status = self._prepare_app_idle_qqbrowser(task)
                 if not status: #如果初始化失败，中止，这里考虑到设备繁忙的情况，oarea可能正在占用
                     continue
-            
             #新任务，疯转头条需要数据准备
             if task["act"] == "app-idle-douyin":
                 status = self._prepare_app_idle_common(task,"douyin")
