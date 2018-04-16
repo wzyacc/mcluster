@@ -15,7 +15,11 @@ from app_activate_fztt import AppActiveFztt
 from app_idle_fztt import AppIdleFztt
 from app_activate_miaopai import AppActiveMiaopai
 from app_idle_miaopai import AppIdleMiaopai
+
 from app_yh_douyin import AppActiveDouyin
+from app_idle_douyin import AppIdleDouyin
+
+
 from app_yh_huajiao import AppActiveHuajiao
 from app_yh_huoshan import AppActiveHuoshan
 from app_yh_kuaishou import AppActiveKuaishou
@@ -32,6 +36,7 @@ task_modules = {
             "app-active-miaopai":AppActiveMiaopai,
             "app-idle-miaopai":AppIdleMiaopai,
             "app-active-douyin":AppActiveDouyin,
+            "app-idle-douyin":AppIdleDouyin,
             "app-active-huajiao":AppActiveHuajiao,
             "app-active-huoshan":AppActiveHuoshan,
             "app-active-kuaishou":AppActiveKuaishou,
