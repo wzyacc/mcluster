@@ -68,17 +68,17 @@ class TaskMonitor:
             if rd_task != None: #已经同步过了
                 continue
 
-            #新任务，qqbrowser需要数据准备
-            if task["act"] == "app-idle-qqbrowser":
-                status = self._prepare_app_idle_qqbrowser(task)
-                if not status: #如果初始化失败，中止，这里考虑到设备繁忙的情况，oarea可能正在占用
-                    continue
             #新任务，疯转头条需要数据准备
             if task["act"] == "app-idle-douyin":
                 status = self._prepare_app_idle_common(task,"douyin")
                 if not status: #如果初始化失败，中止，这里考虑到设备繁忙的情况，oarea可能正在占用
                     continue
-            
+            '''
+            #新任务，qqbrowser需要数据准备
+            if task["act"] == "app-idle-qqbrowser":
+                status = self._prepare_app_idle_qqbrowser(task)
+                if not status: #如果初始化失败，中止，这里考虑到设备繁忙的情况，oarea可能正在占用
+                    continue
             #新任务，花椒需要数据准备
             if task["act"] == "app-idle-huajiao":
                 status = self._prepare_app_idle_common(task,"huajiao")
@@ -100,6 +100,7 @@ class TaskMonitor:
                 status = self._prepare_app_idle_common(task,"xiongmao")
                 if not status: #如果初始化失败，中止，这里考虑到设备繁忙的情况，oarea可能正在占用
                     continue
+            '''
 
             #新任务，放入redis中
             task["status"] = 100

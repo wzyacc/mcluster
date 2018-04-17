@@ -42,6 +42,7 @@ task_modules = {
             "app-active-kuaishou":AppActiveKuaishou,
             "app-active-xiongmao":AppActiveXiongmao,
             "app-create-weibo":AppCreateWeibo,
+            "app-active-weibo":AppActiveWeibo,
         }
 
 
