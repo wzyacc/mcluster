@@ -26,6 +26,7 @@ from app_yh_kuaishou import AppActiveKuaishou
 from app_yh_xiongmao import AppActiveXiongmao
 
 from app_create_weibo import AppCreateWeibo
+from app_yh_weibo import AppActiveWeibo
 
 task_modules = {
             "tuia-wap-click":TuiaWapCPC,
